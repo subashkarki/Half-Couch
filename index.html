@@ -109,7 +109,7 @@ nav button[aria-current="page"]{color:var(--crimson);box-shadow:inset 0 3px 0 va
 #run .r-kind.work,#run .r-kind.stride{background:#C8102E}
 #run .r-kind.rec{background:#2E6B63}
 #run .r-label{font-family:var(--display);font-weight:800;font-size:2.4rem;line-height:1;margin:14px 0 4px}
-#run .r-clock{font-family:var(--display);font-weight:900;font-size:clamp(6rem,32vw,11rem);line-height:.9;font-variant-numeric:tabular-nums}
+#run .r-clock{font-family:var(--display);font-weight:900;font-size:clamp(5rem,26vw,10rem);line-height:.9;font-variant-numeric:tabular-nums}
 #run .r-pace{font-size:1.05rem;opacity:.85}
 #run .r-next{margin-top:18px;opacity:.7}
 #run .r-segs{display:flex;gap:2px;height:8px;margin:14px 0}
@@ -117,6 +117,11 @@ nav button[aria-current="page"]{color:var(--crimson);box-shadow:inset 0 3px 0 va
 #run .r-segs i.work,#run .r-segs i.stride{background:#6b1a27}
 #run .r-segs i.past{background:#72C3B5}
 #run .r-segs i.cur{background:#FF5467}
+#run .r-live{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0 0 14px;border-top:1px solid #2A3A52;padding-top:12px}
+#run .r-live div{display:flex;flex-direction:column}
+#run .r-live .v{font-family:var(--display);font-weight:800;font-size:2.1rem;line-height:1;font-variant-numeric:tabular-nums}
+#run .r-live .v.fast{color:#FFB547}#run .r-live .v.slow{color:#7FB8FF}#run .r-live .v.on{color:#72C3B5}
+#run .r-live .k{font-size:.8rem;opacity:.65}
 #run .r-ctl{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px}
 #run .r-ctl button{height:58px;border-radius:12px;border:1px solid #33455f;background:#15233B;color:#EEF1EC;font-weight:700}
 #run .r-ctl .primary{background:#EEF1EC;color:#0B1422;border:0}
@@ -157,6 +162,11 @@ nav button[aria-current="page"]{color:var(--crimson);box-shadow:inset 0 3px 0 va
     <div class="r-clock" id="rClock">0:00</div>
     <div class="r-pace" id="rPace"></div>
     <div class="r-next" id="rNext"></div>
+  </div>
+  <div class="r-live" aria-live="off">
+    <div><span class="v" id="rNow">–</span><span class="k">Pace now /km</span></div>
+    <div><span class="v" id="rDist">–</span><span class="k">Kilometres</span></div>
+    <div><span class="v" id="rElapsed">0:00</span><span class="k">Time</span></div>
   </div>
   <div class="r-ctl">
     <button id="rSkip">Skip step</button>
