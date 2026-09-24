@@ -1,0 +1,1100 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Half Coach//Hamilton Half 2027//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hamilton Half training
+X-WR-TIMEZONE:Pacific/Auckland
+REFRESH-INTERVAL;VALUE=DURATION:P1D
+BEGIN:VTIMEZONE
+TZID:Pacific/Auckland
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+1200
+TZOFFSETTO:+1300
+TZNAME:NZDT
+DTSTART:19700927T020000
+RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+1300
+TZOFFSETTO:+1200
+TZNAME:NZST
+DTSTART:19700405T030000
+RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:hamilton-half-w1-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20260929T060000
+DTEND;TZID=Pacific/Auckland:20260929T065000
+SUMMARY:Easy run + strides
+DESCRIPTION:Week 1: Settle in after Cambridge\n\n30 min easy\, then 6 × 2
+ 0 s strides\n\nOpen Half Coach and tap Start guided run for voice coachi
+ ng in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w1-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261001T060000
+DTEND;TZID=Pacific/Auckland:20261001T064000
+SUMMARY:Easy run
+DESCRIPTION:Week 1: Settle in after Cambridge\n\n30 min easy\n\nOpen Half
+  Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w1-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261003T080000
+DTEND;TZID=Pacific/Auckland:20261003T085000
+SUMMARY:parkrun\, easy
+DESCRIPTION:Week 1: Settle in after Cambridge\n\nFully conversational. No
+  watch-checking.\n\nOpen Half Coach and tap Start guided run for voice c
+ oaching in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w1-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261004T070000
+DTEND;TZID=Pacific/Auckland:20261004T082500
+SUMMARY:Long run
+DESCRIPTION:Week 1: Settle in after Cambridge\n\n10 km easy\n\nOpen Half 
+ Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w2-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261006T060000
+DTEND;TZID=Pacific/Auckland:20261006T065500
+SUMMARY:Fartlek
+DESCRIPTION:Week 2: Wake the legs up\n\n10 min easy\, 8 × (1 min hard\, 2
+  min easy)\, 10 min easy\n\nOpen Half Coach and tap Start guided run for
+  voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w2-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261008T060000
+DTEND;TZID=Pacific/Auckland:20261008T064500
+SUMMARY:Easy run
+DESCRIPTION:Week 2: Wake the legs up\n\n35 min easy\n\nOpen Half Coach an
+ d tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w2-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261010T080000
+DTEND;TZID=Pacific/Auckland:20261010T085000
+SUMMARY:parkrun\, progression
+DESCRIPTION:Week 2: Wake the legs up\n\nEach km a touch quicker than the 
+ last\n\nOpen Half Coach and tap Start guided run for voice coaching in y
+ our AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w2-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261011T070000
+DTEND;TZID=Pacific/Auckland:20261011T083500
+SUMMARY:Long run
+DESCRIPTION:Week 2: Wake the legs up\n\n11 km easy\n\nOpen Half Coach and
+  tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w3-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261013T060000
+DTEND;TZID=Pacific/Auckland:20261013T065000
+SUMMARY:Intervals
+DESCRIPTION:Week 3: Build the long run\n\n10 min easy\, 6 × 2 min at 5K e
+ ffort with 90 s jog\, 10 min easy\n\nOpen Half Coach and tap Start guide
+ d run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w3-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261015T060000
+DTEND;TZID=Pacific/Auckland:20261015T064500
+SUMMARY:Easy run
+DESCRIPTION:Week 3: Build the long run\n\n35 min easy\n\nOpen Half Coach 
+ and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w3-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261017T080000
+DTEND;TZID=Pacific/Auckland:20261017T085000
+SUMMARY:parkrun\, easy
+DESCRIPTION:Week 3: Build the long run\n\nConversational\n\nOpen Half Coa
+ ch and tap Start guided run for voice coaching in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w3-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261018T070000
+DTEND;TZID=Pacific/Auckland:20261018T084000
+SUMMARY:Long run
+DESCRIPTION:Week 3: Build the long run\n\n12 km easy\n\nOpen Half Coach a
+ nd tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w4-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261020T060000
+DTEND;TZID=Pacific/Auckland:20261020T064000
+SUMMARY:Easy run + strides
+DESCRIPTION:Week 4: Lighter week\, first checkpoint\n\n20 min easy + 6 st
+ rides\n\nOpen Half Coach and tap Start guided run for voice coaching in 
+ your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w4-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261022T060000
+DTEND;TZID=Pacific/Auckland:20261022T064000
+SUMMARY:Easy run
+DESCRIPTION:Week 4: Lighter week\, first checkpoint\n\n30 min easy\n\nOpe
+ n Half Coach and tap Start guided run for voice coaching in your AirPods
+ .
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w4-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261024T080000
+DTEND;TZID=Pacific/Auckland:20261024T084000
+SUMMARY:parkrun time trial
+DESCRIPTION:Week 4: Lighter week\, first checkpoint\n\nRace it. Checkpoin
+ t: around 29:30\n\nOpen Half Coach and tap Start guided run for voice co
+ aching in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w4-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261025T070000
+DTEND;TZID=Pacific/Auckland:20261025T082000
+SUMMARY:Long run
+DESCRIPTION:Week 4: Lighter week\, first checkpoint\n\n9 km easy\n\nOpen 
+ Half Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w5-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261027T060000
+DTEND;TZID=Pacific/Auckland:20261027T065500
+SUMMARY:Intervals
+DESCRIPTION:Week 5: Labour Day week\n\n10 min easy\, 5 × 3 min at 10K eff
+ ort with 90 s jog\, 10 min easy\n\nOpen Half Coach and tap Start guided 
+ run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w5-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261028T060000
+DTEND;TZID=Pacific/Auckland:20261028T063500
+SUMMARY:Easy run (optional)
+DESCRIPTION:Week 5: Labour Day week\n\n25 min easy\n\nOpen Half Coach and
+  tap Start guided run for voice coaching in your AirPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w5-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261029T060000
+DTEND;TZID=Pacific/Auckland:20261029T064500
+SUMMARY:Easy run
+DESCRIPTION:Week 5: Labour Day week\n\n35 min easy\n\nOpen Half Coach and
+  tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w5-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261031T080000
+DTEND;TZID=Pacific/Auckland:20261031T085000
+SUMMARY:parkrun\, progression
+DESCRIPTION:Week 5: Labour Day week\n\nEach km a touch quicker\n\nOpen Ha
+ lf Coach and tap Start guided run for voice coaching in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w5-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261101T070000
+DTEND;TZID=Pacific/Auckland:20261101T084000
+SUMMARY:Long run
+DESCRIPTION:Week 5: Labour Day week\n\n12 km easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w6-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261103T060000
+DTEND;TZID=Pacific/Auckland:20261103T065000
+SUMMARY:Tempo
+DESCRIPTION:Week 6: Longer efforts\n\n10 min easy\, 2 × 8 min comfortably
+  hard with 3 min jog\, 10 min easy\n\nOpen Half Coach and tap Start guid
+ ed run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w6-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261104T060000
+DTEND;TZID=Pacific/Auckland:20261104T064000
+SUMMARY:Easy run (optional)
+DESCRIPTION:Week 6: Longer efforts\n\n30 min easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w6-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261105T060000
+DTEND;TZID=Pacific/Auckland:20261105T065000
+SUMMARY:Easy run
+DESCRIPTION:Week 6: Longer efforts\n\n40 min easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w6-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261107T080000
+DTEND;TZID=Pacific/Auckland:20261107T085000
+SUMMARY:parkrun\, easy
+DESCRIPTION:Week 6: Longer efforts\n\nConversational\n\nOpen Half Coach a
+ nd tap Start guided run for voice coaching in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w6-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261108T070000
+DTEND;TZID=Pacific/Auckland:20261108T085000
+SUMMARY:Long run
+DESCRIPTION:Week 6: Longer efforts\n\n13 km easy\n\nOpen Half Coach and t
+ ap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w7-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261110T060000
+DTEND;TZID=Pacific/Auckland:20261110T065000
+SUMMARY:Hill repeats
+DESCRIPTION:Week 7: Strength through hills\n\n10 min easy\, 8 × 45 s up a
+  short hill\, jog down\, 10 min easy\n\nOpen Half Coach and tap Start gu
+ ided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w7-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261111T060000
+DTEND;TZID=Pacific/Auckland:20261111T064000
+SUMMARY:Easy run (optional)
+DESCRIPTION:Week 7: Strength through hills\n\n30 min easy\n\nOpen Half Co
+ ach and tap Start guided run for voice coaching in your AirPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w7-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261112T060000
+DTEND;TZID=Pacific/Auckland:20261112T065000
+SUMMARY:Easy run
+DESCRIPTION:Week 7: Strength through hills\n\n40 min easy\n\nOpen Half Co
+ ach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w7-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261114T080000
+DTEND;TZID=Pacific/Auckland:20261114T085000
+SUMMARY:parkrun\, progression
+DESCRIPTION:Week 7: Strength through hills\n\nEach km a touch quicker\n\n
+ Open Half Coach and tap Start guided run for voice coaching in your AirP
+ ods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w7-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261115T070000
+DTEND;TZID=Pacific/Auckland:20261115T085500
+SUMMARY:Long run
+DESCRIPTION:Week 7: Strength through hills\n\n14 km easy\n\nOpen Half Coa
+ ch and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w8-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261117T060000
+DTEND;TZID=Pacific/Auckland:20261117T064000
+SUMMARY:Easy run + strides
+DESCRIPTION:Week 8: Lighter week\, second checkpoint\n\n20 min easy + 6 s
+ trides\n\nOpen Half Coach and tap Start guided run for voice coaching in
+  your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w8-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261119T060000
+DTEND;TZID=Pacific/Auckland:20261119T064000
+SUMMARY:Easy run
+DESCRIPTION:Week 8: Lighter week\, second checkpoint\n\n30 min easy\n\nOp
+ en Half Coach and tap Start guided run for voice coaching in your AirPod
+ s.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w8-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261121T080000
+DTEND;TZID=Pacific/Auckland:20261121T084000
+SUMMARY:parkrun time trial
+DESCRIPTION:Week 8: Lighter week\, second checkpoint\n\nRace it. Checkpoi
+ nt: around 28:45\n\nOpen Half Coach and tap Start guided run for voice c
+ oaching in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w8-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261122T070000
+DTEND;TZID=Pacific/Auckland:20261122T082500
+SUMMARY:Long run
+DESCRIPTION:Week 8: Lighter week\, second checkpoint\n\n10 km easy\n\nOpe
+ n Half Coach and tap Start guided run for voice coaching in your AirPods
+ .
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w9-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261124T060000
+DTEND;TZID=Pacific/Auckland:20261124T070000
+SUMMARY:Kilometre repeats
+DESCRIPTION:Week 9: First taste of goal pace\n\n10 min easy\, 4 × 1 km at
+  5K effort with 2 min jog\, 10 min easy\n\nOpen Half Coach and tap Start
+  guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w9-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261125T060000
+DTEND;TZID=Pacific/Auckland:20261125T064000
+SUMMARY:Easy run (optional)
+DESCRIPTION:Week 9: First taste of goal pace\n\n30 min easy\n\nOpen Half 
+ Coach and tap Start guided run for voice coaching in your AirPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w9-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261126T060000
+DTEND;TZID=Pacific/Auckland:20261126T065000
+SUMMARY:Easy run
+DESCRIPTION:Week 9: First taste of goal pace\n\n40 min easy\n\nOpen Half 
+ Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w9-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261128T080000
+DTEND;TZID=Pacific/Auckland:20261128T084000
+SUMMARY:parkrun at goal pace
+DESCRIPTION:Week 9: First taste of goal pace\n\nHold 5:41 /km\, your sub-
+ 2 pace\n\nOpen Half Coach and tap Start guided run for voice coaching in
+  your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w9-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261129T070000
+DTEND;TZID=Pacific/Auckland:20261129T085500
+SUMMARY:Long run
+DESCRIPTION:Week 9: First taste of goal pace\n\n14 km easy\n\nOpen Half C
+ oach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w10-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261201T060000
+DTEND;TZID=Pacific/Auckland:20261201T065000
+SUMMARY:Tempo
+DESCRIPTION:Week 10: Base done\, Nike's plan starts next\n\n10 min easy\,
+  20 min comfortably hard\, 10 min easy\n\nOpen Half Coach and tap Start 
+ guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w10-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261202T060000
+DTEND;TZID=Pacific/Auckland:20261202T064000
+SUMMARY:Easy run (optional)
+DESCRIPTION:Week 10: Base done\, Nike's plan starts next\n\n30 min easy\n
+ \nOpen Half Coach and tap Start guided run for voice coaching in your Ai
+ rPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w10-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261203T060000
+DTEND;TZID=Pacific/Auckland:20261203T065000
+SUMMARY:Easy run
+DESCRIPTION:Week 10: Base done\, Nike's plan starts next\n\n40 min easy\n
+ \nOpen Half Coach and tap Start guided run for voice coaching in your Ai
+ rPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w10-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261205T080000
+DTEND;TZID=Pacific/Auckland:20261205T085000
+SUMMARY:parkrun\, easy
+DESCRIPTION:Week 10: Base done\, Nike's plan starts next\n\nConversationa
+ l\n\nOpen Half Coach and tap Start guided run for voice coaching in your
+  AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w10-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261206T070000
+DTEND;TZID=Pacific/Auckland:20261206T090500
+SUMMARY:Long run
+DESCRIPTION:Week 10: Base done\, Nike's plan starts next\n\n15 km easy\n\
+ nOpen Half Coach and tap Start guided run for voice coaching in your Air
+ Pods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w11-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261208T060000
+DTEND;TZID=Pacific/Auckland:20261208T063500
+SUMMARY:Nike: First Speed Run
+DESCRIPTION:Week 11: 14 weeks to go\n\n5 min easy\, 8 × 1 min at 5K pace 
+ with 1 min easy\n\nOpen Half Coach and tap Start guided run for voice co
+ aching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w11-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261209T060000
+DTEND;TZID=Pacific/Auckland:20261209T062500
+SUMMARY:Recovery run (optional)
+DESCRIPTION:Week 11: 14 weeks to go\n\n15 min very easy\n\nOpen Half Coac
+ h and tap Start guided run for voice coaching in your AirPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w11-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261210T060000
+DTEND;TZID=Pacific/Auckland:20261210T063500
+SUMMARY:Nike: Easy Run
+DESCRIPTION:Week 11: 14 weeks to go\n\n25 min easy\n\nOpen Half Coach and
+  tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w11-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261212T080000
+DTEND;TZID=Pacific/Auckland:20261212T084500
+SUMMARY:parkrun\, One Hard Two Easy
+DESCRIPTION:Week 11: 14 weeks to go\n\nNike's fartlek at parkrun: 1 min h
+ ard\, 2 min easy\, all the way round\n\nOpen Half Coach and tap Start gu
+ ided run for voice coaching in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w11-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261213T070000
+DTEND;TZID=Pacific/Auckland:20261213T085000
+SUMMARY:Long run
+DESCRIPTION:Week 11: 14 weeks to go\n\n13 km easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w12-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261215T060000
+DTEND;TZID=Pacific/Auckland:20261215T063500
+SUMMARY:Nike: No Time To Go
+DESCRIPTION:Week 12: 13 weeks to go\n\n5 min easy\, ladder of 1–2–3–2–1 m
+ in (mile\, 5K\, 10K\, 5K\, mile pace) with 1 min easy\n\nOpen Half Coach
+  and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w12-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261216T060000
+DTEND;TZID=Pacific/Auckland:20261216T062500
+SUMMARY:Recovery run (optional)
+DESCRIPTION:Week 12: 13 weeks to go\n\n15 min very easy\n\nOpen Half Coac
+ h and tap Start guided run for voice coaching in your AirPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w12-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261217T060000
+DTEND;TZID=Pacific/Auckland:20261217T064500
+SUMMARY:Recovery run
+DESCRIPTION:Week 12: 13 weeks to go\n\n35 min easy\n\nOpen Half Coach and
+  tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w12-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261219T080000
+DTEND;TZID=Pacific/Auckland:20261219T084500
+SUMMARY:parkrun\, Run Strong. Repeat.
+DESCRIPTION:Week 12: 13 weeks to go\n\n90 s hard\, 45 s easy\, repeated t
+ o the finish\n\nOpen Half Coach and tap Start guided run for voice coach
+ ing in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w12-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261220T070000
+DTEND;TZID=Pacific/Auckland:20261220T085500
+SUMMARY:Long run
+DESCRIPTION:Week 12: 13 weeks to go\n\n14 km easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w13-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261222T060000
+DTEND;TZID=Pacific/Auckland:20261222T065500
+SUMMARY:Intervals
+DESCRIPTION:Week 13: 12 weeks to go\, Christmas week\n\n10 min easy\, 5 ×
+  3 min at 10K pace with 90 s jog\, 10 min easy\n\nOpen Half Coach and ta
+ p Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w13-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261224T060000
+DTEND;TZID=Pacific/Auckland:20261224T064000
+SUMMARY:Recovery run
+DESCRIPTION:Week 13: 12 weeks to go\, Christmas week\n\n30 min easy\n\nOp
+ en Half Coach and tap Start guided run for voice coaching in your AirPod
+ s.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w13-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261226T080000
+DTEND;TZID=Pacific/Auckland:20261226T085000
+SUMMARY:Boxing Day parkrun\, easy
+DESCRIPTION:Week 13: 12 weeks to go\, Christmas week\n\nIf your event is 
+ on\n\nOpen Half Coach and tap Start guided run for voice coaching in you
+ r AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w13-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261227T070000
+DTEND;TZID=Pacific/Auckland:20261227T090500
+SUMMARY:Long run
+DESCRIPTION:Week 13: 12 weeks to go\, Christmas week\n\n15 km easy\n\nOpe
+ n Half Coach and tap Start guided run for voice coaching in your AirPods
+ .
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w14-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261229T060000
+DTEND;TZID=Pacific/Auckland:20261229T064000
+SUMMARY:Easy run + strides
+DESCRIPTION:Week 14: 11 weeks to go\, lighter week\n\n20 min easy + 6 str
+ ides\n\nOpen Half Coach and tap Start guided run for voice coaching in y
+ our AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w14-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20261231T060000
+DTEND;TZID=Pacific/Auckland:20261231T064000
+SUMMARY:Recovery run
+DESCRIPTION:Week 14: 11 weeks to go\, lighter week\n\n30 min easy\n\nOpen
+  Half Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w14-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270102T080000
+DTEND;TZID=Pacific/Auckland:20270102T084000
+SUMMARY:parkrun time trial
+DESCRIPTION:Week 14: 11 weeks to go\, lighter week\n\nRace it. Checkpoint
+ : around 28:00\n\nOpen Half Coach and tap Start guided run for voice coa
+ ching in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w14-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270103T070000
+DTEND;TZID=Pacific/Auckland:20270103T084000
+SUMMARY:Long run
+DESCRIPTION:Week 14: 11 weeks to go\, lighter week\n\n12 km easy\n\nOpen 
+ Half Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w15-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270105T060000
+DTEND;TZID=Pacific/Auckland:20270105T065500
+SUMMARY:Tempo
+DESCRIPTION:Week 15: 10 weeks to go\n\n10 min easy\, 25 min comfortably h
+ ard\, 10 min easy\n\nOpen Half Coach and tap Start guided run for voice 
+ coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w15-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270106T060000
+DTEND;TZID=Pacific/Auckland:20270106T063500
+SUMMARY:Recovery run (optional)
+DESCRIPTION:Week 15: 10 weeks to go\n\n25 min easy\n\nOpen Half Coach and
+  tap Start guided run for voice coaching in your AirPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w15-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270107T060000
+DTEND;TZID=Pacific/Auckland:20270107T065000
+SUMMARY:Recovery run
+DESCRIPTION:Week 15: 10 weeks to go\n\n40 min easy\n\nOpen Half Coach and
+  tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w15-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270109T080000
+DTEND;TZID=Pacific/Auckland:20270109T084500
+SUMMARY:parkrun\, tempo
+DESCRIPTION:Week 15: 10 weeks to go\n\nComfortably hard the whole way\n\n
+ Open Half Coach and tap Start guided run for voice coaching in your AirP
+ ods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w15-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270110T070000
+DTEND;TZID=Pacific/Auckland:20270110T091000
+SUMMARY:Long run
+DESCRIPTION:Week 15: 10 weeks to go\n\n16 km easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w16-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270112T060000
+DTEND;TZID=Pacific/Auckland:20270112T071000
+SUMMARY:800 m repeats
+DESCRIPTION:Week 16: 9 weeks to go\n\n10 min easy\, 6 × 800 m at 5K pace 
+ with 2 min jog\, 10 min easy\n\nOpen Half Coach and tap Start guided run
+  for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w16-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270113T060000
+DTEND;TZID=Pacific/Auckland:20270113T063500
+SUMMARY:Recovery run (optional)
+DESCRIPTION:Week 16: 9 weeks to go\n\n25 min easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w16-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270114T060000
+DTEND;TZID=Pacific/Auckland:20270114T065000
+SUMMARY:Recovery run
+DESCRIPTION:Week 16: 9 weeks to go\n\n40 min easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w16-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270116T080000
+DTEND;TZID=Pacific/Auckland:20270116T085000
+SUMMARY:parkrun\, easy
+DESCRIPTION:Week 16: 9 weeks to go\n\nConversational\n\nOpen Half Coach a
+ nd tap Start guided run for voice coaching in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w16-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270117T070000
+DTEND;TZID=Pacific/Auckland:20270117T091500
+SUMMARY:Long run\, fast finish
+DESCRIPTION:Week 16: 9 weeks to go\n\n17 km: 14 easy\, last 3 at 5:41 /km
+ \n\nOpen Half Coach and tap Start guided run for voice coaching in your 
+ AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w17-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270119T060000
+DTEND;TZID=Pacific/Auckland:20270119T065500
+SUMMARY:Hill repeats
+DESCRIPTION:Week 17: 8 weeks to go\, lighter week\n\n10 min easy\, 10 × 4
+ 5 s uphill\, jog down\, 10 min easy\n\nOpen Half Coach and tap Start gui
+ ded run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w17-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270121T060000
+DTEND;TZID=Pacific/Auckland:20270121T064500
+SUMMARY:Recovery run
+DESCRIPTION:Week 17: 8 weeks to go\, lighter week\n\n35 min easy\n\nOpen 
+ Half Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w17-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270123T080000
+DTEND;TZID=Pacific/Auckland:20270123T084000
+SUMMARY:parkrun time trial
+DESCRIPTION:Week 17: 8 weeks to go\, lighter week\n\nRace it. Checkpoint:
+  around 27:15\n\nOpen Half Coach and tap Start guided run for voice coac
+ hing in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w17-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270124T070000
+DTEND;TZID=Pacific/Auckland:20270124T085000
+SUMMARY:Long run
+DESCRIPTION:Week 17: 8 weeks to go\, lighter week\n\n13 km easy\n\nOpen H
+ alf Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w18-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270126T060000
+DTEND;TZID=Pacific/Auckland:20270126T071000
+SUMMARY:Goal pace repeats
+DESCRIPTION:Week 18: 7 weeks to go\n\n10 min easy\, 3 × 2 km at 5:41 /km 
+ with 2 min jog\, 10 min easy\n\nOpen Half Coach and tap Start guided run
+  for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w18-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270127T060000
+DTEND;TZID=Pacific/Auckland:20270127T063500
+SUMMARY:Recovery run (optional)
+DESCRIPTION:Week 18: 7 weeks to go\n\n25 min easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w18-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270128T060000
+DTEND;TZID=Pacific/Auckland:20270128T065500
+SUMMARY:Recovery run
+DESCRIPTION:Week 18: 7 weeks to go\n\n45 min easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w18-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270130T080000
+DTEND;TZID=Pacific/Auckland:20270130T084000
+SUMMARY:parkrun at goal pace
+DESCRIPTION:Week 18: 7 weeks to go\n\nHold 5:41 /km\n\nOpen Half Coach an
+ d tap Start guided run for voice coaching in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w18-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270131T070000
+DTEND;TZID=Pacific/Auckland:20270131T092500
+SUMMARY:Long run
+DESCRIPTION:Week 18: 7 weeks to go\n\n18 km easy\n\nOpen Half Coach and t
+ ap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w19-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270202T060000
+DTEND;TZID=Pacific/Auckland:20270202T071000
+SUMMARY:Tempo run
+DESCRIPTION:Week 19: 6 weeks to go\n\n10 min easy\, 6 km comfortably hard
+ \, 10 min easy\n\nOpen Half Coach and tap Start guided run for voice coa
+ ching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w19-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270203T060000
+DTEND;TZID=Pacific/Auckland:20270203T063500
+SUMMARY:Recovery run (optional)
+DESCRIPTION:Week 19: 6 weeks to go\n\n25 min easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w19-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270204T060000
+DTEND;TZID=Pacific/Auckland:20270204T065500
+SUMMARY:Recovery run
+DESCRIPTION:Week 19: 6 weeks to go\n\n45 min easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w19-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270206T080000
+DTEND;TZID=Pacific/Auckland:20270206T085000
+SUMMARY:parkrun\, easy
+DESCRIPTION:Week 19: 6 weeks to go\n\nWaitangi Day\n\nOpen Half Coach and
+  tap Start guided run for voice coaching in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w19-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270207T070000
+DTEND;TZID=Pacific/Auckland:20270207T092500
+SUMMARY:Long run with goal pace
+DESCRIPTION:Week 19: 6 weeks to go\n\n19 km: 7 easy\, 5 at 5:41 /km\, 7 e
+ asy\n\nOpen Half Coach and tap Start guided run for voice coaching in yo
+ ur AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w20-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270209T060000
+DTEND;TZID=Pacific/Auckland:20270209T065500
+SUMMARY:Pyramid
+DESCRIPTION:Week 20: 5 weeks to go\, lighter week\n\n10 min easy\, 1–2–3–
+ 4–3–2–1 min at 5K to 10K effort with 1 min jog\, 10 min easy\n\nOpen Hal
+ f Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w20-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270211T060000
+DTEND;TZID=Pacific/Auckland:20270211T064500
+SUMMARY:Recovery run
+DESCRIPTION:Week 20: 5 weeks to go\, lighter week\n\n35 min easy\n\nOpen 
+ Half Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w20-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270213T080000
+DTEND;TZID=Pacific/Auckland:20270213T084000
+SUMMARY:parkrun time trial
+DESCRIPTION:Week 20: 5 weeks to go\, lighter week\n\nRace it. Checkpoint:
+  around 26:30\n\nOpen Half Coach and tap Start guided run for voice coac
+ hing in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w20-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270214T070000
+DTEND;TZID=Pacific/Auckland:20270214T085500
+SUMMARY:Long run
+DESCRIPTION:Week 20: 5 weeks to go\, lighter week\n\n14 km easy\n\nOpen H
+ alf Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w21-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270216T060000
+DTEND;TZID=Pacific/Auckland:20270216T072000
+SUMMARY:Goal pace blocks
+DESCRIPTION:Week 21: 4 weeks to go\n\n10 min easy\, 2 × 4 km at 5:41 /km 
+ with 3 min jog\, 10 min easy. Wear the Evo SL\n\nOpen Half Coach and tap
+  Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w21-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270217T060000
+DTEND;TZID=Pacific/Auckland:20270217T063500
+SUMMARY:Recovery run (optional)
+DESCRIPTION:Week 21: 4 weeks to go\n\n25 min easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w21-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270218T060000
+DTEND;TZID=Pacific/Auckland:20270218T065500
+SUMMARY:Recovery run
+DESCRIPTION:Week 21: 4 weeks to go\n\n45 min easy\n\nOpen Half Coach and 
+ tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w21-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270220T080000
+DTEND;TZID=Pacific/Auckland:20270220T085000
+SUMMARY:parkrun\, easy
+DESCRIPTION:Week 21: 4 weeks to go\n\nConversational\n\nOpen Half Coach a
+ nd tap Start guided run for voice coaching in your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w21-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270221T070000
+DTEND;TZID=Pacific/Auckland:20270221T092000
+SUMMARY:Long run with goal pace
+DESCRIPTION:Week 21: 4 weeks to go\n\n19 km: 6 easy\, 8 at 5:41 /km\, 5 e
+ asy. Evo SL\n\nOpen Half Coach and tap Start guided run for voice coachi
+ ng in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w22-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270223T060000
+DTEND;TZID=Pacific/Auckland:20270223T071000
+SUMMARY:Kilometre repeats
+DESCRIPTION:Week 22: 3 weeks to go\, peak long run\n\n10 min easy\, 5 × 1
+  km at 5K pace with 2 min jog\, 10 min easy\n\nOpen Half Coach and tap S
+ tart guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w22-wed@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270224T060000
+DTEND;TZID=Pacific/Auckland:20270224T063500
+SUMMARY:Recovery run (optional)
+DESCRIPTION:Week 22: 3 weeks to go\, peak long run\n\n25 min easy\n\nOpen
+  Half Coach and tap Start guided run for voice coaching in your AirPods.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w22-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270225T060000
+DTEND;TZID=Pacific/Auckland:20270225T065000
+SUMMARY:Recovery run
+DESCRIPTION:Week 22: 3 weeks to go\, peak long run\n\n40 min easy\n\nOpen
+  Half Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w22-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270227T080000
+DTEND;TZID=Pacific/Auckland:20270227T085000
+SUMMARY:parkrun\, easy
+DESCRIPTION:Week 22: 3 weeks to go\, peak long run\n\nConversational\n\nO
+ pen Half Coach and tap Start guided run for voice coaching in your AirPo
+ ds.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w22-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270228T070000
+DTEND;TZID=Pacific/Auckland:20270228T094000
+SUMMARY:Peak long run
+DESCRIPTION:Week 22: 3 weeks to go\, peak long run\n\n20 km easy in full 
+ race kit and Evo SL. Practise your gels\n\nOpen Half Coach and tap Start
+  guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w23-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270302T060000
+DTEND;TZID=Pacific/Auckland:20270302T065000
+SUMMARY:Short intervals
+DESCRIPTION:Week 23: 2 weeks to go\, taper starts\n\n10 min easy\, 6 × 2 
+ min at 10K pace with 90 s jog\, 10 min easy\n\nOpen Half Coach and tap S
+ tart guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w23-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270304T060000
+DTEND;TZID=Pacific/Auckland:20270304T064500
+SUMMARY:Recovery run
+DESCRIPTION:Week 23: 2 weeks to go\, taper starts\n\n35 min easy\n\nOpen 
+ Half Coach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w23-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270306T080000
+DTEND;TZID=Pacific/Auckland:20270306T085000
+SUMMARY:parkrun\, easy
+DESCRIPTION:Week 23: 2 weeks to go\, taper starts\n\nConversational\n\nOp
+ en Half Coach and tap Start guided run for voice coaching in your AirPod
+ s.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w23-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270307T070000
+DTEND;TZID=Pacific/Auckland:20270307T084500
+SUMMARY:Long run with goal pace
+DESCRIPTION:Week 23: 2 weeks to go\, taper starts\n\n14 km: 4 easy\, 6 at
+  5:41 /km\, 4 easy\n\nOpen Half Coach and tap Start guided run for voice
+  coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w24-tue@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270309T060000
+DTEND;TZID=Pacific/Auckland:20270309T065500
+SUMMARY:Race sharpener
+DESCRIPTION:Week 24: Race week\n\n10 min easy\, 3 × 1 km at 5:41 /km with
+  2 min jog\, 10 min easy\n\nOpen Half Coach and tap Start guided run for
+  voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w24-thu@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270311T060000
+DTEND;TZID=Pacific/Auckland:20270311T063500
+SUMMARY:Easy run + strides
+DESCRIPTION:Week 24: Race week\n\n20 min easy + 4 strides\n\nOpen Half Co
+ ach and tap Start guided run for voice coaching in your AirPods.
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w24-sat@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270313T080000
+DTEND;TZID=Pacific/Auckland:20270313T082500
+SUMMARY:Shakeout\, no racing
+DESCRIPTION:Week 24: Race week\n\n15 min very easy jog\, or volunteer at 
+ parkrun\n\nOpen Half Coach and tap Start guided run for voice coaching i
+ n your AirPods.
+LOCATION:Hamilton Lake parkrun
+END:VEVENT
+BEGIN:VEVENT
+UID:hamilton-half-w24-sun@halfcoach
+DTSTAMP:20260924T210258Z
+DTSTART;TZID=Pacific/Auckland:20270314T080000
+DTEND;TZID=Pacific/Auckland:20270314T104000
+SUMMARY:🏁 RACE: Hamilton Half Marathon
+DESCRIPTION:Week 24: Race week\n\n8:00am start\, Hamilton Gardens. Go out
+  at 5:45\, settle into 5:41\, then race the last 5 km.\n\nHamilton Garde
+ ns\, Friends Lane. Registration Sat 2-4pm or race morning from 6am.
+LOCATION:Hamilton Gardens\, Friends Lane\, Hamilton
+END:VEVENT
+END:VCALENDAR

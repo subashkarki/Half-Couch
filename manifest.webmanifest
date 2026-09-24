@@ -1,0 +1,13 @@
+{
+  "name": "Half Coach: Hamilton Half 2027",
+  "short_name": "Half Coach",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0F1A2B",
+  "theme_color": "#C8102E",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}
+  ]
+}
