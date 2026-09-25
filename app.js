@@ -107,19 +107,24 @@
       order.map(function (k) { return '<div class="card" id="learn-' + k + '"><h3>' + LEARN[k][0] + '</h3><p>' + LEARN[k][1] + '</p></div>'; }).join("");
   }
 
-  function renderSetup() {
+  function paceListHTML() {
     var p = paces(), half = t5k * Math.pow(21.0975 / 5, 1.06), need = 7200 / Math.pow(21.0975 / 5, 1.06);
+    return '<dl class="paces"><dt>Easy</dt><dd>' + mmss(p.easy - 15) + '\u2013' + mmss(p.easy + 15) + ' /km</dd>' +
+      '<dt>Tempo</dt><dd>' + mmss(p.tempo) + ' /km</dd><dt>10K effort</dt><dd>' + mmss(p.k10) + ' /km</dd>' +
+      '<dt>5K effort</dt><dd>' + mmss(p.k5) + ' /km</dd><dt>Sub-2 goal pace</dt><dd>5:41 /km</dd>' +
+      '<dt>Predicted half today</dt><dd>' + mmss(half) + '</dd></dl>' +
+      '<p style="margin-top:10px;font-weight:700">' + (half < 7200 ? "On track for sub-2." : "Sub-2 needs a parkrun of about " + mmss(need) + ". You\u2019re " + mmss(t5k - need) + " away.") + '</p>';
+  }
+
+  function renderSetup() {
     var base = location.href.replace(/[#?].*$/, "").replace(/[^/]*$/, "");
     var ics = base + "plan.ics", webcal = ics.replace(/^https?:/, "webcal:");
     document.getElementById("v-setup").innerHTML =
       '<h1>Setup</h1>' +
-      '<div class="card"><h3>Your paces</h3><label for="t5k" class="muted">Latest parkrun time</label><br>' +
-      '<input id="t5k" class="t5k" inputmode="numeric" value="' + mmss(t5k) + '">' +
-      '<dl class="paces"><dt>Easy</dt><dd>' + mmss(p.easy - 15) + '\u2013' + mmss(p.easy + 15) + ' /km</dd>' +
-      '<dt>Tempo</dt><dd>' + mmss(p.tempo) + ' /km</dd><dt>10K effort</dt><dd>' + mmss(p.k10) + ' /km</dd>' +
-      '<dt>5K effort</dt><dd>' + mmss(p.k5) + ' /km</dd><dt>Sub-2 goal pace</dt><dd>5:41 /km</dd>' +
-      '<dt>Predicted half today</dt><dd>' + mmss(half) + '</dd></dl>' +
-      '<p style="margin-top:10px;font-weight:700">' + (half < 7200 ? "On track for sub-2." : "Sub-2 needs a parkrun of about " + mmss(need) + ".") + '</p>' +
+      '<div class="card"><h3>Your paces</h3><span class="muted">Latest parkrun time</span>' +
+      '<div class="timeIn"><input id="t5kMin" class="t5k" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="2" aria-label="Minutes" value="' + Math.floor(t5k / 60) + '">' +
+      '<span class="colon">:</span><input id="t5kSec" class="t5k" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="2" aria-label="Seconds" value="' + String(t5k % 60).padStart(2, "0") + '">' +
+      '<span class="muted">min : sec</span></div><div id="paceList">' + paceListHTML() + '</div>' +
       '<p class="muted">Update this after each time trial. Guided runs use these paces to time distance-based reps.</p></div>' +
 
       '<div class="card"><h3>Live pace</h3><label class="check" style="font-size:1rem;color:var(--ink);white-space:normal"><input type="checkbox" id="gpsToggle"' + (gpsOn ? " checked" : "") + '> Use the phone\u2019s GPS to show live pace and tell me when I\u2019m too fast or too slow</label>' +
@@ -160,11 +165,16 @@
     if (t.id === "voice") { voiceURI = t.value; save("hc-voice", voiceURI); }
   });
   document.querySelector("main").addEventListener("input", function (e) {
-    if (e.target.id !== "t5k") return;
-    var m = e.target.value.trim().match(/^(\d{1,2})[:.](\d{2})$/);
-    if (m && +m[2] < 60) { t5k = (+m[1]) * 60 + (+m[2]); save("hc-5k", t5k); var pos = e.target.selectionStart; renderSetup(); renderWeek(); renderPlan();
-      var el = document.getElementById("t5k"); el.focus(); try { el.setSelectionRange(pos, pos); } catch (x) {} }
+    if (e.target.id !== "t5kMin" && e.target.id !== "t5kSec") return;
+    e.target.value = e.target.value.replace(/\D/g, "").slice(0, 2);
+    var m = parseInt(document.getElementById("t5kMin").value, 10), sec = parseInt(document.getElementById("t5kSec").value || "0", 10);
+    if (isNaN(m) || m < 12 || m > 60 || isNaN(sec) || sec > 59) return;
+    t5k = m * 60 + sec; save("hc-5k", t5k);
+    document.getElementById("paceList").innerHTML = paceListHTML(); // update in place so the keyboard stays open
+    renderWeek(); renderPlan();
+    if (e.target.id === "t5kMin" && e.target.value.length === 2) document.getElementById("t5kSec").focus();
   });
+  document.querySelector("main").addEventListener("focusin", function (e) { if (e.target.classList && e.target.classList.contains("t5k")) e.target.select(); });
   document.querySelector("main").addEventListener("click", function (e) {
     var b = e.target.closest("button,a"); if (!b) return;
     if (b.dataset.start) { var p = b.dataset.start.split(":"); startRun(+p[0], p[1]); }
