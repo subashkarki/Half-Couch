@@ -1,5 +1,5 @@
 // Bump VERSION whenever you upload changed files, so phones pick up the update.
-const VERSION = "half-coach-v3";
+const VERSION = "half-coach-v4";
 const FILES = ["./", "index.html", "app.js", "plan.js", "manifest.webmanifest", "plan.ics",
   "fonts/BigShoulders.ttf", "fonts/Atkinson-Regular.ttf", "fonts/Atkinson-Bold.ttf",
   "icons/icon-180.png", "icons/icon-192.png", "icons/icon-512.png"];

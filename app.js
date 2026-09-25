@@ -44,7 +44,7 @@
     var id = "w" + i + "-" + key, date = addDays(START, i * 7 + DAYS[key]), done = !!ticks[id];
     var mins = run.steps ? Math.round(runSeconds(run) / 60) : 0;
     var learn = (run.learn || []).filter(function (k) { return k !== "easy" && k !== "long"; })
-      .map(function (k) { return '<button class="chip" data-learn="' + k + '">What\u2019s ' + (k === "timetrial" ? "a time trial" : k === "goal" ? "goal pace" : k === "hills" ? "hill repeats" : k === "intervals" ? "intervals" : k === "progression" ? "a progression run" : k === "tempo" ? "tempo" : k === "fartlek" ? "fartlek" : "a stride") + "?</button>"; }).join("");
+      .map(function (k) { return '<button class="chip" data-learn="' + k + '">' + (k === "hills" || k === "intervals" ? "What are " : "What\u2019s ") + (k === "timetrial" ? "a time trial" : k === "goal" ? "goal pace" : k === "hills" ? "hill repeats" : k === "intervals" ? "intervals" : k === "progression" ? "a progression run" : k === "tempo" ? "tempo" : k === "fartlek" ? "fartlek" : "a stride") + "?</button>"; }).join("");
     return '<article class="session ' + run.type + (done ? " is-done" : "") + '">' +
       '<div class="s-top"><div><div class="s-day">' + fmtDate(date) + (key === "sat" ? ", Hamilton Lake" : "") + '</div>' +
       '<div class="s-title">' + esc(run.title) + (run.opt ? ' <span class="opt">optional</span>' : "") + '</div></div>' +
@@ -82,8 +82,8 @@
       '<h1>Week ' + (viewWeek + 1) + '</h1><div style="display:flex;gap:6px;margin-bottom:12px">' +
       '<button class="ghost" data-wk="-1" aria-label="Previous week"' + (viewWeek === 0 ? " disabled" : "") + '>\u2039</button>' +
       '<button class="ghost" data-wk="1" aria-label="Next week"' + (viewWeek === 23 ? " disabled" : "") + '>\u203a</button></div></div>' +
-      '<p class="muted">' + esc(w.focus) + (viewWeek === curWeek ? (before ? ". Starts " + fmtDate(START) + "." : ". This week.") : "") +
-      (w.nike ? " Nike phase: use the NRC app\u2019s guided runs if you prefer, or follow these." : "") + '</p>' +
+      '<p class="muted">' + esc(w.focus) + (viewWeek === curWeek ? (before ? ". Starts " + fmtDate(START) : ". This week") : "") +
+      (w.nike ? ". Nike phase: these are Nike\u2019s own sessions, so you can also run them with the matching NRC guided run." : ".") + '</p>' +
       '<p class="muted">Monday and Friday: rest or gym.</p>' + weekSessions(viewWeek);
   }
 
