@@ -133,6 +133,12 @@ nav button[aria-current="page"]{color:var(--crimson);box-shadow:inset 0 3px 0 va
 #pocket .p-hold.holding{border-color:#FF5467;color:#FF5467}
 .done-sheet{text-align:center}
 .done-sheet .big{font-family:var(--display);font-weight:900;font-size:4rem}
+.session-notes{margin-top:8px}.session-notes summary{cursor:pointer;color:var(--muted);font-size:.9rem}.s-how{white-space:pre-line}
+.option{white-space:normal;align-items:flex-start;font-size:1rem}.option input{flex-shrink:0}
+.pace-inputs{display:flex;gap:16px}.pace-inputs label{flex:1;min-width:0}.pace-inputs input{display:block;width:100%;font:inherit;padding:8px;border:1px solid var(--line);border-radius:4px;background:var(--paper);color:var(--ink)}
+dialog{max-width:600px;width:calc(100% - 24px);max-height:85dvh;overflow:auto;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:24px}
+dialog::backdrop{background:#0009}dialog ol{padding-left:24px}dialog li{margin:8px 0}dialog a{color:var(--river)}
+#run{overflow-y:auto}#run .r-body{min-height:190px}#run .r-warn{font-size:.875rem}button:disabled{opacity:.5;cursor:default}
 @media (prefers-reduced-motion:reduce){.bar i{transition:none}}
 </style>
 </head>
@@ -169,9 +175,9 @@ nav button[aria-current="page"]{color:var(--crimson);box-shadow:inset 0 3px 0 va
     <div><span class="v" id="rElapsed">0:00</span><span class="k">Time</span></div>
   </div>
   <div class="r-ctl">
-    <button id="rSkip">Skip step</button>
+    <button id="rSkip">Next step</button>
     <button id="rPause" class="primary">Pause</button>
-    <button id="rPocket">Pocket lock</button>
+    <button id="rPocket">Touch guard</button>
   </div>
   <div class="r-ctl" style="grid-template-columns:1fr;margin-top:10px">
     <button id="rEnd">End run</button>
@@ -182,9 +188,24 @@ nav button[aria-current="page"]{color:var(--crimson);box-shadow:inset 0 3px 0 va
 <div id="pocket" hidden>
   <div class="p-clock" id="pClock">0:00</div>
   <div id="pLabel"></div>
-  <div class="p-hold" id="pHold">Hold to unlock</div>
+  <button class="p-hold" id="pHold" aria-label="Hold to leave touch guard">Hold to unlock</button>
 </div>
 
+<dialog id="watchDialog" aria-labelledby="watchTitle">
+  <button class="ghost" id="closeWatch">Close</button>
+  <h2 id="watchTitle"></h2>
+  <p><b>For your Ultra + AirPods with the phone locked in your belt.</b> Set this up in Apple Workout before starting. This website cannot send the workout to your Watch.</p>
+  <ol class="steps">
+    <li>On Apple Watch, open Workout → Outdoor Run → workout options → Custom. Labels vary by watchOS version. On supported iOS versions, you can also build it in iPhone Fitness.</li>
+    <li>Add these time or distance steps in order. For repeated work/recovery pairs, use Repeat. Include the final recovery.</li>
+  </ol>
+  <ol id="watchSteps"></ol>
+  <p id="watchExtra"></p>
+  <p>Choose workout views showing elapsed time, distance, pace and heart rate. Use the Up Next view for custom intervals. In Watch Settings → Workout, enable Voice Feedback and connect your AirPods to the device providing the coaching.</p>
+  <p>Test one short workout first. Apple’s alerts are not our custom spoken script. Use one coaching source at a time so voices do not overlap. The web timer and Watch do not synchronise pauses or completion.</p>
+  <p><a href="https://support.apple.com/en-nz/guide/watch/apd66fcd5c5c/watchos" target="_blank" rel="noopener">Apple custom workout instructions</a> · <a href="https://support.apple.com/en-nz/guide/watch/apd72879df4d/watchos" target="_blank" rel="noopener">Workout views and Voice Feedback</a></p>
+</dialog>
+<script src="run-core.js"></script>
 <script src="plan.js"></script>
 <script src="app.js"></script>
 </body>

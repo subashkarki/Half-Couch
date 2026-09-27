@@ -1,1219 +1,1661 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Half Coach//Hamilton Half 2027//EN
+PRODID:-//Personal Half Marathon Plan//EN
 CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Hamilton Half training
-X-WR-TIMEZONE:Pacific/Auckland
-REFRESH-INTERVAL;VALUE=DURATION:P1D
-BEGIN:VTIMEZONE
-TZID:Pacific/Auckland
-BEGIN:DAYLIGHT
-TZOFFSETFROM:+1200
-TZOFFSETTO:+1300
-TZNAME:NZDT
-DTSTART:19700927T020000
-RRULE:FREQ=YEARLY;BYMONTH=9;BYDAY=-1SU
-END:DAYLIGHT
-BEGIN:STANDARD
-TZOFFSETFROM:+1300
-TZOFFSETTO:+1200
-TZNAME:NZST
-DTSTART:19700405T030000
-RRULE:FREQ=YEARLY;BYMONTH=4;BYDAY=1SU
-END:STANDARD
-END:VTIMEZONE
+X-WR-CALNAME:Half marathon — 14 March 2027
 BEGIN:VEVENT
-UID:hamilton-half-w1-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20260929T060000
-DTEND;TZID=Pacific/Auckland:20260929T065000
-SUMMARY:Easy run + strides
-DESCRIPTION:Week 1: Settle in after Cambridge\n\n30 min easy\, then 6 × 2
- 0 s strides\n\nOpen Half Coach and tap Start guided run for voice coachi
- ng in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w1-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261001T060000
-DTEND;TZID=Pacific/Auckland:20261001T064000
-SUMMARY:Easy run
-DESCRIPTION:Week 1: Settle in after Cambridge\n\n30 min easy\n\nOpen Half
-  Coach and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w1-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261003T080000
-DTEND;TZID=Pacific/Auckland:20261003T085000
-SUMMARY:parkrun\, easy
-DESCRIPTION:Week 1: Settle in after Cambridge\n\nFully conversational. No
-  watch-checking.\n\nOpen Half Coach and tap Start guided run for voice c
- oaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w1-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261004T070000
-DTEND;TZID=Pacific/Auckland:20261004T082500
-SUMMARY:Long run
-DESCRIPTION:Week 1: Settle in after Cambridge\n\n10 km easy\n\nOpen Half 
- Coach and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w2-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261006T060000
-DTEND;TZID=Pacific/Auckland:20261006T065500
-SUMMARY:Fartlek
-DESCRIPTION:Week 2: Wake the legs up\n\n10 min easy\, 8 × (1 min hard\, 2
-  min easy)\, 10 min easy\n\nOpen Half Coach and tap Start guided run for
-  voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w2-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261008T060000
-DTEND;TZID=Pacific/Auckland:20261008T064500
-SUMMARY:Easy run
-DESCRIPTION:Week 2: Wake the legs up\n\n35 min easy\n\nOpen Half Coach an
- d tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w2-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261010T080000
-DTEND;TZID=Pacific/Auckland:20261010T085000
-SUMMARY:parkrun\, progression
-DESCRIPTION:Week 2: Wake the legs up\n\nEach km a touch quicker than the 
- last\n\nOpen Half Coach and tap Start guided run for voice coaching in y
- our AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w2-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261011T070000
-DTEND;TZID=Pacific/Auckland:20261011T083500
-SUMMARY:Long run
-DESCRIPTION:Week 2: Wake the legs up\n\n11 km easy\n\nOpen Half Coach and
-  tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w3-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261013T060000
-DTEND;TZID=Pacific/Auckland:20261013T065000
-SUMMARY:Intervals
-DESCRIPTION:Week 3: Build the long run\n\n10 min easy\, 6 × 2 min at 5K e
- ffort with 90 s jog\, 10 min easy\n\nOpen Half Coach and tap Start guide
- d run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w3-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261015T060000
-DTEND;TZID=Pacific/Auckland:20261015T064500
-SUMMARY:Easy run
-DESCRIPTION:Week 3: Build the long run\n\n35 min easy\n\nOpen Half Coach 
- and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w3-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261017T080000
-DTEND;TZID=Pacific/Auckland:20261017T085000
-SUMMARY:parkrun\, easy
-DESCRIPTION:Week 3: Build the long run\n\nConversational\n\nOpen Half Coa
- ch and tap Start guided run for voice coaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w3-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261018T070000
-DTEND;TZID=Pacific/Auckland:20261018T084000
-SUMMARY:Long run
-DESCRIPTION:Week 3: Build the long run\n\n12 km easy\n\nOpen Half Coach a
- nd tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w4-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261020T060000
-DTEND;TZID=Pacific/Auckland:20261020T064000
-SUMMARY:Easy run + strides
-DESCRIPTION:Week 4: Lighter week\, first checkpoint\n\n20 min easy + 6 st
- rides\n\nOpen Half Coach and tap Start guided run for voice coaching in 
- your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w4-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261022T060000
-DTEND;TZID=Pacific/Auckland:20261022T064000
-SUMMARY:Easy run
-DESCRIPTION:Week 4: Lighter week\, first checkpoint\n\n30 min easy\n\nOpe
- n Half Coach and tap Start guided run for voice coaching in your AirPods
- .
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w4-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261024T080000
-DTEND;TZID=Pacific/Auckland:20261024T084000
-SUMMARY:parkrun time trial
-DESCRIPTION:Week 4: Lighter week\, first checkpoint\n\nRace it. Checkpoin
- t: around 29:30\n\nOpen Half Coach and tap Start guided run for voice co
- aching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w4-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261025T070000
-DTEND;TZID=Pacific/Auckland:20261025T082000
-SUMMARY:Long run
-DESCRIPTION:Week 4: Lighter week\, first checkpoint\n\n9 km easy\n\nOpen 
- Half Coach and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w5-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261027T060000
-DTEND;TZID=Pacific/Auckland:20261027T065500
-SUMMARY:Intervals
-DESCRIPTION:Week 5: Labour Day week\n\n10 min easy\, 5 × 3 min at 10K eff
- ort with 90 s jog\, 10 min easy\n\nOpen Half Coach and tap Start guided 
- run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w5-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261028T060000
-DTEND;TZID=Pacific/Auckland:20261028T063500
-SUMMARY:Easy run (optional)
-DESCRIPTION:Week 5: Labour Day week\n\n25 min easy\n\nOpen Half Coach and
-  tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20260928@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Half-marathon plan starts — rest / gentle mobility
+DESCRIPTION:Week 1 of 24. First run Tuesday. Race Sunday 14 March 2027. Thr
+ ee runs per week: Tuesday\, Thursday and Saturday parkrun. Monday is a rec
+ overy day. All entries are all-day placeholders\; choose your own start ti
+ mes. Saturday parkrun remains a morning session.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w5-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261029T060000
-DTEND;TZID=Pacific/Auckland:20261029T064500
-SUMMARY:Easy run
-DESCRIPTION:Week 5: Labour Day week\n\n35 min easy\n\nOpen Half Coach and
-  tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w5-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261031T080000
-DTEND;TZID=Pacific/Auckland:20261031T085000
-SUMMARY:parkrun\, progression
-DESCRIPTION:Week 5: Labour Day week\n\nEach km a touch quicker\n\nOpen Ha
- lf Coach and tap Start guided run for voice coaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w5-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261101T070000
-DTEND;TZID=Pacific/Auckland:20261101T084000
-SUMMARY:Long run
-DESCRIPTION:Week 5: Labour Day week\n\n12 km easy\n\nOpen Half Coach and 
- tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w6-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261103T060000
-DTEND;TZID=Pacific/Auckland:20261103T065000
-SUMMARY:Tempo
-DESCRIPTION:Week 6: Longer efforts\n\n10 min easy\, 2 × 8 min comfortably
-  hard with 3 min jog\, 10 min easy\n\nOpen Half Coach and tap Start guid
- ed run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w6-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261104T060000
-DTEND;TZID=Pacific/Auckland:20261104T064000
-SUMMARY:Easy run (optional)
-DESCRIPTION:Week 6: Longer efforts\n\n30 min easy\n\nOpen Half Coach and 
- tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20260929@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:W01: 25 min easy
+DESCRIPTION:Run 25 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. Start gently\; no pace target.\nIf not recov
+ ered\, replace this with an easy run or rest. Do not stack a separate Nike
+  workout on top.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w6-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261105T060000
-DTEND;TZID=Pacific/Auckland:20261105T065000
-SUMMARY:Easy run
-DESCRIPTION:Week 6: Longer efforts\n\n40 min easy\n\nOpen Half Coach and 
- tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w6-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261107T080000
-DTEND;TZID=Pacific/Auckland:20261107T085000
-SUMMARY:parkrun\, easy
-DESCRIPTION:Week 6: Longer efforts\n\nConversational\n\nOpen Half Coach a
- nd tap Start guided run for voice coaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w6-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261108T070000
-DTEND;TZID=Pacific/Auckland:20261108T085000
-SUMMARY:Long run
-DESCRIPTION:Week 6: Longer efforts\n\n13 km easy\n\nOpen Half Coach and t
- ap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w7-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261110T060000
-DTEND;TZID=Pacific/Auckland:20261110T065000
-SUMMARY:Hill repeats
-DESCRIPTION:Week 7: Strength through hills\n\n10 min easy\, 8 × 45 s up a
-  short hill\, jog down\, 10 min easy\n\nOpen Half Coach and tap Start gu
- ided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w7-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261111T060000
-DTEND;TZID=Pacific/Auckland:20261111T064000
-SUMMARY:Easy run (optional)
-DESCRIPTION:Week 7: Strength through hills\n\n30 min easy\n\nOpen Half Co
- ach and tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20260930@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20260930
+DTEND;VALUE=DATE:20261001
+SUMMARY:W01: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w7-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261112T060000
-DTEND;TZID=Pacific/Auckland:20261112T065000
-SUMMARY:Easy run
-DESCRIPTION:Week 7: Strength through hills\n\n40 min easy\n\nOpen Half Co
- ach and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w7-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261114T080000
-DTEND;TZID=Pacific/Auckland:20261114T085000
-SUMMARY:parkrun\, progression
-DESCRIPTION:Week 7: Strength through hills\n\nEach km a touch quicker\n\n
- Open Half Coach and tap Start guided run for voice coaching in your AirP
- ods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w7-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261115T070000
-DTEND;TZID=Pacific/Auckland:20261115T085500
-SUMMARY:Long run
-DESCRIPTION:Week 7: Strength through hills\n\n14 km easy\n\nOpen Half Coa
- ch and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w8-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261117T060000
-DTEND;TZID=Pacific/Auckland:20261117T064000
-SUMMARY:Easy run + strides
-DESCRIPTION:Week 8: Lighter week\, second checkpoint\n\n20 min easy + 6 s
- trides\n\nOpen Half Coach and tap Start guided run for voice coaching in
-  your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w8-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261119T060000
-DTEND;TZID=Pacific/Auckland:20261119T064000
-SUMMARY:Easy run
-DESCRIPTION:Week 8: Lighter week\, second checkpoint\n\n30 min easy\n\nOp
- en Half Coach and tap Start guided run for voice coaching in your AirPod
- s.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w8-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261121T080000
-DTEND;TZID=Pacific/Auckland:20261121T084000
-SUMMARY:parkrun time trial
-DESCRIPTION:Week 8: Lighter week\, second checkpoint\n\nRace it. Checkpoi
- nt: around 28:45\n\nOpen Half Coach and tap Start guided run for voice c
- oaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w8-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261122T070000
-DTEND;TZID=Pacific/Auckland:20261122T082500
-SUMMARY:Long run
-DESCRIPTION:Week 8: Lighter week\, second checkpoint\n\n10 km easy\n\nOpe
- n Half Coach and tap Start guided run for voice coaching in your AirPods
- .
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w9-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261124T060000
-DTEND;TZID=Pacific/Auckland:20261124T070000
-SUMMARY:Kilometre repeats
-DESCRIPTION:Week 9: First taste of goal pace\n\n10 min easy\, 4 × 1 km at
-  5K effort with 2 min jog\, 10 min easy\n\nOpen Half Coach and tap Start
-  guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w9-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261125T060000
-DTEND;TZID=Pacific/Auckland:20261125T064000
-SUMMARY:Easy run (optional)
-DESCRIPTION:Week 9: First taste of goal pace\n\n30 min easy\n\nOpen Half 
- Coach and tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20261001@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:W01: Long run — 6 km easy
+DESCRIPTION:Run 6 km at conversational effort\, about 2–4 out of 10. Star
+ t slower than you think necessary. Planned walking breaks are fine. Distan
+ ce is the complete session\, including the gentle opening and finish.\nOnl
+ y progress if last week felt manageable and recovery is normal. Repeat or 
+ shorten a week when needed. Never make up missed kilometres.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w9-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261126T060000
-DTEND;TZID=Pacific/Auckland:20261126T065000
-SUMMARY:Easy run
-DESCRIPTION:Week 9: First taste of goal pace\n\n40 min easy\n\nOpen Half 
- Coach and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w9-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261128T080000
-DTEND;TZID=Pacific/Auckland:20261128T084000
-SUMMARY:parkrun at goal pace
-DESCRIPTION:Week 9: First taste of goal pace\n\nHold 5:41 /km\, your sub-
- 2 pace\n\nOpen Half Coach and tap Start guided run for voice coaching in
-  your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w9-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261129T070000
-DTEND;TZID=Pacific/Auckland:20261129T085500
-SUMMARY:Long run
-DESCRIPTION:Week 9: First taste of goal pace\n\n14 km easy\n\nOpen Half C
- oach and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w10-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261201T060000
-DTEND;TZID=Pacific/Auckland:20261201T065000
-SUMMARY:Tempo
-DESCRIPTION:Week 10: Base done\, Nike's plan starts next\n\n10 min easy\,
-  20 min comfortably hard\, 10 min easy\n\nOpen Half Coach and tap Start 
- guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w10-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261202T060000
-DTEND;TZID=Pacific/Auckland:20261202T064000
-SUMMARY:Easy run (optional)
-DESCRIPTION:Week 10: Base done\, Nike's plan starts next\n\n30 min easy\n
- \nOpen Half Coach and tap Start guided run for voice coaching in your Ai
- rPods.
+UID:hm20270314-20261003@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:W01: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w10-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261203T060000
-DTEND;TZID=Pacific/Auckland:20261203T065000
-SUMMARY:Easy run
-DESCRIPTION:Week 10: Base done\, Nike's plan starts next\n\n40 min easy\n
- \nOpen Half Coach and tap Start guided run for voice coaching in your Ai
- rPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w10-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261205T080000
-DTEND;TZID=Pacific/Auckland:20261205T085000
-SUMMARY:parkrun\, easy
-DESCRIPTION:Week 10: Base done\, Nike's plan starts next\n\nConversationa
- l\n\nOpen Half Coach and tap Start guided run for voice coaching in your
-  AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w10-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261206T070000
-DTEND;TZID=Pacific/Auckland:20261206T090500
-SUMMARY:Long run
-DESCRIPTION:Week 10: Base done\, Nike's plan starts next\n\n15 km easy\n\
- nOpen Half Coach and tap Start guided run for voice coaching in your Air
- Pods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w11-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261208T060000
-DTEND;TZID=Pacific/Auckland:20261208T063500
-SUMMARY:Nike: First Speed Run
-DESCRIPTION:Week 11: 14 weeks to go\n\n5 min warm-up\, 8 × 1 min at 5K pa
- ce with 1 min recovery\, 5 min cool-down\n\nOpen Half Coach and tap Star
- t guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w11-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261209T060000
-DTEND;TZID=Pacific/Auckland:20261209T062500
-SUMMARY:Nike: 14 Weeks to Go (optional)
-DESCRIPTION:Week 11: 14 weeks to go\n\n15 min recovery run\n\nOpen Half C
- oach and tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20261006@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:W02: 30 min easy
+DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. Start gently\; no pace target.\nIf not recov
+ ered\, replace this with an easy run or rest. Do not stack a separate Nike
+  workout on top.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w11-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261210T060000
-DTEND;TZID=Pacific/Auckland:20261210T063500
-SUMMARY:Nike: Easy Run
-DESCRIPTION:Week 11: 14 weeks to go\n\n25 min recovery run\n\nOpen Half C
- oach and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w11-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261212T080000
-DTEND;TZID=Pacific/Auckland:20261212T084500
-SUMMARY:parkrun: Nike's One Hard Two Easy
-DESCRIPTION:Week 11: 14 weeks to go\n\nJog 5 min before the start. Tap St
- art guided run as the whistle goes. 1 min hard\, 2 min easy for 21 min\,
-  then easy to the finish.\n\nOpen Half Coach and tap Start guided run fo
- r voice coaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w11-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261213T070000
-DTEND;TZID=Pacific/Auckland:20261213T085000
-SUMMARY:Long run
-DESCRIPTION:Week 11: 14 weeks to go\n\n13 km as a progression run. Nike's
-  is a 5K here\; you're already past that.\n\nOpen Half Coach and tap Sta
- rt guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w12-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261215T060000
-DTEND;TZID=Pacific/Auckland:20261215T063500
-SUMMARY:Nike: No Time Go Time
-DESCRIPTION:Week 12: 13 weeks to go\n\n5 min warm-up\; 1 min mile pace\, 
- 2 min 5K\, 3 min 10K\, 2 min 5K\, 1 min mile\; 1 min recovery between\; 
- 5 min cool-down\n\nOpen Half Coach and tap Start guided run for voice co
- aching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w12-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261216T060000
-DTEND;TZID=Pacific/Auckland:20261216T062500
-SUMMARY:Nike: 13 Weeks to Go (optional)
-DESCRIPTION:Week 12: 13 weeks to go\n\n15 min recovery run\n\nOpen Half C
- oach and tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20261007@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:W02: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w12-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261217T060000
-DTEND;TZID=Pacific/Auckland:20261217T064500
-SUMMARY:Nike: Recovery Run with Headspace
-DESCRIPTION:Week 12: 13 weeks to go\n\n35 min recovery run\n\nOpen Half C
- oach and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w12-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261219T080000
-DTEND;TZID=Pacific/Auckland:20261219T084500
-SUMMARY:parkrun: Nike's Run Strong. Repeat.
-DESCRIPTION:Week 12: 13 weeks to go\n\nJog 5 min before the start. Tap St
- art guided run as the whistle goes. 4 × 90 s at 5K pace (45 s easy)\, 1 
- × 90 s at mile pace (1 min easy)\, all twice. Then easy to the finish.\n
- \nOpen Half Coach and tap Start guided run for voice coaching in your Ai
- rPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w12-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261220T070000
-DTEND;TZID=Pacific/Auckland:20261220T085500
-SUMMARY:Long run
-DESCRIPTION:Week 12: 13 weeks to go\n\n14 km progression run\n\nOpen Half
-  Coach and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w13-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261222T060000
-DTEND;TZID=Pacific/Auckland:20261222T063500
-SUMMARY:Nike: Runner Up (hills)
-DESCRIPTION:Week 13: 12 weeks to go\, Christmas week\n\n5 min warm-up\, t
- hen 5 × (45 s uphill at 10K effort\, 1:15 jog down\, 15 s best effort\, 
- 45 s easy)\, 5 min cool-down\n\nOpen Half Coach and tap Start guided run
-  for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w13-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261223T060000
-DTEND;TZID=Pacific/Auckland:20261223T062500
-SUMMARY:Nike: 12 Weeks to Go (optional)
-DESCRIPTION:Week 13: 12 weeks to go\, Christmas week\n\n15 min recovery r
- un\n\nOpen Half Coach and tap Start guided run for voice coaching in you
- r AirPods.
+UID:hm20270314-20261008@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:W02: Long run — 7 km easy
+DESCRIPTION:Run 7 km at conversational effort\, about 2–4 out of 10. Star
+ t slower than you think necessary. Planned walking breaks are fine. Distan
+ ce is the complete session\, including the gentle opening and finish.\nOnl
+ y progress if last week felt manageable and recovery is normal. Repeat or 
+ shorten a week when needed. Never make up missed kilometres.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w13-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261224T060000
-DTEND;TZID=Pacific/Auckland:20261224T064000
-SUMMARY:Nike: Just A Run
-DESCRIPTION:Week 13: 12 weeks to go\, Christmas week\n\n30 min recovery r
- un\n\nOpen Half Coach and tap Start guided run for voice coaching in you
- r AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w13-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261226T080000
-DTEND;TZID=Pacific/Auckland:20261226T085000
-SUMMARY:Boxing Day parkrun: Nike's Triple 7s
-DESCRIPTION:Week 13: 12 weeks to go\, Christmas week\n\nJog 5 min before 
- the start. Tap Start guided run as the whistle goes. 3 × 7 min at 5K pac
- e with 2:30 easy\, then easy to the finish. If there's no parkrun\, run 
- it anywhere flat.\n\nOpen Half Coach and tap Start guided run for voice 
- coaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w13-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261227T070000
-DTEND;TZID=Pacific/Auckland:20261227T090500
-SUMMARY:Long run
-DESCRIPTION:Week 13: 12 weeks to go\, Christmas week\n\n15 km progression
-  run\n\nOpen Half Coach and tap Start guided run for voice coaching in y
- our AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w14-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261229T060000
-DTEND;TZID=Pacific/Auckland:20261229T065500
-SUMMARY:Nike: The Rundown
-DESCRIPTION:Week 14: 11 weeks to go\, time trial\n\n5 min warm-up\; 3 × 1
-  min mile pace\, 3 × 2 min 5K\, 2 × 1 min mile\, 2 × 2 min 5K\, 1 × 1 mi
- n mile\, 1 × 2 min 5K. 1 min easy after mile reps\, 90 s after 5K reps. 
- 5 min cool-down\n\nOpen Half Coach and tap Start guided run for voice co
- aching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w14-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261230T060000
-DTEND;TZID=Pacific/Auckland:20261230T062500
-SUMMARY:Nike: 11 Weeks to Go (optional)
-DESCRIPTION:Week 14: 11 weeks to go\, time trial\n\n15 min recovery run\n
- \nOpen Half Coach and tap Start guided run for voice coaching in your Ai
- rPods.
+UID:hm20270314-20261010@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:W02: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w14-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20261231T060000
-DTEND;TZID=Pacific/Auckland:20261231T065000
-SUMMARY:Nike: Running Towards Your Goal
-DESCRIPTION:Week 14: 11 weeks to go\, time trial\n\n40 min recovery run\n
- \nOpen Half Coach and tap Start guided run for voice coaching in your Ai
- rPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w14-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270102T080000
-DTEND;TZID=Pacific/Auckland:20270102T084000
-SUMMARY:parkrun time trial
-DESCRIPTION:Week 14: 11 weeks to go\, time trial\n\nRace it\, in place of
-  Nike's Tempo Run with Emily Infeld. Checkpoint: around 28:00. Update yo
- ur time in Setup after.\n\nOpen Half Coach and tap Start guided run for 
- voice coaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w14-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270103T070000
-DTEND;TZID=Pacific/Auckland:20270103T084000
-SUMMARY:Long run
-DESCRIPTION:Week 14: 11 weeks to go\, time trial\n\n12 km easy. Nike: 10K
- \n\nOpen Half Coach and tap Start guided run for voice coaching in your 
- AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w15-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270105T060000
-DTEND;TZID=Pacific/Auckland:20270105T064500
-SUMMARY:Nike: Sneaky Speed
-DESCRIPTION:Week 15: 10 weeks to go\n\n5 min warm-up\; 3 rounds of (90 s 
- at 5K pace\, 3 × 45 s at mile pace)\, 1 min easy between every rep\; 5 m
- in cool-down\n\nOpen Half Coach and tap Start guided run for voice coach
- ing in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w15-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270106T060000
-DTEND;TZID=Pacific/Auckland:20270106T062500
-SUMMARY:Nike: 10 Weeks to Go (optional)
-DESCRIPTION:Week 15: 10 weeks to go\n\n15 min recovery run\n\nOpen Half C
- oach and tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20261013@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:W03: 25 min easy + 4 × 20 sec strides
+DESCRIPTION:25 minutes easy\, then 4 repeats of 20 seconds smooth\, relaxed
+  acceleration and 80 seconds walking or very easy jogging. Include recover
+ y after the final repeat\, then 5 minutes easy. Total 36.6667 minutes. Eac
+ h stride: build speed gradually\, briefly run quick and relaxed\, then eas
+ e down\; never an all-out sprint. If 80 seconds is insufficient\, extend r
+ ecovery. Use a flat\, clear surface.\nIf not recovered\, replace this with
+  an easy run or rest. Do not stack a separate Nike workout on top.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w15-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270107T060000
-DTEND;TZID=Pacific/Auckland:20270107T064000
-SUMMARY:Nike: 30 Minute Head Starts
-DESCRIPTION:Week 15: 10 weeks to go\n\n30 min recovery run\n\nOpen Half C
- oach and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w15-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270109T080000
-DTEND;TZID=Pacific/Auckland:20270109T084500
-SUMMARY:parkrun: Nike's Out Strong Back Fast
-DESCRIPTION:Week 15: 10 weeks to go\n\nJog 5 min before the start. Tap St
- art guided run as the whistle goes. 23 min progression tempo: start stea
- dy\, build to tempo\, finish at 10K effort. Then easy to the finish.\n\n
- Open Half Coach and tap Start guided run for voice coaching in your AirP
- ods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w15-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270110T070000
-DTEND;TZID=Pacific/Auckland:20270110T091000
-SUMMARY:Long run
-DESCRIPTION:Week 15: 10 weeks to go\n\n16 km progression run. Nike: 10K\n
- \nOpen Half Coach and tap Start guided run for voice coaching in your Ai
- rPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w16-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270112T060000
-DTEND;TZID=Pacific/Auckland:20270112T065000
-SUMMARY:Nike: Run Fast. Repeat.
-DESCRIPTION:Week 16: 9 weeks to go\n\n5 min warm-up\; 20 × 30 s at mile p
- ace (reps 1 and 11 at 5K pace)\, 1 min easy between\; 5 min cool-down\n\
- nOpen Half Coach and tap Start guided run for voice coaching in your Air
- Pods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w16-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270113T060000
-DTEND;TZID=Pacific/Auckland:20270113T062500
-SUMMARY:Nike: 9 Weeks to Go (optional)
-DESCRIPTION:Week 16: 9 weeks to go\n\n15 min recovery run\n\nOpen Half Co
- ach and tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20261014@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:W03: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w16-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270114T060000
-DTEND;TZID=Pacific/Auckland:20270114T064000
-SUMMARY:Nike: Hill Hillier Hilliest
-DESCRIPTION:Week 16: 9 weeks to go\n\nMoved from Saturday\, as Hamilton L
- ake is flat. 5 min warm-up\; 3 × (1 min uphill at 10K effort\, 2 min eas
- y\; 45 s at 5K effort\, 90 s easy\; 30 s at mile effort\, 1 min easy)\; 
- 5 min cool-down\n\nOpen Half Coach and tap Start guided run for voice co
- aching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w16-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270116T080000
-DTEND;TZID=Pacific/Auckland:20270116T085000
-SUMMARY:parkrun\, easy
-DESCRIPTION:Week 16: 9 weeks to go\n\nYour recovery run this week\, in pl
- ace of Nike's 45 min run with Shalane Flanagan. Add 10 min easy after if
-  you feel good.\n\nOpen Half Coach and tap Start guided run for voice co
- aching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w16-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270117T070000
-DTEND;TZID=Pacific/Auckland:20270117T091500
-SUMMARY:Long run\, fast finish
-DESCRIPTION:Week 16: 9 weeks to go\n\n17 km: 14 easy\, last 3 at 5:41 /km
- . Nike: 12.5K\n\nOpen Half Coach and tap Start guided run for voice coac
- hing in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w17-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270119T060000
-DTEND;TZID=Pacific/Auckland:20270119T064000
-SUMMARY:Nike: The Shifter
-DESCRIPTION:Week 17: 8 weeks to go\, time trial\n\n5 min warm-up\; 4 min 
- recovery pace into 1 min mile pace\, 1 min easy\; 3 min 10K into 1 min m
- ile\, 90 s easy\; 2 min 5K into 1 min mile\, 2 min easy\; 1 min mile int
- o 1 min best effort\; 5 min cool-down\n\nOpen Half Coach and tap Start g
- uided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w17-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270120T060000
-DTEND;TZID=Pacific/Auckland:20270120T062500
-SUMMARY:Nike: 8 Weeks to Go (optional)
-DESCRIPTION:Week 17: 8 weeks to go\, time trial\n\n15 min recovery run\n\
- nOpen Half Coach and tap Start guided run for voice coaching in your Air
- Pods.
+UID:hm20270314-20261015@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:W03: Long run — 8 km easy
+DESCRIPTION:Run 8 km at conversational effort\, about 2–4 out of 10. Star
+ t slower than you think necessary. Planned walking breaks are fine. Distan
+ ce is the complete session\, including the gentle opening and finish.\nOnl
+ y progress if last week felt manageable and recovery is normal. Repeat or 
+ shorten a week when needed. Never make up missed kilometres.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w17-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270121T060000
-DTEND;TZID=Pacific/Auckland:20270121T064500
-SUMMARY:Nike: Breaking Through Barriers
-DESCRIPTION:Week 17: 8 weeks to go\, time trial\n\n31 min recovery run\n\
- nOpen Half Coach and tap Start guided run for voice coaching in your Air
- Pods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w17-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270123T080000
-DTEND;TZID=Pacific/Auckland:20270123T084000
-SUMMARY:parkrun time trial
-DESCRIPTION:Week 17: 8 weeks to go\, time trial\n\nRace it\, in place of 
- Nike's Power Pyramid. Checkpoint: around 27:15. Update your time in Setu
- p after.\n\nOpen Half Coach and tap Start guided run for voice coaching 
- in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w17-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270124T070000
-DTEND;TZID=Pacific/Auckland:20270124T090500
-SUMMARY:Long run
-DESCRIPTION:Week 17: 8 weeks to go\, time trial\n\n15 km easy progression
-  (Nike's 15K)\n\nOpen Half Coach and tap Start guided run for voice coac
- hing in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w18-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270126T060000
-DTEND;TZID=Pacific/Auckland:20270126T065500
-SUMMARY:Nike: Deuces
-DESCRIPTION:Week 18: 7 weeks to go\n\n5 min warm-up\; 10 × 2 min at 5K pa
- ce\, 1 min easy between (2 min after reps 4 and 8)\; 5 min cool-down\n\n
- Open Half Coach and tap Start guided run for voice coaching in your AirP
- ods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w18-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270127T060000
-DTEND;TZID=Pacific/Auckland:20270127T062500
-SUMMARY:Nike: 7 Weeks to Go (optional)
-DESCRIPTION:Week 18: 7 weeks to go\n\n15 min recovery run\n\nOpen Half Co
- ach and tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20261017@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261017
+DTEND;VALUE=DATE:20261018
+SUMMARY:W03: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w18-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270128T060000
-DTEND;TZID=Pacific/Auckland:20270128T064500
-SUMMARY:Nike: Just Another Run
-DESCRIPTION:Week 18: 7 weeks to go\n\n35 min recovery run\n\nOpen Half Co
- ach and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w18-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270130T080000
-DTEND;TZID=Pacific/Auckland:20270130T084000
-SUMMARY:parkrun: Nike's One Hard. One Easy.
-DESCRIPTION:Week 18: 7 weeks to go\n\nJog 5 min before the start. Tap Sta
- rt guided run as the whistle goes. 1 min hard\, 1 min easy for 15 min\, 
- then easy to the finish.\n\nOpen Half Coach and tap Start guided run for
-  voice coaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w18-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270131T070000
-DTEND;TZID=Pacific/Auckland:20270131T092500
-SUMMARY:Long run
-DESCRIPTION:Week 18: 7 weeks to go\n\n18 km easy progression. Nike: 16K\n
- \nOpen Half Coach and tap Start guided run for voice coaching in your Ai
- rPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w19-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270202T060000
-DTEND;TZID=Pacific/Auckland:20270202T065000
-SUMMARY:Nike: Rock n Roller
-DESCRIPTION:Week 19: 6 weeks to go\n\n6 min warm-up\; 5 min 10K\, 2:30 5K
- \, 1 min mile\, 30 s best\, 30 s best\, 1 min mile\, 2:30 5K\, 5 min 10K
- . 90 s easy after 10K and 5K reps\, 1 min after mile and best\; 5 min co
- ol-down\n\nOpen Half Coach and tap Start guided run for voice coaching i
- n your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w19-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270203T060000
-DTEND;TZID=Pacific/Auckland:20270203T062500
-SUMMARY:Nike: 6 Weeks to Go (optional)
-DESCRIPTION:Week 19: 6 weeks to go\n\n15 min recovery run\n\nOpen Half Co
- ach and tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20261020@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:W04: 25 min easy
+DESCRIPTION:Run 25 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. Start gently\; no pace target.\nIf not recov
+ ered\, replace this with an easy run or rest. Do not stack a separate Nike
+  workout on top.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w19-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270204T060000
-DTEND;TZID=Pacific/Auckland:20270204T073500
-SUMMARY:Nike: 8K Tempo Run
-DESCRIPTION:Week 19: 6 weeks to go\n\nMoved from Saturday\, as it's longe
- r than parkrun. 2 km easy\, 8 km tempo\, 2 km easy. Legs heavy? Make the
-  tempo 6 km.\n\nOpen Half Coach and tap Start guided run for voice coach
- ing in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w19-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270206T080000
-DTEND;TZID=Pacific/Auckland:20270206T085000
-SUMMARY:parkrun\, easy (Waitangi Day)
-DESCRIPTION:Week 19: 6 weeks to go\n\nYour recovery run this week\, in pl
- ace of Nike's Suckcess Run\n\nOpen Half Coach and tap Start guided run f
- or voice coaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w19-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270207T070000
-DTEND;TZID=Pacific/Auckland:20270207T090500
-SUMMARY:Long run with goal pace
-DESCRIPTION:Week 19: 6 weeks to go\n\n16 km: 6 easy\, 5 at 5:41 /km\, 5 e
- asy (Nike's 16K)\n\nOpen Half Coach and tap Start guided run for voice c
- oaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w20-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270209T060000
-DTEND;TZID=Pacific/Auckland:20270209T065000
-SUMMARY:Nike: 90s
-DESCRIPTION:Week 20: 5 weeks to go\, time trial\n\n5 min warm-up\; 3 roun
- ds of 90 s at 5K pace\, 90 s at 10K pace\, 90 s at mile pace\, with 90 s
-  easy between every rep\; 5 min cool-down\n\nOpen Half Coach and tap Sta
- rt guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w20-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270210T060000
-DTEND;TZID=Pacific/Auckland:20270210T062500
-SUMMARY:Nike: 5 Weeks to Go (optional)
-DESCRIPTION:Week 20: 5 weeks to go\, time trial\n\n15 min recovery run\n\
- nOpen Half Coach and tap Start guided run for voice coaching in your Air
- Pods.
+UID:hm20270314-20261021@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:W04: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w20-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270211T060000
-DTEND;TZID=Pacific/Auckland:20270211T065500
-SUMMARY:Nike: Thank You Run
-DESCRIPTION:Week 20: 5 weeks to go\, time trial\n\n45 min recovery run\n\
- nOpen Half Coach and tap Start guided run for voice coaching in your Air
- Pods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w20-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270213T080000
-DTEND;TZID=Pacific/Auckland:20270213T084000
-SUMMARY:parkrun time trial
-DESCRIPTION:Week 20: 5 weeks to go\, time trial\n\nRace it\, in place of 
- Nike's Speedurance. Checkpoint: around 26:30. Update your time in Setup 
- after.\n\nOpen Half Coach and tap Start guided run for voice coaching in
-  your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w20-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270214T070000
-DTEND;TZID=Pacific/Auckland:20270214T085500
-SUMMARY:Nike: Dress Rehearsal
-DESCRIPTION:Week 20: 5 weeks to go\, time trial\n\n14 km in full race kit
-  and Evo SL. Practise your race-morning breakfast and a gel. Nike: 13.1K
- \n\nOpen Half Coach and tap Start guided run for voice coaching in your 
- AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w21-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270216T060000
-DTEND;TZID=Pacific/Auckland:20270216T065500
-SUMMARY:Nike: 5 × 5 at 10K Pace
-DESCRIPTION:Week 21: 4 weeks to go\, peak long run\n\n5 min warm-up\; 5 ×
-  5 min at 10K pace with 2 min easy\; 5 min cool-down\n\nOpen Half Coach 
- and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w21-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270217T060000
-DTEND;TZID=Pacific/Auckland:20270217T062500
-SUMMARY:Nike: 4 Weeks to Go (optional)
-DESCRIPTION:Week 21: 4 weeks to go\, peak long run\n\n15 min recovery run
- \n\nOpen Half Coach and tap Start guided run for voice coaching in your 
- AirPods.
+UID:hm20270314-20261022@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:W04: Long run — 6 km easy
+DESCRIPTION:Run 6 km at conversational effort\, about 2–4 out of 10. Star
+ t slower than you think necessary. Planned walking breaks are fine. Distan
+ ce is the complete session\, including the gentle opening and finish.\nOnl
+ y progress if last week felt manageable and recovery is normal. Repeat or 
+ shorten a week when needed. Never make up missed kilometres.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w21-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270218T060000
-DTEND;TZID=Pacific/Auckland:20270218T065500
-SUMMARY:Nike: Whole Run
-DESCRIPTION:Week 21: 4 weeks to go\, peak long run\n\n45 min recovery run
- \n\nOpen Half Coach and tap Start guided run for voice coaching in your 
- AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w21-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270220T080000
-DTEND;TZID=Pacific/Auckland:20270220T084500
-SUMMARY:parkrun: Nike's Two Hard. One Easy.
-DESCRIPTION:Week 21: 4 weeks to go\, peak long run\n\nJog 5 min before th
- e start. Tap Start guided run as the whistle goes. 2 min hard\, 1 min ea
- sy for 21 min\, then easy to the finish.\n\nOpen Half Coach and tap Star
- t guided run for voice coaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w21-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270221T070000
-DTEND;TZID=Pacific/Auckland:20270221T094000
-SUMMARY:Nike: 20K Run
-DESCRIPTION:Week 21: 4 weeks to go\, peak long run\n\n20 km easy progress
- ion\, your longest run. Race kit\, practise gels at 45 and 90 min\n\nOpe
- n Half Coach and tap Start guided run for voice coaching in your AirPods
- .
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w22-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270223T060000
-DTEND;TZID=Pacific/Auckland:20270223T072500
-SUMMARY:Nike: Long and Strong and Fast
-DESCRIPTION:Week 22: 3 weeks to go\n\n5 min warm-up\; 3 rounds of 8 min a
- t 10K pace (3 min easy)\, 4 min at 5K (2 min easy)\, 2 min at mile (2 mi
- n easy)\; 5 min cool-down\n\nOpen Half Coach and tap Start guided run fo
- r voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w22-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270224T060000
-DTEND;TZID=Pacific/Auckland:20270224T062500
-SUMMARY:Nike: 3 Weeks to Go (optional)
-DESCRIPTION:Week 22: 3 weeks to go\n\n15 min recovery run\n\nOpen Half Co
- ach and tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20261024@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261024
+DTEND;VALUE=DATE:20261025
+SUMMARY:W04: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w22-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270225T060000
-DTEND;TZID=Pacific/Auckland:20270225T071000
-SUMMARY:Nike: Run with Eliud Kipchoge
-DESCRIPTION:Week 22: 3 weeks to go\n\n60 min recovery run (45 min if Tues
- day left you tired)\n\nOpen Half Coach and tap Start guided run for voic
- e coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w22-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270227T080000
-DTEND;TZID=Pacific/Auckland:20270227T084000
-SUMMARY:parkrun: Nike's Bring It Down
-DESCRIPTION:Week 22: 3 weeks to go\n\nJog 5 min before the start. Tap Sta
- rt guided run as the whistle goes. 15 min progression tempo: 5 min recov
- ery pace\, 4 min 10K\, 3 min 5K\, 2 min mile\, 1 min best. Then easy to 
- the finish.\n\nOpen Half Coach and tap Start guided run for voice coachi
- ng in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w22-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270228T070000
-DTEND;TZID=Pacific/Auckland:20270228T090000
-SUMMARY:Long run with goal pace
-DESCRIPTION:Week 22: 3 weeks to go\n\n16 km: 4 easy\, 8 at 5:41 /km\, 4 e
- asy\, in the Evo SL. Nike: 60 min\n\nOpen Half Coach and tap Start guide
- d run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w23-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270302T060000
-DTEND;TZID=Pacific/Auckland:20270302T065500
-SUMMARY:Nike: Stronger Faster
-DESCRIPTION:Week 23: 2 weeks to go\, taper\n\n5 min warm-up\; 3 rounds of
-  3 min at 5K pace (2 min easy)\, then 4 × 30 s at mile pace (1 min easy)
- \; 5 min cool-down\n\nOpen Half Coach and tap Start guided run for voice
-  coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w23-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270303T060000
-DTEND;TZID=Pacific/Auckland:20270303T062500
-SUMMARY:Nike: 2 Weeks to Go (optional)
-DESCRIPTION:Week 23: 2 weeks to go\, taper\n\n15 min recovery run\n\nOpen
-  Half Coach and tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20261027@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261027
+DTEND;VALUE=DATE:20261028
+SUMMARY:W05: 30 min easy + 4 × 20 sec strides
+DESCRIPTION:30 minutes easy\, then 4 repeats of 20 seconds smooth\, relaxed
+  acceleration and 80 seconds walking or very easy jogging. Include recover
+ y after the final repeat\, then 5 minutes easy. Total 41.6667 minutes. Eac
+ h stride: build speed gradually\, briefly run quick and relaxed\, then eas
+ e down\; never an all-out sprint. If 80 seconds is insufficient\, extend r
+ ecovery. Use a flat\, clear surface.\nIf not recovered\, replace this with
+  an easy run or rest. Do not stack a separate Nike workout on top.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w23-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270304T060000
-DTEND;TZID=Pacific/Auckland:20270304T065000
-SUMMARY:Nike: 5K Head Starts
-DESCRIPTION:Week 23: 2 weeks to go\, taper\n\n5 km recovery run\n\nOpen H
- alf Coach and tap Start guided run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w23-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270306T080000
-DTEND;TZID=Pacific/Auckland:20270306T084500
-SUMMARY:parkrun: Nike's In Control
-DESCRIPTION:Week 23: 2 weeks to go\, taper\n\nJog 5 min before the start.
-  Tap Start guided run as the whistle goes. 1 min mile pace (30 s easy)\,
-  3 min 5K (90 s easy)\, 5 min 10K (2:30 easy)\, 7 min recovery pace\, th
- en easy to the finish.\n\nOpen Half Coach and tap Start guided run for v
- oice coaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w23-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270307T070000
-DTEND;TZID=Pacific/Auckland:20270307T083500
-SUMMARY:Long run with goal pace
-DESCRIPTION:Week 23: 2 weeks to go\, taper\n\n12 km: 4 easy\, 5 at 5:41 /
- km\, 3 easy. Nike: 11K\n\nOpen Half Coach and tap Start guided run for v
- oice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w24-tue@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270309T060000
-DTEND;TZID=Pacific/Auckland:20270309T063500
-SUMMARY:Nike: The Speed Run Before…
-DESCRIPTION:Week 24: Race week\n\n5 min warm-up\; 1 min 5K pace\, 2 min 1
- 0K\, 5 min at half marathon goal pace (5:41)\, 2 min 10K\, 1 min 5K\; 1 
- min easy between\; 5 min cool-down\n\nOpen Half Coach and tap Start guid
- ed run for voice coaching in your AirPods.
-END:VEVENT
-BEGIN:VEVENT
-UID:hamilton-half-w24-wed@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270310T060000
-DTEND;TZID=Pacific/Auckland:20270310T062500
-SUMMARY:Nike: 1 Week to Go (optional)
-DESCRIPTION:Week 24: Race week\n\n15 min recovery run\n\nOpen Half Coach 
- and tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20261028@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:W05: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w24-thu@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270311T060000
-DTEND;TZID=Pacific/Auckland:20270311T063500
-SUMMARY:Nike: Big Day Run
-DESCRIPTION:Week 24: Race week\n\n25 min recovery run\n\nOpen Half Coach 
- and tap Start guided run for voice coaching in your AirPods.
+UID:hm20270314-20261029@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261029
+DTEND;VALUE=DATE:20261030
+SUMMARY:W05: Long run — 9 km easy
+DESCRIPTION:Run 9 km at conversational effort\, about 2–4 out of 10. Star
+ t slower than you think necessary. Planned walking breaks are fine. Distan
+ ce is the complete session\, including the gentle opening and finish.\nOnl
+ y progress if last week felt manageable and recovery is normal. Repeat or 
+ shorten a week when needed. Never make up missed kilometres.
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w24-sat@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270313T080000
-DTEND;TZID=Pacific/Auckland:20270313T083500
-SUMMARY:Nike: Two Mile Run (no racing)
-DESCRIPTION:Week 24: Race week\n\n3.2 km very easy. If you go to parkrun\
- , jog or walk it\, or volunteer. Collect your race pack.\n\nOpen Half Co
- ach and tap Start guided run for voice coaching in your AirPods.
-LOCATION:Hamilton Lake parkrun
+UID:hm20270314-20261031@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261031
+DTEND;VALUE=DATE:20261101
+SUMMARY:W05: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.
+TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
-UID:hamilton-half-w24-sun@halfcoach
-DTSTAMP:20260925T013038Z
-DTSTART;TZID=Pacific/Auckland:20270314T080000
-DTEND;TZID=Pacific/Auckland:20270314T104000
-SUMMARY:🏁 RACE: Hamilton Half Marathon
-DESCRIPTION:Week 24: Race week\n\n8:00am start\, Hamilton Gardens. Go out
-  at 5:45\, settle into 5:41\, then race the last 5 km.\n\nHamilton Garde
- ns\, Friends Lane. Registration Sat 2-4pm or race morning from 6am.
-LOCATION:Hamilton Gardens\, Friends Lane\, Hamilton
+UID:hm20270314-20261103@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:W06: 35 min easy
+DESCRIPTION:Run 35 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. Start gently\; no pace target.\nIf not recov
+ ered\, replace this with an easy run or rest. Do not stack a separate Nike
+  workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261104@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:W06: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261105@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:W06: Long run — 10 km easy
+DESCRIPTION:Run 10 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish.\nOn
+ ly progress if last week felt manageable and recovery is normal. Repeat or
+  shorten a week when needed. Never make up missed kilometres.\n\nFuelling 
+ rehearsal if this run will last roughly 75–90 minutes or longer: practis
+ e familiar carbohydrate\, starting around 30 g/hour and adjusting for tole
+ rance. For example\, a gel containing 20 g carbohydrate at 40 minutes and 
+ every 40 minutes thereafter. Check product labels and follow water instruc
+ tions\; count carbohydrate from drinks too. This is practice\, not a reaso
+ n to extend the run. Plan water access and adjust drinking to thirst\, con
+ ditions and your experience\; do not force fluids.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261107@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:W06: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261110@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:W07: 30 min easy
+DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. Start gently\; no pace target.\nIf not recov
+ ered\, replace this with an easy run or rest. Do not stack a separate Nike
+  workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261111@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:W07: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261112@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:W07: Long run — 8 km easy
+DESCRIPTION:Run 8 km at conversational effort\, about 2–4 out of 10. Star
+ t slower than you think necessary. Planned walking breaks are fine. Distan
+ ce is the complete session\, including the gentle opening and finish.\nOnl
+ y progress if last week felt manageable and recovery is normal. Repeat or 
+ shorten a week when needed. Never make up missed kilometres.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261114@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:W07: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261117@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:W08: 30 min easy + 6 × 20 sec strides
+DESCRIPTION:30 minutes easy\, then 6 repeats of 20 seconds smooth\, relaxed
+  acceleration and 80 seconds walking or very easy jogging. Include recover
+ y after the final repeat\, then 5 minutes easy. Total 45 minutes. Each str
+ ide: build speed gradually\, briefly run quick and relaxed\, then ease dow
+ n\; never an all-out sprint. If 80 seconds is insufficient\, extend recove
+ ry. Use a flat\, clear surface.\nIf not recovered\, replace this with an e
+ asy run or rest. Do not stack a separate Nike workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261118@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:W08: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261119@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:W08: Long run — 10 km easy
+DESCRIPTION:Run 10 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish.\nOn
+ ly progress if last week felt manageable and recovery is normal. Repeat or
+  shorten a week when needed. Never make up missed kilometres.\n\nFuelling 
+ rehearsal if this run will last roughly 75–90 minutes or longer: practis
+ e familiar carbohydrate\, starting around 30 g/hour and adjusting for tole
+ rance. For example\, a gel containing 20 g carbohydrate at 40 minutes and 
+ every 40 minutes thereafter. Check product labels and follow water instruc
+ tions\; count carbohydrate from drinks too. This is practice\, not a reaso
+ n to extend the run. Plan water access and adjust drinking to thirst\, con
+ ditions and your experience\; do not force fluids.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261121@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:W08: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261124@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:W09: 5 × 1 min controlled / 2 min easy
+DESCRIPTION:10 minutes easy warm-up\, then 5 repeats of 60 seconds controll
+ ed quicker running (effort 6 out of 10) and 120 seconds easy jogging or wa
+ lking. Include recovery after the final repeat. Finish with 5 minutes easy
+ . Total 30 minutes. Finish feeling you could complete another repeat\; no 
+ sprinting.\nIf not recovered\, replace this with an easy run or rest. Do n
+ ot stack a separate Nike workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261125@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:W09: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261126@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:W09: Long run — 11 km easy
+DESCRIPTION:Run 11 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish.\nOn
+ ly progress if last week felt manageable and recovery is normal. Repeat or
+  shorten a week when needed. Never make up missed kilometres.\n\nFuelling 
+ rehearsal if this run will last roughly 75–90 minutes or longer: practis
+ e familiar carbohydrate\, starting around 30 g/hour and adjusting for tole
+ rance. For example\, a gel containing 20 g carbohydrate at 40 minutes and 
+ every 40 minutes thereafter. Check product labels and follow water instruc
+ tions\; count carbohydrate from drinks too. This is practice\, not a reaso
+ n to extend the run. Plan water access and adjust drinking to thirst\, con
+ ditions and your experience\; do not force fluids.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261128@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261128
+DTEND;VALUE=DATE:20261129
+SUMMARY:W09: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261201@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:W10: 30 min easy
+DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. Start gently\; no pace target.\nIf not recov
+ ered\, replace this with an easy run or rest. Do not stack a separate Nike
+  workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261202@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:W10: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261203@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:W10: Long run — 8 km easy
+DESCRIPTION:Run 8 km at conversational effort\, about 2–4 out of 10. Star
+ t slower than you think necessary. Planned walking breaks are fine. Distan
+ ce is the complete session\, including the gentle opening and finish.\nOnl
+ y progress if last week felt manageable and recovery is normal. Repeat or 
+ shorten a week when needed. Never make up missed kilometres.\n\nSummer pre
+ paration: choose an earlier/cooler time where practical\, plan water acces
+ s\, and use comfortable effort rather than chasing pace in the heat. Check
+  UV and use sun protection\, including on cloudy days. Broad-spectrum wate
+ r-resistant SPF30+ sunscreen\, a hat and suitable clothing help\; reapply 
+ as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261205@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261205
+DTEND;VALUE=DATE:20261206
+SUMMARY:W10: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261207@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Training review — before the 14-week build
+DESCRIPTION:Review completed runs\, calf comfort\, fatigue and recovery. Ar
+ e three runs per week and an 8–10 km easy long run comfortable? Later lo
+ ng runs form a large share of this three-run week. Before progressing towa
+ rds 17–18 km\, reassess weekday endurance and recovery\; do not automati
+ cally add a fourth run or increase mileage. Repeat foundation work and rev
+ ise the build if needed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261208@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261208
+DTEND;VALUE=DATE:20261209
+SUMMARY:W11: 6 × 1 min controlled / 2 min easy
+DESCRIPTION:10 minutes easy warm-up\, then 6 repeats of 60 seconds controll
+ ed quicker running (effort 6 out of 10) and 120 seconds easy jogging or wa
+ lking. Include recovery after the final repeat. Finish with 5 minutes easy
+ . Total 33 minutes. Finish feeling you could complete another repeat\; no 
+ sprinting.\nIf not recovered\, replace this with an easy run or rest. Do n
+ ot stack a separate Nike workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261209@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:W11: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261210@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:W11: Long run — 10 km easy
+DESCRIPTION:Run 10 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish.\nOn
+ ly progress if last week felt manageable and recovery is normal. Repeat or
+  shorten a week when needed. Never make up missed kilometres.\n\nFuelling 
+ rehearsal if this run will last roughly 75–90 minutes or longer: practis
+ e familiar carbohydrate\, starting around 30 g/hour and adjusting for tole
+ rance. For example\, a gel containing 20 g carbohydrate at 40 minutes and 
+ every 40 minutes thereafter. Check product labels and follow water instruc
+ tions\; count carbohydrate from drinks too. This is practice\, not a reaso
+ n to extend the run. Plan water access and adjust drinking to thirst\, con
+ ditions and your experience\; do not force fluids.\n\nSummer preparation: 
+ choose an earlier/cooler time where practical\, plan water access\, and us
+ e comfortable effort rather than chasing pace in the heat. Check UV and us
+ e sun protection\, including on cloudy days. Broad-spectrum water-resistan
+ t SPF30+ sunscreen\, a hat and suitable clothing help\; reapply as directe
+ d.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261212@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:W11: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261215@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:W12: 30 min easy + 6 × 20 sec strides
+DESCRIPTION:30 minutes easy\, then 6 repeats of 20 seconds smooth\, relaxed
+  acceleration and 80 seconds walking or very easy jogging. Include recover
+ y after the final repeat\, then 5 minutes easy. Total 45 minutes. Each str
+ ide: build speed gradually\, briefly run quick and relaxed\, then ease dow
+ n\; never an all-out sprint. If 80 seconds is insufficient\, extend recove
+ ry. Use a flat\, clear surface.\nIf not recovered\, replace this with an e
+ asy run or rest. Do not stack a separate Nike workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261216@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:W12: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261217@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:W12: Long run — 11 km easy
+DESCRIPTION:Run 11 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish.\nOn
+ ly progress if last week felt manageable and recovery is normal. Repeat or
+  shorten a week when needed. Never make up missed kilometres.\n\nFuelling 
+ rehearsal if this run will last roughly 75–90 minutes or longer: practis
+ e familiar carbohydrate\, starting around 30 g/hour and adjusting for tole
+ rance. For example\, a gel containing 20 g carbohydrate at 40 minutes and 
+ every 40 minutes thereafter. Check product labels and follow water instruc
+ tions\; count carbohydrate from drinks too. This is practice\, not a reaso
+ n to extend the run. Plan water access and adjust drinking to thirst\, con
+ ditions and your experience\; do not force fluids.\n\nSummer preparation: 
+ choose an earlier/cooler time where practical\, plan water access\, and us
+ e comfortable effort rather than chasing pace in the heat. Check UV and us
+ e sun protection\, including on cloudy days. Broad-spectrum water-resistan
+ t SPF30+ sunscreen\, a hat and suitable clothing help\; reapply as directe
+ d.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261219@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:W12: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261222@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:W13: 7 × 1 min controlled / 2 min easy
+DESCRIPTION:10 minutes easy warm-up\, then 7 repeats of 60 seconds controll
+ ed quicker running (effort 6 out of 10) and 120 seconds easy jogging or wa
+ lking. Include recovery after the final repeat. Finish with 5 minutes easy
+ . Total 36 minutes. Finish feeling you could complete another repeat\; no 
+ sprinting.\nIf not recovered\, replace this with an easy run or rest. Do n
+ ot stack a separate Nike workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261223@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:W13: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261224@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20261225
+SUMMARY:W13: Long run — 12 km easy
+DESCRIPTION:Run 12 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish.\nOn
+ ly progress if last week felt manageable and recovery is normal. Repeat or
+  shorten a week when needed. Never make up missed kilometres.\n\nFuelling 
+ rehearsal if this run will last roughly 75–90 minutes or longer: practis
+ e familiar carbohydrate\, starting around 30 g/hour and adjusting for tole
+ rance. For example\, a gel containing 20 g carbohydrate at 40 minutes and 
+ every 40 minutes thereafter. Check product labels and follow water instruc
+ tions\; count carbohydrate from drinks too. This is practice\, not a reaso
+ n to extend the run. Plan water access and adjust drinking to thirst\, con
+ ditions and your experience\; do not force fluids.\n\nSummer preparation: 
+ choose an earlier/cooler time where practical\, plan water access\, and us
+ e comfortable effort rather than chasing pace in the heat. Check UV and us
+ e sun protection\, including on cloudy days. Broad-spectrum water-resistan
+ t SPF30+ sunscreen\, a hat and suitable clothing help\; reapply as directe
+ d.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261226@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261226
+DTEND;VALUE=DATE:20261227
+SUMMARY:W13: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261229@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:W14: 30 min easy
+DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. Start gently\; no pace target.\nIf not recov
+ ered\, replace this with an easy run or rest. Do not stack a separate Nike
+  workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261230@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261230
+DTEND;VALUE=DATE:20261231
+SUMMARY:W14: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20261231@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20261231
+DTEND;VALUE=DATE:20270101
+SUMMARY:W14: Long run — 9 km easy
+DESCRIPTION:Run 9 km at conversational effort\, about 2–4 out of 10. Star
+ t slower than you think necessary. Planned walking breaks are fine. Distan
+ ce is the complete session\, including the gentle opening and finish.\nOnl
+ y progress if last week felt manageable and recovery is normal. Repeat or 
+ shorten a week when needed. Never make up missed kilometres.\n\nSummer pre
+ paration: choose an earlier/cooler time where practical\, plan water acces
+ s\, and use comfortable effort rather than chasing pace in the heat. Check
+  UV and use sun protection\, including on cloudy days. Broad-spectrum wate
+ r-resistant SPF30+ sunscreen\, a hat and suitable clothing help\; reapply 
+ as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270102@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:W14: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270105@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270105
+DTEND;VALUE=DATE:20270106
+SUMMARY:W15: 6 × 2 min controlled / 2 min easy
+DESCRIPTION:10 minutes easy warm-up\, then 6 repeats of 120 seconds control
+ led quicker running (effort 6 out of 10) and 120 seconds easy jogging or w
+ alking. Include recovery after the final repeat. Finish with 5 minutes eas
+ y. Total 39 minutes. Finish feeling you could complete another repeat\; no
+  sprinting.\nIf not recovered\, replace this with an easy run or rest. Do 
+ not stack a separate Nike workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270106@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:W15: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270107@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270107
+DTEND;VALUE=DATE:20270108
+SUMMARY:W15: Long run — 13 km easy
+DESCRIPTION:Run 13 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish.\nOn
+ ly progress if last week felt manageable and recovery is normal. Repeat or
+  shorten a week when needed. Never make up missed kilometres.\n\nFuelling 
+ rehearsal if this run will last roughly 75–90 minutes or longer: practis
+ e familiar carbohydrate\, starting around 30 g/hour and adjusting for tole
+ rance. For example\, a gel containing 20 g carbohydrate at 40 minutes and 
+ every 40 minutes thereafter. Check product labels and follow water instruc
+ tions\; count carbohydrate from drinks too. This is practice\, not a reaso
+ n to extend the run. Plan water access and adjust drinking to thirst\, con
+ ditions and your experience\; do not force fluids.\n\nSummer preparation: 
+ choose an earlier/cooler time where practical\, plan water access\, and us
+ e comfortable effort rather than chasing pace in the heat. Check UV and us
+ e sun protection\, including on cloudy days. Broad-spectrum water-resistan
+ t SPF30+ sunscreen\, a hat and suitable clothing help\; reapply as directe
+ d.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270109@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:W15: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270112@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:W16: 30 min easy + 6 × 20 sec strides
+DESCRIPTION:30 minutes easy\, then 6 repeats of 20 seconds smooth\, relaxed
+  acceleration and 80 seconds walking or very easy jogging. Include recover
+ y after the final repeat\, then 5 minutes easy. Total 45 minutes. Each str
+ ide: build speed gradually\, briefly run quick and relaxed\, then ease dow
+ n\; never an all-out sprint. If 80 seconds is insufficient\, extend recove
+ ry. Use a flat\, clear surface.\nIf not recovered\, replace this with an e
+ asy run or rest. Do not stack a separate Nike workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270113@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270113
+DTEND;VALUE=DATE:20270114
+SUMMARY:W16: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270114@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:W16: Long run — 14 km easy
+DESCRIPTION:Run 14 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish.\nOn
+ ly progress if last week felt manageable and recovery is normal. Repeat or
+  shorten a week when needed. Never make up missed kilometres.\n\nFuelling 
+ rehearsal if this run will last roughly 75–90 minutes or longer: practis
+ e familiar carbohydrate\, starting around 30 g/hour and adjusting for tole
+ rance. For example\, a gel containing 20 g carbohydrate at 40 minutes and 
+ every 40 minutes thereafter. Check product labels and follow water instruc
+ tions\; count carbohydrate from drinks too. This is practice\, not a reaso
+ n to extend the run. Plan water access and adjust drinking to thirst\, con
+ ditions and your experience\; do not force fluids.\n\nSummer preparation: 
+ choose an earlier/cooler time where practical\, plan water access\, and us
+ e comfortable effort rather than chasing pace in the heat. Check UV and us
+ e sun protection\, including on cloudy days. Broad-spectrum water-resistan
+ t SPF30+ sunscreen\, a hat and suitable clothing help\; reapply as directe
+ d.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270116@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270116
+DTEND;VALUE=DATE:20270117
+SUMMARY:W16: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270119@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270119
+DTEND;VALUE=DATE:20270120
+SUMMARY:W17: 30 min easy
+DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. Start gently\; no pace target.\nIf not recov
+ ered\, replace this with an easy run or rest. Do not stack a separate Nike
+  workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270120@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:W17: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270121@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:W17: Long run — 10 km easy
+DESCRIPTION:Run 10 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish.\nOn
+ ly progress if last week felt manageable and recovery is normal. Repeat or
+  shorten a week when needed. Never make up missed kilometres.\n\nFuelling 
+ rehearsal if this run will last roughly 75–90 minutes or longer: practis
+ e familiar carbohydrate\, starting around 30 g/hour and adjusting for tole
+ rance. For example\, a gel containing 20 g carbohydrate at 40 minutes and 
+ every 40 minutes thereafter. Check product labels and follow water instruc
+ tions\; count carbohydrate from drinks too. This is practice\, not a reaso
+ n to extend the run. Plan water access and adjust drinking to thirst\, con
+ ditions and your experience\; do not force fluids.\n\nSummer preparation: 
+ choose an earlier/cooler time where practical\, plan water access\, and us
+ e comfortable effort rather than chasing pace in the heat. Check UV and us
+ e sun protection\, including on cloudy days. Broad-spectrum water-resistan
+ t SPF30+ sunscreen\, a hat and suitable clothing help\; reapply as directe
+ d.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270123@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:W17: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270126@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270126
+DTEND;VALUE=DATE:20270127
+SUMMARY:W18: 5 × 3 min controlled / 2 min easy
+DESCRIPTION:10 minutes easy warm-up\, then 5 repeats of 180 seconds control
+ led quicker running (effort 6 out of 10) and 120 seconds easy jogging or w
+ alking. Include recovery after the final repeat. Finish with 5 minutes eas
+ y. Total 40 minutes. Finish feeling you could complete another repeat\; no
+  sprinting.\nIf not recovered\, replace this with an easy run or rest. Do 
+ not stack a separate Nike workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270127@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270127
+DTEND;VALUE=DATE:20270128
+SUMMARY:W18: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270128@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+SUMMARY:W18: Long run — 15 km easy
+DESCRIPTION:Run 15 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish. Sto
+ p at 2 hours 15 minutes if you reach that before the distance\; do not spe
+ ed up to reach the distance.\nOnly progress if last week felt manageable a
+ nd recovery is normal. Repeat or shorten a week when needed. Never make up
+  missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75
+ –90 minutes or longer: practise familiar carbohydrate\, starting around 
+ 30 g/hour and adjusting for tolerance. For example\, a gel containing 20 g
+  carbohydrate at 40 minutes and every 40 minutes thereafter. Check product
+  labels and follow water instructions\; count carbohydrate from drinks too
+ . This is practice\, not a reason to extend the run. Plan water access and
+  adjust drinking to thirst\, conditions and your experience\; do not force
+  fluids.\n\nSummer preparation: choose an earlier/cooler time where practi
+ cal\, plan water access\, and use comfortable effort rather than chasing p
+ ace in the heat. Check UV and use sun protection\, including on cloudy day
+ s. Broad-spectrum water-resistant SPF30+ sunscreen\, a hat and suitable cl
+ othing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270130@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270130
+DTEND;VALUE=DATE:20270131
+SUMMARY:W18: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270202@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:W19: 30 min easy + 6 × 20 sec strides
+DESCRIPTION:30 minutes easy\, then 6 repeats of 20 seconds smooth\, relaxed
+  acceleration and 80 seconds walking or very easy jogging. Include recover
+ y after the final repeat\, then 5 minutes easy. Total 45 minutes. Each str
+ ide: build speed gradually\, briefly run quick and relaxed\, then ease dow
+ n\; never an all-out sprint. If 80 seconds is insufficient\, extend recove
+ ry. Use a flat\, clear surface.\nIf not recovered\, replace this with an e
+ asy run or rest. Do not stack a separate Nike workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270203@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270203
+DTEND;VALUE=DATE:20270204
+SUMMARY:W19: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270204@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270204
+DTEND;VALUE=DATE:20270205
+SUMMARY:W19: Long run — 16 km easy
+DESCRIPTION:Run 16 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish. Sto
+ p at 2 hours 15 minutes if you reach that before the distance\; do not spe
+ ed up to reach the distance.\nOnly progress if last week felt manageable a
+ nd recovery is normal. Repeat or shorten a week when needed. Never make up
+  missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75
+ –90 minutes or longer: practise familiar carbohydrate\, starting around 
+ 30 g/hour and adjusting for tolerance. For example\, a gel containing 20 g
+  carbohydrate at 40 minutes and every 40 minutes thereafter. Check product
+  labels and follow water instructions\; count carbohydrate from drinks too
+ . This is practice\, not a reason to extend the run. Plan water access and
+  adjust drinking to thirst\, conditions and your experience\; do not force
+  fluids.\n\nSummer preparation: choose an earlier/cooler time where practi
+ cal\, plan water access\, and use comfortable effort rather than chasing p
+ ace in the heat. Check UV and use sun protection\, including on cloudy day
+ s. Broad-spectrum water-resistant SPF30+ sunscreen\, a hat and suitable cl
+ othing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270206@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+SUMMARY:W19: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270209@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:W20: 30 min easy
+DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. Start gently\; no pace target.\nIf not recov
+ ered\, replace this with an easy run or rest. Do not stack a separate Nike
+  workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270210@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+SUMMARY:W20: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270211@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270211
+DTEND;VALUE=DATE:20270212
+SUMMARY:W20: Long run — 12 km easy
+DESCRIPTION:Run 12 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish.\nOn
+ ly progress if last week felt manageable and recovery is normal. Repeat or
+  shorten a week when needed. Never make up missed kilometres.\n\nFuelling 
+ rehearsal if this run will last roughly 75–90 minutes or longer: practis
+ e familiar carbohydrate\, starting around 30 g/hour and adjusting for tole
+ rance. For example\, a gel containing 20 g carbohydrate at 40 minutes and 
+ every 40 minutes thereafter. Check product labels and follow water instruc
+ tions\; count carbohydrate from drinks too. This is practice\, not a reaso
+ n to extend the run. Plan water access and adjust drinking to thirst\, con
+ ditions and your experience\; do not force fluids.\n\nSummer preparation: 
+ choose an earlier/cooler time where practical\, plan water access\, and us
+ e comfortable effort rather than chasing pace in the heat. Check UV and us
+ e sun protection\, including on cloudy days. Broad-spectrum water-resistan
+ t SPF30+ sunscreen\, a hat and suitable clothing help\; reapply as directe
+ d.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270213@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:W20: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270216@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:W21: 6 × 2 min controlled / 2 min easy
+DESCRIPTION:10 minutes easy warm-up\, then 6 repeats of 120 seconds control
+ led quicker running (effort 6 out of 10) and 120 seconds easy jogging or w
+ alking. Include recovery after the final repeat. Finish with 5 minutes eas
+ y. Total 39 minutes. Finish feeling you could complete another repeat\; no
+  sprinting.\nIf not recovered\, replace this with an easy run or rest. Do 
+ not stack a separate Nike workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270217@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+SUMMARY:W21: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270218@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270218
+DTEND;VALUE=DATE:20270219
+SUMMARY:W21: Long run — 17 km easy
+DESCRIPTION:Run 17 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish. Sto
+ p at 2 hours 15 minutes if you reach that before the distance\; do not spe
+ ed up to reach the distance.\nOnly progress if last week felt manageable a
+ nd recovery is normal. Repeat or shorten a week when needed. Never make up
+  missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75
+ –90 minutes or longer: practise familiar carbohydrate\, starting around 
+ 30 g/hour and adjusting for tolerance. For example\, a gel containing 20 g
+  carbohydrate at 40 minutes and every 40 minutes thereafter. Check product
+  labels and follow water instructions\; count carbohydrate from drinks too
+ . This is practice\, not a reason to extend the run. Plan water access and
+  adjust drinking to thirst\, conditions and your experience\; do not force
+  fluids.\n\nSummer preparation: choose an earlier/cooler time where practi
+ cal\, plan water access\, and use comfortable effort rather than chasing p
+ ace in the heat. Check UV and use sun protection\, including on cloudy day
+ s. Broad-spectrum water-resistant SPF30+ sunscreen\, a hat and suitable cl
+ othing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270220@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+SUMMARY:W21: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270223@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270223
+DTEND;VALUE=DATE:20270224
+SUMMARY:W22: 35 min easy
+DESCRIPTION:Run 35 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. Start gently\; no pace target.\nIf not recov
+ ered\, replace this with an easy run or rest. Do not stack a separate Nike
+  workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270224@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270224
+DTEND;VALUE=DATE:20270225
+SUMMARY:W22: 20–25 minutes gentle strength
+DESCRIPTION:20–25 minutes of comfortable strength work. Start with 3–5 
+ minutes gentle walking or mobility. Do one round initially\, progressing t
+ o two only if recovery is comfortable: 8 chair squats\, 8 supported calf r
+ aises\, 10 glute bridges\, 8 light rows\, and a 15–20 second side plank 
+ per side. Rest as needed and leave several repetitions in reserve. Finish 
+ with gentle mobility. Do not chase soreness or train to failure before Thu
+ rsday. Shorten or skip if legs feel tired\; stop painful movements.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270225@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270225
+DTEND;VALUE=DATE:20270226
+SUMMARY:W22: Long run — 18 km easy
+DESCRIPTION:Run 18 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish. Sto
+ p at 2 hours 15 minutes if you reach that before the distance\; do not spe
+ ed up to reach the distance.\nOnly progress if last week felt manageable a
+ nd recovery is normal. Repeat or shorten a week when needed. Never make up
+  missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75
+ –90 minutes or longer: practise familiar carbohydrate\, starting around 
+ 30 g/hour and adjusting for tolerance. For example\, a gel containing 20 g
+  carbohydrate at 40 minutes and every 40 minutes thereafter. Check product
+  labels and follow water instructions\; count carbohydrate from drinks too
+ . This is practice\, not a reason to extend the run. Plan water access and
+  adjust drinking to thirst\, conditions and your experience\; do not force
+  fluids.\n\nSummer preparation: choose an earlier/cooler time where practi
+ cal\, plan water access\, and use comfortable effort rather than chasing p
+ ace in the heat. Check UV and use sun protection\, including on cloudy day
+ s. Broad-spectrum water-resistant SPF30+ sunscreen\, a hat and suitable cl
+ othing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270227@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:W22: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270302@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:W23: 20 min easy + 4 × 20 sec strides
+DESCRIPTION:20 minutes easy\, then 4 repeats of 20 seconds smooth\, relaxed
+  acceleration and 80 seconds walking or very easy jogging. Include recover
+ y after the final repeat\, then 5 minutes easy. Total 31.6667 minutes. Eac
+ h stride: build speed gradually\, briefly run quick and relaxed\, then eas
+ e down\; never an all-out sprint. If 80 seconds is insufficient\, extend r
+ ecovery. Use a flat\, clear surface.\nIf not recovered\, replace this with
+  an easy run or rest. Do not stack a separate Nike workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270303@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:W23: 10 minutes gentle mobility — taper
+DESCRIPTION:Optional comfortable mobility only. No new exercises or demandi
+ ng leg strength work during the taper.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270304@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270304
+DTEND;VALUE=DATE:20270305
+SUMMARY:W23: Long run — 12 km easy
+DESCRIPTION:Run 12 km at conversational effort\, about 2–4 out of 10. Sta
+ rt slower than you think necessary. Planned walking breaks are fine. Dista
+ nce is the complete session\, including the gentle opening and finish.\nOn
+ ly progress if last week felt manageable and recovery is normal. Repeat or
+  shorten a week when needed. Never make up missed kilometres.\n\nFuelling 
+ rehearsal if this run will last roughly 75–90 minutes or longer: practis
+ e familiar carbohydrate\, starting around 30 g/hour and adjusting for tole
+ rance. For example\, a gel containing 20 g carbohydrate at 40 minutes and 
+ every 40 minutes thereafter. Check product labels and follow water instruc
+ tions\; count carbohydrate from drinks too. This is practice\, not a reaso
+ n to extend the run. Plan water access and adjust drinking to thirst\, con
+ ditions and your experience\; do not force fluids.\n\nSummer preparation: 
+ choose an earlier/cooler time where practical\, plan water access\, and us
+ e comfortable effort rather than chasing pace in the heat. Check UV and us
+ e sun protection\, including on cloudy days. Broad-spectrum water-resistan
+ t SPF30+ sunscreen\, a hat and suitable clothing help\; reapply as directe
+ d.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270306@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270306
+DTEND;VALUE=DATE:20270307
+SUMMARY:W23: Saturday morning parkrun — 5 km easy
+DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy\; t
+ his is part of the weekly plan. If Thursday fatigue remains\, walk or shor
+ ten/skip the run. A hard parkrun replaces the week’s faster session\, so
+  make Tuesday easy and reduce Thursday if needed. Check the local event st
+ art time and holiday availability.\n\nSummer preparation: choose an earlie
+ r/cooler time where practical\, plan water access\, and use comfortable ef
+ fort rather than chasing pace in the heat. Check UV and use sun protection
+ \, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscre
+ en\, a hat and suitable clothing help\; reapply as directed.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270309@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270310
+SUMMARY:W24: 20 min easy
+DESCRIPTION:Run 20 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. Start gently\; no pace target.\nIf not recov
+ ered\, replace this with an easy run or rest. Do not stack a separate Nike
+  workout on top.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270311@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270312
+SUMMARY:W24: 15–20 min easy — taper
+DESCRIPTION:Very easy running for 15–20 minutes\, then stop. No fitness t
+ esting or missed-workout catch-up.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270313@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+SUMMARY:W24: Parkrun morning — volunteer or rest
+DESCRIPTION:Race tomorrow. Recommended exception to the usual 5 km: volunte
+ er\, spectate or rest. If a familiar short shakeout helps\, do only 10 min
+ utes very easy. Do not race parkrun.
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+UID:hm20270314-20270314@personal-plan.local
+DTSTAMP:20260928T000000Z
+SEQUENCE:1
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:RACE DAY — Half marathon 21.1 km
+DESCRIPTION:Sunday 14 March 2027. Start comfortably\; use your rehearsed ru
+ n/walk strategy if helpful. Use familiar shoes\, breakfast and fuelling. R
+ ace start time and location are not yet supplied\; add them from the organ
+ iser. The calendar entry is not a race registration.\n\nHold back over the
+  opening kilometres\, using comfortable effort rather than following faste
+ r runners. Use only the food\, drink and run/walk pattern rehearsed in tra
+ ining. Confirm the organiser’s aid-station locations\, available supplie
+ s and cutoff beforehand.
+TRANSP:TRANSPARENT
 END:VEVENT
 END:VCALENDAR
