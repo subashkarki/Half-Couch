@@ -79,7 +79,7 @@
     var before = today < START;
     document.getElementById("v-week").innerHTML =
       '<section class="bib" aria-label="Race bib"><span class="pin l"></span><span class="pin r"></span>' +
-      '<div class="event">Hamilton Half Marathon<br>Sunday 14 March 2027 · start time to confirm</div>' +
+      '<div class="event">Hamilton Half Marathon<br>Sunday 14 March 2027 · 8:00am, Hamilton Gardens</div>' +
       '<div class="number">' + days + '<small>' + (days === 1 ? "day" : "days") + ' to go</small></div>' +
       '<div class="runner"><b>Subash</b><span>Goal: finish comfortably</span></div>' +
       '<div class="tab">' + c.done + ' of ' + c.total + ' sessions done<div class="bar"><i style="width:' + (c.done / c.total * 100) + '%"></i></div></div></section>' +
@@ -89,7 +89,7 @@
       '<button class="ghost" data-wk="1" aria-label="Next week"' + (viewWeek === 23 ? " disabled" : "") + '>\u203a</button></div></div>' +
       '<p class="muted">' + esc(w.focus) + (viewWeek === curWeek ? (before ? ". Starts " + fmtDate(START) : ". This week") : "") +
       (w.nike ? ". Nike phase: these are Nike\u2019s own sessions, so you can also run them with the matching NRC guided run." : ".") + '</p>' +
-      '<p class="muted">Three runs: Tuesday, Thursday and Saturday. Wednesday: gentle strength. Friday and Sunday: rest, except race day.</p>' + weekSessions(viewWeek);
+      '<p class="muted">Runs: Tuesday, Thursday (short and easy; optional in weeks 1–10), Saturday parkrun kept easy, and the long run on Sunday. Wednesday: gentle strength. Monday and Friday: rest.</p>' + weekSessions(viewWeek);
   }
 
   function renderPlan() {
@@ -121,7 +121,7 @@
       '<div class="card"><h3>Phone GPS · app must stay visible</h3><label class="check option"><input type="checkbox" id="gpsToggle"' + (gpsOn ? ' checked' : '') + '> Show phone pace and distance; announce kilometres</label><p class="muted">Measured phone GPS, not Watch data. If GPS drops, distance goals wait. With GPS off, use your Watch and manually confirm distance with Next.</p></div>' +
       '<div class="card"><h3>Optional pace alerts</h3><p>Leave blank for effort-based training. These are your chosen limits, not a personalised prescription. Alerts are disabled for strides and recoveries.</p><div class="pace-inputs"><label>Fast edge /km<input id="paceFast" placeholder="6:30" inputmode="decimal" value="' + esc(paceFastText) + '"></label><label>Slow edge /km<input id="paceSlow" placeholder="8:00" inputmode="decimal" value="' + esc(paceSlowText) + '"></label></div><p id="paceValidation" role="status"></p></div>' +
       '<div class="card"><h3>Voice in your AirPods</h3><select id="voice" aria-label="Coaching voice"></select><div class="s-actions"><button class="go" id="testVoice">Test voice</button></div><p class="muted">Local voices are labelled. Audio follows your phone’s output. Music mixing varies by iOS and audio app; test it before running.</p></div>' +
-      '<div class="card"><h3>Calendar · 98 sessions and reminders</h3><p>Calendar entries show the plan, not live workout metrics. All-day entries let you choose your own start times. Saturday is parkrun morning.</p><div class="s-actions"><a class="go" href="' + ics.replace(/^https?:/, 'webcal:') + '">Subscribe</a><a class="ghost" href="' + ics + '" download>Download calendar</a></div><p class="muted">Subscribed calendars are read-only and refresh on your calendar app’s schedule. Import the download into a separate calendar if you want editable times. Replace an older imported training calendar to avoid duplicates; keep unrelated calendars.</p></div>' +
+      '<div class="card"><h3>Calendar · 121 sessions and reminders</h3><p>Calendar entries show the plan, not live workout metrics. All-day entries let you choose your own start times. Saturday is parkrun morning.</p><div class="s-actions"><a class="go" href="' + ics.replace(/^https?:/, 'webcal:') + '">Subscribe</a><a class="ghost" href="' + ics + '" download>Download calendar</a></div><p class="muted">Subscribed calendars are read-only and refresh on your calendar app’s schedule. Import the download into a separate calendar if you want editable times. Replace an older imported training calendar to avoid duplicates; keep unrelated calendars.</p></div>' +
       '<div class="card"><h3>Web coaching limits</h3><p>Keep this app visible and the screen awake. Touch guard blocks accidental touches; it does not unlock background tracking. Locking the phone or switching apps pauses this coach. GPS gaps are not counted. Use Apple Workout or NRC for dependable belt-running guidance.</p><p>Completion ticks are stored only in this browser. Old-plan ticks remain saved under their original key and have not been applied to different sessions.</p><button class="ghost" id="resetTicks">Clear revised-plan ticks</button></div>';
     fillVoices(); validatePace();
   }
@@ -130,7 +130,7 @@
     var run = WEEKS[i].runs[key];
     $('watchTitle').textContent = run.title;
     $('watchSteps').innerHTML = run.steps.map(function(step) { return '<li><b>' + esc(step.label) + '</b> — ' + (step.km ? step.km + ' km distance goal' : mmss(step.sec) + ' time goal') + '</li>'; }).join('');
-    $('watchExtra').textContent = run.timeCap ? 'Stop at 2 hours 15 minutes if reached before the distance. Do not speed up to reach the kilometres.' : 'Use comfortable effort for easy running. Walking breaks are welcome.';
+    $('watchExtra').textContent = run.timeCap ? 'Stop at ' + Math.floor(run.timeCap/3600) + ' h ' + Math.round(run.timeCap%3600/60) + ' min if reached before the distance. Do not speed up to reach the kilometres.' : 'Use comfortable effort for easy running. Walking breaks are welcome.';
     $('watchDialog').showModal();
   }
 

@@ -16,7 +16,7 @@ Each running session includes **Apple Watch setup** with its ordered time/distan
 
 ## Training plan
 
-The revised plan runs from **28 September 2026 to 14 March 2027**. Tuesday is easy running or one controlled faster session, Thursday is the easy long run, and Saturday is easy 5 km parkrun. Wednesday adds gentle strength. Race-eve parkrun is volunteer/rest. There are **98 calendar entries**, including the December review, strength, taper mobility and fuelling/summer reminders.
+The revised plan runs from **28 September 2026 to 14 March 2027**. Tuesday is easy running or one controlled faster session, Thursday is a short easy run (optional in weeks 1–10), Saturday is easy 5 km parkrun, and Sunday is the long run, peaking at 20 km two weeks before race day (8:00am, Hamilton Gardens). Wednesday adds gentle strength. Race-eve parkrun is volunteer/rest. There are **98 calendar entries**, including the December review, strength, taper mobility and fuelling/summer reminders.
 
 This is an original adaptation informed by Nike, Hamilton and ASICS, not Nike’s exact programme. There is no assumed sub-two-hour target. The earlier schedule and completion data are preserved in Git history / the old local-storage key; old ticks are not applied to changed sessions.
 

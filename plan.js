@@ -1,4 +1,4 @@
-/* Agreed 24-week plan, revised 28 September 2026. Original adaptation informed by
+/* Agreed 24-week plan, revised 28 September 2026 (long run moved to Sunday, 20 km peak). Original adaptation informed by
 Nike, Hamilton and ASICS; not a reproduction of Nike's official schedule.
 Distances are real GPS goals or manually confirmed goals, never timed substitutes. */
 var PLAN_START = [2026, 8, 28];
@@ -10,7 +10,7 @@ var WEEKS = [
     "runs": {
       "mon": {
         "title": "Half-marathon plan starts — rest / gentle mobility",
-        "how": "Week 1 of 24. First run Tuesday. Race Sunday 14 March 2027. Three runs per week: Tuesday, Thursday and Saturday parkrun. Monday is a recovery day. All entries are all-day placeholders; choose your own start times. Saturday parkrun remains a morning session.",
+        "how": "Week 1 of 24. First run Tuesday. Race Sunday 14 March 2027. Runs: Tuesday, an optional short easy run on Thursday, Saturday parkrun (easy), and the long run on Sunday. Wednesday is strength. Monday is a recovery day. All entries are all-day placeholders; choose your own start times. Saturday parkrun remains a morning session.",
         "type": "note",
         "steps": null,
         "learn": [],
@@ -43,31 +43,32 @@ var WEEKS = [
         "date": "2026-09-30"
       },
       "thu": {
-        "title": "Long run — 6 km easy",
-        "how": "Run 6 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.",
-        "type": "long",
+        "title": "25 min easy",
+        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "type": "easy",
+        "opt": true,
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1500,
             "kind": "easy",
-            "km": 6.0,
             "pace": "easy",
-            "label": "6 km easy",
-            "say": "6 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
         "date": "2026-10-01"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -77,6 +78,24 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-10-03"
+      },
+      "sun": {
+        "title": "Long run — 6 km easy",
+        "how": "Run 6 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 6,
+            "pace": "easy",
+            "label": "6 km easy",
+            "say": "6 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-10-04"
       }
     }
   },
@@ -110,31 +129,32 @@ var WEEKS = [
         "date": "2026-10-07"
       },
       "thu": {
-        "title": "Long run — 7 km easy",
-        "how": "Run 7 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.",
-        "type": "long",
+        "title": "25 min easy",
+        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "type": "easy",
+        "opt": true,
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1500,
             "kind": "easy",
-            "km": 7.0,
             "pace": "easy",
-            "label": "7 km easy",
-            "say": "7 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
         "date": "2026-10-08"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -144,6 +164,24 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-10-10"
+      },
+      "sun": {
+        "title": "Long run — 7 km easy",
+        "how": "Run 7 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 7,
+            "pace": "easy",
+            "label": "7 km easy",
+            "say": "7 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-10-11"
       }
     }
   },
@@ -240,31 +278,32 @@ var WEEKS = [
         "date": "2026-10-14"
       },
       "thu": {
-        "title": "Long run — 8 km easy",
-        "how": "Run 8 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.",
-        "type": "long",
+        "title": "25 min easy",
+        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "type": "easy",
+        "opt": true,
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1500,
             "kind": "easy",
-            "km": 8.0,
             "pace": "easy",
-            "label": "8 km easy",
-            "say": "8 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
         "date": "2026-10-15"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -274,6 +313,24 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-10-17"
+      },
+      "sun": {
+        "title": "Long run — 8 km easy",
+        "how": "Run 8 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 8,
+            "pace": "easy",
+            "label": "8 km easy",
+            "say": "8 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-10-18"
       }
     }
   },
@@ -307,31 +364,32 @@ var WEEKS = [
         "date": "2026-10-21"
       },
       "thu": {
-        "title": "Long run — 6 km easy",
-        "how": "Run 6 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.",
-        "type": "long",
+        "title": "20 min easy",
+        "how": "Run 20 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "type": "easy",
+        "opt": true,
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1200,
             "kind": "easy",
-            "km": 6.0,
             "pace": "easy",
-            "label": "6 km easy",
-            "say": "6 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 20 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
         "date": "2026-10-22"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -341,6 +399,24 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-10-24"
+      },
+      "sun": {
+        "title": "Long run — 6 km easy",
+        "how": "Run 6 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 6,
+            "pace": "easy",
+            "label": "6 km easy",
+            "say": "6 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-10-25"
       }
     }
   },
@@ -437,31 +513,32 @@ var WEEKS = [
         "date": "2026-10-28"
       },
       "thu": {
-        "title": "Long run — 9 km easy",
-        "how": "Run 9 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.",
-        "type": "long",
+        "title": "25 min easy",
+        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "type": "easy",
+        "opt": true,
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1500,
             "kind": "easy",
-            "km": 9.0,
             "pace": "easy",
-            "label": "9 km easy",
-            "say": "9 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
         "date": "2026-10-29"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -471,6 +548,24 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-10-31"
+      },
+      "sun": {
+        "title": "Long run — 9 km easy",
+        "how": "Run 9 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 9,
+            "pace": "easy",
+            "label": "9 km easy",
+            "say": "9 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-11-01"
       }
     }
   },
@@ -504,32 +599,32 @@ var WEEKS = [
         "date": "2026-11-04"
       },
       "thu": {
-        "title": "Long run — 10 km easy",
-        "how": "Run 10 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.",
-        "type": "long",
+        "title": "25 min easy",
+        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "type": "easy",
+        "opt": true,
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1500,
             "kind": "easy",
-            "km": 10.0,
             "pace": "easy",
-            "label": "10 km easy",
-            "say": "10 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2026-11-05",
-        "fuel": true
+        "date": "2026-11-05"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -539,6 +634,25 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-11-07"
+      },
+      "sun": {
+        "title": "Long run — 10 km easy",
+        "how": "Run 10 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 10,
+            "pace": "easy",
+            "label": "10 km easy",
+            "say": "10 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-11-08",
+        "fuel": true
       }
     }
   },
@@ -572,31 +686,32 @@ var WEEKS = [
         "date": "2026-11-11"
       },
       "thu": {
-        "title": "Long run — 8 km easy",
-        "how": "Run 8 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.",
-        "type": "long",
+        "title": "20 min easy",
+        "how": "Run 20 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "type": "easy",
+        "opt": true,
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1200,
             "kind": "easy",
-            "km": 8.0,
             "pace": "easy",
-            "label": "8 km easy",
-            "say": "8 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 20 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
         "date": "2026-11-12"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -606,6 +721,24 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-11-14"
+      },
+      "sun": {
+        "title": "Long run — 8 km easy",
+        "how": "Run 8 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 8,
+            "pace": "easy",
+            "label": "8 km easy",
+            "say": "8 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-11-15"
       }
     }
   },
@@ -730,32 +863,32 @@ var WEEKS = [
         "date": "2026-11-18"
       },
       "thu": {
-        "title": "Long run — 10 km easy",
-        "how": "Run 10 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.",
-        "type": "long",
+        "title": "25 min easy",
+        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "type": "easy",
+        "opt": true,
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1500,
             "kind": "easy",
-            "km": 10.0,
             "pace": "easy",
-            "label": "10 km easy",
-            "say": "10 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2026-11-19",
-        "fuel": true
+        "date": "2026-11-19"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -765,6 +898,25 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-11-21"
+      },
+      "sun": {
+        "title": "Long run — 10 km easy",
+        "how": "Run 10 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 10,
+            "pace": "easy",
+            "label": "10 km easy",
+            "say": "10 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-11-22",
+        "fuel": true
       }
     }
   },
@@ -875,32 +1027,32 @@ var WEEKS = [
         "date": "2026-11-25"
       },
       "thu": {
-        "title": "Long run — 11 km easy",
-        "how": "Run 11 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.",
-        "type": "long",
+        "title": "25 min easy",
+        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "type": "easy",
+        "opt": true,
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1500,
             "kind": "easy",
-            "km": 11.0,
             "pace": "easy",
-            "label": "11 km easy",
-            "say": "11 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2026-11-26",
-        "fuel": true
+        "date": "2026-11-26"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -910,6 +1062,25 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-11-28"
+      },
+      "sun": {
+        "title": "Long run — 11 km easy",
+        "how": "Run 11 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 11,
+            "pace": "easy",
+            "label": "11 km easy",
+            "say": "11 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-11-29",
+        "fuel": true
       }
     }
   },
@@ -943,31 +1114,32 @@ var WEEKS = [
         "date": "2026-12-02"
       },
       "thu": {
-        "title": "Long run — 8 km easy",
-        "how": "Run 8 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "20 min easy",
+        "how": "Run 20 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "type": "easy",
+        "opt": true,
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1200,
             "kind": "easy",
-            "km": 8.0,
             "pace": "easy",
-            "label": "8 km easy",
-            "say": "8 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 20 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
         "date": "2026-12-03"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -977,6 +1149,24 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-12-05"
+      },
+      "sun": {
+        "title": "Long run — 8 km easy",
+        "how": "Run 8 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 8,
+            "pace": "easy",
+            "label": "8 km easy",
+            "say": "8 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-12-06"
       }
     }
   },
@@ -985,7 +1175,7 @@ var WEEKS = [
     "runs": {
       "mon": {
         "title": "Training review — before the 14-week build",
-        "how": "Review completed runs, calf comfort, fatigue and recovery. Are three runs per week and an 8–10 km easy long run comfortable? Later long runs form a large share of this three-run week. Before progressing towards 17–18 km, reassess weekday endurance and recovery; do not automatically add a fourth run or increase mileage. Repeat foundation work and revise the build if needed.",
+        "how": "Review completed runs, calf comfort, fatigue and recovery. If weeks 1–10 felt comfortable, Thursday’s short easy run now becomes a regular part of the week (four runs: Tuesday, Thursday, Saturday parkrun, Sunday long run). If you’re not recovering well, keep Thursday optional and repeat foundation weeks before building towards the 20 km peak.",
         "type": "note",
         "steps": null,
         "learn": [],
@@ -1109,32 +1299,31 @@ var WEEKS = [
         "date": "2026-12-09"
       },
       "thu": {
-        "title": "Long run — 10 km easy",
-        "how": "Run 10 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1800,
             "kind": "easy",
-            "km": 10.0,
             "pace": "easy",
-            "label": "10 km easy",
-            "say": "10 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2026-12-10",
-        "fuel": true
+        "date": "2026-12-10"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -1144,6 +1333,25 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-12-12"
+      },
+      "sun": {
+        "title": "Long run — 10 km easy",
+        "how": "Run 10 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 10,
+            "pace": "easy",
+            "label": "10 km easy",
+            "say": "10 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-12-13",
+        "fuel": true
       }
     }
   },
@@ -1268,32 +1476,31 @@ var WEEKS = [
         "date": "2026-12-16"
       },
       "thu": {
-        "title": "Long run — 11 km easy",
-        "how": "Run 11 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1800,
             "kind": "easy",
-            "km": 11.0,
             "pace": "easy",
-            "label": "11 km easy",
-            "say": "11 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2026-12-17",
-        "fuel": true
+        "date": "2026-12-17"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -1303,6 +1510,25 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-12-19"
+      },
+      "sun": {
+        "title": "Long run — 11 km easy",
+        "how": "Run 11 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 11,
+            "pace": "easy",
+            "label": "11 km easy",
+            "say": "11 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-12-20",
+        "fuel": true
       }
     }
   },
@@ -1441,32 +1667,31 @@ var WEEKS = [
         "date": "2026-12-23"
       },
       "thu": {
-        "title": "Long run — 12 km easy",
-        "how": "Run 12 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1800,
             "kind": "easy",
-            "km": 12.0,
             "pace": "easy",
-            "label": "12 km easy",
-            "say": "12 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2026-12-24",
-        "fuel": true
+        "date": "2026-12-24"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -1476,6 +1701,25 @@ var WEEKS = [
           "easy"
         ],
         "date": "2026-12-26"
+      },
+      "sun": {
+        "title": "Long run — 12 km easy",
+        "how": "Run 12 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 12,
+            "pace": "easy",
+            "label": "12 km easy",
+            "say": "12 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2026-12-27",
+        "fuel": true
       }
     }
   },
@@ -1509,31 +1753,31 @@ var WEEKS = [
         "date": "2026-12-30"
       },
       "thu": {
-        "title": "Long run — 9 km easy",
-        "how": "Run 9 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "25 min easy",
+        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1500,
             "kind": "easy",
-            "km": 9.0,
             "pace": "easy",
-            "label": "9 km easy",
-            "say": "9 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
         "date": "2026-12-31"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -1543,6 +1787,24 @@ var WEEKS = [
           "easy"
         ],
         "date": "2027-01-02"
+      },
+      "sun": {
+        "title": "Long run — 9 km easy",
+        "how": "Run 9 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 9,
+            "pace": "easy",
+            "label": "9 km easy",
+            "say": "9 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2027-01-03"
       }
     }
   },
@@ -1667,32 +1929,31 @@ var WEEKS = [
         "date": "2027-01-06"
       },
       "thu": {
-        "title": "Long run — 13 km easy",
-        "how": "Run 13 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1800,
             "kind": "easy",
-            "km": 13.0,
             "pace": "easy",
-            "label": "13 km easy",
-            "say": "13 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2027-01-07",
-        "fuel": true
+        "date": "2027-01-07"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -1702,6 +1963,25 @@ var WEEKS = [
           "easy"
         ],
         "date": "2027-01-09"
+      },
+      "sun": {
+        "title": "Long run — 13 km easy",
+        "how": "Run 13 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 13,
+            "pace": "easy",
+            "label": "13 km easy",
+            "say": "13 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2027-01-10",
+        "fuel": true
       }
     }
   },
@@ -1826,32 +2106,31 @@ var WEEKS = [
         "date": "2027-01-13"
       },
       "thu": {
-        "title": "Long run — 14 km easy",
-        "how": "Run 14 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1800,
             "kind": "easy",
-            "km": 14.0,
             "pace": "easy",
-            "label": "14 km easy",
-            "say": "14 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2027-01-14",
-        "fuel": true
+        "date": "2027-01-14"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -1861,6 +2140,25 @@ var WEEKS = [
           "easy"
         ],
         "date": "2027-01-16"
+      },
+      "sun": {
+        "title": "Long run — 14 km easy",
+        "how": "Run 14 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 14,
+            "pace": "easy",
+            "label": "14 km easy",
+            "say": "14 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2027-01-17",
+        "fuel": true
       }
     }
   },
@@ -1894,32 +2192,31 @@ var WEEKS = [
         "date": "2027-01-20"
       },
       "thu": {
-        "title": "Long run — 10 km easy",
-        "how": "Run 10 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "25 min easy",
+        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1500,
             "kind": "easy",
-            "km": 10.0,
             "pace": "easy",
-            "label": "10 km easy",
-            "say": "10 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2027-01-21",
-        "fuel": true
+        "date": "2027-01-21"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -1929,6 +2226,25 @@ var WEEKS = [
           "easy"
         ],
         "date": "2027-01-23"
+      },
+      "sun": {
+        "title": "Long run — 10 km easy",
+        "how": "Run 10 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 10,
+            "pace": "easy",
+            "label": "10 km easy",
+            "say": "10 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2027-01-24",
+        "fuel": true
       }
     }
   },
@@ -2039,33 +2355,31 @@ var WEEKS = [
         "date": "2027-01-27"
       },
       "thu": {
-        "title": "Long run — 15 km easy",
-        "how": "Run 15 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish. Stop at 2 hours 15 minutes if you reach that before the distance; do not speed up to reach the distance.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1800,
             "kind": "easy",
-            "km": 15.0,
             "pace": "easy",
-            "label": "15 km easy",
-            "say": "15 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2027-01-28",
-        "timeCap": 8100,
-        "fuel": true
+        "date": "2027-01-28"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -2075,6 +2389,26 @@ var WEEKS = [
           "easy"
         ],
         "date": "2027-01-30"
+      },
+      "sun": {
+        "title": "Long run — 15 km easy",
+        "how": "Run 15 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish. Stop at 2 hours 15 minutes if you reach that before the distance; do not speed up to reach the distance.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 15,
+            "pace": "easy",
+            "label": "15 km easy",
+            "say": "15 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2027-01-31",
+        "timeCap": 8100,
+        "fuel": true
       }
     }
   },
@@ -2199,33 +2533,31 @@ var WEEKS = [
         "date": "2027-02-03"
       },
       "thu": {
-        "title": "Long run — 16 km easy",
-        "how": "Run 16 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish. Stop at 2 hours 15 minutes if you reach that before the distance; do not speed up to reach the distance.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1800,
             "kind": "easy",
-            "km": 16.0,
             "pace": "easy",
-            "label": "16 km easy",
-            "say": "16 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2027-02-04",
-        "timeCap": 8100,
-        "fuel": true
+        "date": "2027-02-04"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -2235,6 +2567,26 @@ var WEEKS = [
           "easy"
         ],
         "date": "2027-02-06"
+      },
+      "sun": {
+        "title": "Long run — 16 km easy",
+        "how": "Run 16 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish. Stop at 2 hours 15 minutes if you reach that before the distance; do not speed up to reach the distance.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 16,
+            "pace": "easy",
+            "label": "16 km easy",
+            "say": "16 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2027-02-07",
+        "timeCap": 8100,
+        "fuel": true
       }
     }
   },
@@ -2268,32 +2620,31 @@ var WEEKS = [
         "date": "2027-02-10"
       },
       "thu": {
-        "title": "Long run — 12 km easy",
-        "how": "Run 12 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "25 min easy",
+        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1500,
             "kind": "easy",
-            "km": 12.0,
             "pace": "easy",
-            "label": "12 km easy",
-            "say": "12 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2027-02-11",
-        "fuel": true
+        "date": "2027-02-11"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -2303,6 +2654,25 @@ var WEEKS = [
           "easy"
         ],
         "date": "2027-02-13"
+      },
+      "sun": {
+        "title": "Long run — 12 km easy",
+        "how": "Run 12 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 12,
+            "pace": "easy",
+            "label": "12 km easy",
+            "say": "12 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2027-02-14",
+        "fuel": true
       }
     }
   },
@@ -2427,33 +2797,31 @@ var WEEKS = [
         "date": "2027-02-17"
       },
       "thu": {
-        "title": "Long run — 17 km easy",
-        "how": "Run 17 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish. Stop at 2 hours 15 minutes if you reach that before the distance; do not speed up to reach the distance.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1800,
             "kind": "easy",
-            "km": 17.0,
             "pace": "easy",
-            "label": "17 km easy",
-            "say": "17 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2027-02-18",
-        "timeCap": 8100,
-        "fuel": true
+        "date": "2027-02-18"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -2463,6 +2831,26 @@ var WEEKS = [
           "easy"
         ],
         "date": "2027-02-20"
+      },
+      "sun": {
+        "title": "Long run — 18 km easy",
+        "how": "Run 18 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish. Stop at 2 hours 15 minutes if you reach that before the distance; do not speed up to reach the distance.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 18,
+            "pace": "easy",
+            "label": "18 km easy",
+            "say": "18 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2027-02-21",
+        "timeCap": 8100,
+        "fuel": true
       }
     }
   },
@@ -2496,33 +2884,31 @@ var WEEKS = [
         "date": "2027-02-24"
       },
       "thu": {
-        "title": "Long run — 18 km easy",
-        "how": "Run 18 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish. Stop at 2 hours 15 minutes if you reach that before the distance; do not speed up to reach the distance.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1800,
             "kind": "easy",
-            "km": 18.0,
             "pace": "easy",
-            "label": "18 km easy",
-            "say": "18 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2027-02-25",
-        "timeCap": 8100,
-        "fuel": true
+        "date": "2027-02-25"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -2532,6 +2918,26 @@ var WEEKS = [
           "easy"
         ],
         "date": "2027-02-27"
+      },
+      "sun": {
+        "title": "Peak long run — 20 km easy",
+        "how": "Run 20 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish. Stop at 2 hours 35 minutes if you reach that before the distance; do not speed up to reach the distance.\nYour longest run, two weeks before race day. Wear the Evo SL and full race kit, and practise race-morning breakfast and gels exactly as planned for 14 March. Once this feels manageable, the taper and race-day adrenaline cover the last 1.1 km.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 20,
+            "pace": "easy",
+            "label": "20 km easy",
+            "say": "Peak long run. 20 kilometres at comfortable effort. Take your gels as rehearsed. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2027-02-28",
+        "timeCap": 9300,
+        "fuel": true
       }
     }
   },
@@ -2628,32 +3034,31 @@ var WEEKS = [
         "date": "2027-03-03"
       },
       "thu": {
-        "title": "Long run — 12 km easy",
-        "how": "Run 12 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
-        "type": "long",
+        "title": "20 min easy",
+        "how": "Run 20 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "type": "easy",
         "steps": [
           {
+            "label": "Easy run",
+            "sec": 1200,
             "kind": "easy",
-            "km": 12.0,
             "pace": "easy",
-            "label": "12 km easy",
-            "say": "12 kilometres at comfortable effort. Walking breaks are welcome."
+            "say": "Run easily for 20 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
-          "long"
+          "easy"
         ],
-        "date": "2027-03-04",
-        "fuel": true
+        "date": "2027-03-04"
       },
       "sat": {
         "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. If Thursday fatigue remains, walk or shorten/skip the run. A hard parkrun replaces the week’s faster session, so make Tuesday easy and reduce Thursday if needed. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
             "kind": "easy",
-            "km": 5.0,
+            "km": 5,
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
@@ -2663,6 +3068,25 @@ var WEEKS = [
           "easy"
         ],
         "date": "2027-03-06"
+      },
+      "sun": {
+        "title": "Long run — 12 km easy",
+        "how": "Run 12 km at conversational effort, about 2–4 out of 10. Start slower than you think necessary. Planned walking breaks are fine. Sunday long run. Distance is the complete session, including the gentle opening and finish.\nOnly progress if last week felt manageable and recovery is normal. Repeat or shorten a week when needed. Never make up missed kilometres.\n\nFuelling rehearsal if this run will last roughly 75–90 minutes or longer: practise familiar carbohydrate, starting around 30 g/hour and adjusting for tolerance. For example, a gel containing 20 g carbohydrate at 40 minutes and every 40 minutes thereafter. Check product labels and follow water instructions; count carbohydrate from drinks too. This is practice, not a reason to extend the run. Plan water access and adjust drinking to thirst, conditions and your experience; do not force fluids.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "type": "long",
+        "steps": [
+          {
+            "kind": "easy",
+            "km": 12,
+            "pace": "easy",
+            "label": "12 km easy",
+            "say": "12 kilometres at comfortable effort. Walking breaks are welcome."
+          }
+        ],
+        "learn": [
+          "long"
+        ],
+        "date": "2027-03-07",
+        "fuel": true
       }
     }
   },
@@ -2714,8 +3138,8 @@ var WEEKS = [
         "date": "2027-03-13"
       },
       "sun": {
-        "title": "RACE DAY — Half marathon 21.1 km",
-        "how": "Sunday 14 March 2027. Start comfortably; use your rehearsed run/walk strategy if helpful. Use familiar shoes, breakfast and fuelling. Race start time and location are not yet supplied; add them from the organiser. The calendar entry is not a race registration.\n\nHold back over the opening kilometres, using comfortable effort rather than following faster runners. Use only the food, drink and run/walk pattern rehearsed in training. Confirm the organiser’s aid-station locations, available supplies and cutoff beforehand.",
+        "title": "RACE DAY — Hamilton Half Marathon, 8:00am",
+        "how": "Sunday 14 March 2027. Start comfortably; use your rehearsed run/walk strategy if helpful. Use familiar shoes, breakfast and fuelling. Start 8:00am at Hamilton Gardens, Hamilton. Check the organiser’s website for registration, race-pack pickup and any changes. The calendar entry is not a race registration.\n\nHold back over the opening kilometres, using comfortable effort rather than following faster runners. Use only the food, drink and run/walk pattern rehearsed in training. Confirm the organiser’s aid-station locations, available supplies and cutoff beforehand.",
         "type": "race",
         "steps": [
           {
