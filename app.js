@@ -9,11 +9,19 @@
   function load(k, d) { try { var v = localStorage.getItem(k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } }
   function save(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) {} }
   var ticks = load("hc-ticks-2027-revised", {});
-  var t5k = load("hc-5k", 1800);
+  var t5k = load("hc-5k", 1756);
   var voiceURI = load("hc-voice", "");
   var offlineStatus = 'Checking offline download…';
   var paceFastText = load('hc-pace-fast', ''), paceSlowText = load('hc-pace-slow', '');
   function parsePace(text) { var match = /^(\d{1,2}):([0-5]\d)$/.exec(text.trim()); return match ? +match[1]*60 + +match[2] : null; }
+  var TARGET_PACES = ["tempo", "k10", "k5", "goal"];
+  function stepRange(s) {
+    if (!s || s.kind === "rec" || s.kind === "stride" || s.pace === "hill") return null;
+    var p = paces();
+    if (TARGET_PACES.indexOf(s.pace) >= 0) { var tol = s.pace === "goal" ? 8 : 10; return [p[s.pace] - tol, p[s.pace] + tol]; }
+    if (s.pace === "easy") { var own = paceRange(); return own || [p.easy - 45, 9999]; }
+    return paceRange();
+  }
   function paceRange() { var a=parsePace(paceFastText), b=parsePace(paceSlowText); return a>=180 && b>a && b<=1200 ? [a,b] : null; }
   function validatePace() { var el=document.getElementById('paceValidation'); if(el) el.textContent=paceFastText || paceSlowText ? (paceRange() ? 'Alerts enabled while the app is visible.' : 'Enter both limits as m:ss, with the slow edge greater than the fast edge (3:00–20:00). Alerts are off.') : 'Pace alerts off. Follow effort.'; }
 
@@ -81,7 +89,7 @@
       '<section class="bib" aria-label="Race bib"><span class="pin l"></span><span class="pin r"></span>' +
       '<div class="event">Hamilton Half Marathon<br>Sunday 14 March 2027 · 8:00am, Hamilton Gardens</div>' +
       '<div class="number">' + days + '<small>' + (days === 1 ? "day" : "days") + ' to go</small></div>' +
-      '<div class="runner"><b>Subash</b><span>Goal: finish comfortably</span></div>' +
+      '<div class="runner"><b>Subash</b><span>Goal: under 2:00:00</span></div>' +
       '<div class="tab">' + c.done + ' of ' + c.total + ' sessions done<div class="bar"><i style="width:' + (c.done / c.total * 100) + '%"></i></div></div></section>' +
       '<div style="display:flex;justify-content:space-between;align-items:end;gap:10px">' +
       '<h1>Week ' + (viewWeek + 1) + '</h1><div style="display:flex;gap:6px;margin-bottom:12px">' +
@@ -106,16 +114,30 @@
   }
 
   function renderLearn() {
-    var order = ["easy", "long", "warmup", "strides", "fartlek"];
+    var order = ["easy", "long", "warmup", "strides", "fartlek", "intervals", "tempo", "hills", "goal", "timetrial"];
     document.getElementById("v-learn").innerHTML = '<h1>Running words, explained</h1>' +
       '<p class="muted">The voice coach explains these at the start of each session too.</p>' +
       order.map(function (k) { return '<div class="card" id="learn-' + k + '"><h3>' + LEARN[k][0] + '</h3><p>' + LEARN[k][1] + '</p></div>'; }).join("");
+  }
+
+  function paceListHTML() {
+    var p = paces(), f = Math.pow(21.0975 / 5, 1.06), half = t5k * f, need = 7200 / f;
+    return '<dl class="paces"><dt>Easy</dt><dd>' + mmss(p.easy - 15) + '\u2013' + mmss(p.easy + 15) + ' /km</dd>' +
+      '<dt>Tempo</dt><dd>' + mmss(p.tempo) + ' /km</dd><dt>10K pace</dt><dd>' + mmss(p.k10) + ' /km</dd>' +
+      '<dt>5K pace</dt><dd>' + mmss(p.k5) + ' /km</dd><dt>Sub-2 race pace</dt><dd>5:41 /km</dd>' +
+      '<dt>Predicted half today</dt><dd>' + mmss(half) + '</dd></dl>' +
+      '<p style="margin-top:10px;font-weight:700">' + (half < 7200 ? "On track for sub-2." : "Sub-2 needs a 5K of about " + mmss(need) + ". You\u2019re " + mmss(t5k - need) + " away.") + '</p>';
   }
 
   function renderSetup() {
     var base = new URL('./', location.href), ics = new URL('plan.ics', base).href;
     document.getElementById('v-setup').innerHTML =
       '<h1>Setup for your run</h1>' +
+      '<div class="card"><h3>Your 5K time</h3><span class="muted">Latest parkrun or time trial</span>' +
+      '<div class="timeIn"><input id="t5kMin" class="t5k" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="2" aria-label="Minutes" value="' + Math.floor(t5k / 60) + '">' +
+      '<span class="colon">:</span><input id="t5kSec" class="t5k" type="text" inputmode="numeric" pattern="[0-9]*" maxlength="2" aria-label="Seconds" value="' + String(t5k % 60).padStart(2, "0") + '">' +
+      '<span class="muted">min : sec</span></div><div id="paceList">' + paceListHTML() + '</div>' +
+      '<p class="muted">Speed sessions coach you to these paces. Update after each time trial.</p></div>' +
       '<div class="card"><h3>Phone in your belt? Use Apple Workout.</h3><p>This website cannot send live metrics or workouts to Apple Watch. For a locked-phone run, your Ultra records pace, distance and heart rate in Apple Workout. Use its custom intervals and Voice Feedback for alerts.</p><p>Open a session’s <b>Apple Watch setup</b> for the exact steps. There is no automatic sync with this website.</p></div>' +
       '<div class="card"><h3>Offline app</h3><p id="offlineStatus" role="status">' + esc(offlineStatus) + '</p><p>Safari → Share → Add to Home Screen. Open it online until it says ready. Offline voices depend on the voices installed on your iPhone; test in airplane mode with Bluetooth left on.</p><button class="go" id="demo">One-minute equipment check</button></div>' +
       '<div class="card"><h3>Phone GPS · app must stay visible</h3><label class="check option"><input type="checkbox" id="gpsToggle"' + (gpsOn ? ' checked' : '') + '> Show phone pace and distance; announce kilometres</label><p class="muted">Measured phone GPS, not Watch data. If GPS drops, distance goals wait. With GPS off, use your Watch and manually confirm distance with Next.</p></div>' +
@@ -151,6 +173,16 @@
     if (t.id === "voice") { voiceURI = t.value; save("hc-voice", voiceURI); }
   });
   document.querySelector('main').addEventListener('input', function(e) {
+    if (e.target.id === 't5kMin' || e.target.id === 't5kSec') {
+      e.target.value = e.target.value.replace(/\D/g, '').slice(0, 2);
+      var m = parseInt(document.getElementById('t5kMin').value, 10), sec = parseInt(document.getElementById('t5kSec').value || '0', 10);
+      if (!isNaN(m) && m >= 12 && m <= 60 && !isNaN(sec) && sec <= 59) {
+        t5k = m * 60 + sec; save('hc-5k', t5k);
+        document.getElementById('paceList').innerHTML = paceListHTML(); renderWeek(); renderPlan();
+        if (e.target.id === 't5kMin' && e.target.value.length === 2) document.getElementById('t5kSec').focus();
+      }
+      return;
+    }
     if(e.target.id === 'paceFast') { paceFastText=e.target.value; save('hc-pace-fast', paceFastText); }
     if(e.target.id === 'paceSlow') { paceSlowText=e.target.value; save('hc-pace-slow', paceSlowText); }
     validatePace();
@@ -299,15 +331,17 @@
   }
 
   function coach(s, inT) {
-    var range=paceRange(), now=Date.now();
-    if(!range || !gpsGood() || R.paused || now-R.lastCheck<15000 || inT<45 || ['rec','stride'].includes(s.kind)) return;
+    var range=stepRange(s), now=Date.now();
+    if(!range || !gpsGood() || R.paused || now-R.lastCheck<15000 || inT<45 || ['rec','stride'].includes(s.kind) || (!s.km && s.sec<90)) return;
     R.lastCheck=now;
     var pace=curPace(); if(!pace) return;
     var state=pace<range[0] ? 'fast' : pace>range[1] ? 'slow' : 'ok';
     R.offN=state===R.off ? R.offN+1 : 1; R.off=state;
     if(state!=='ok' && R.offN>=2 && now-R.lastCue>60000) {
       R.lastCue=now; R.offN=0;
-      say('Current pace '+spokenPace(pace)+'. '+(state==='fast' ? 'Faster' : 'Slower')+' than your chosen range. Keep effort comfortable.');
+      var named=TARGET_PACES.indexOf(s.pace)>=0, tgt=R.p[s.pace];
+      if(named) say('You\u2019re at '+spokenPace(pace)+'. '+(state==='fast' ? 'A bit quick. Settle to ' : 'Pick it up a little. Aim for ')+spokenPace(tgt)+'.');
+      else say('You\u2019re at '+spokenPace(pace)+'. '+(state==='fast' ? 'This should be easy. Ease back.' : 'Slower than your chosen range.'));
     }
   }
 
@@ -353,8 +387,8 @@
     $("rLabel").textContent = s.label;
     $("rClock").textContent = leftKm !== null && leftKm !== undefined ? Math.max(0, leftKm).toFixed(2) : mmss(remain);
     var tp = R.p[s.pace];
-    $("rPace").textContent = (PACE_WORDS[s.pace] || "Comfortable effort") + (s.km ? (R.distanceMode === "manual" ? " · confirm distance on your Watch, then Next" : " · GPS km remaining") : " · time remaining");
-    var range=paceRange(), off=pace && range && s.kind!=="rec" && s.kind!=="stride" ? (pace<range[0] ? " fast" : pace>range[1] ? " slow" : " on") : "";
+    $("rPace").textContent = (TARGET_PACES.indexOf(s.pace) >= 0 ? "Target " + mmss(tp) + " /km · " : "") + (PACE_WORDS[s.pace] || "Comfortable effort") + (s.km ? (R.distanceMode === "manual" ? " · confirm distance on your Watch, then Next" : " · GPS km remaining") : " · time remaining");
+    var range=stepRange(s), off=pace && range && s.kind!=="rec" && s.kind!=="stride" ? (pace<range[0] ? " fast" : pace>range[1] ? " slow" : " on") : "";
     $("rNow").textContent = pace ? mmss(pace) : "\u2013"; $("rNow").className = "v" + off;
     $("rDist").textContent = R.gps && (R.gps.lastFix || dist>0) ? (dist / 1000).toFixed(2) : "\u2013";
     $("rElapsed").textContent = mmss(e);

@@ -47,11 +47,13 @@ test('calendar and plan agree across NZ daylight saving, with all 121 events',()
   assert.equal(WEEKS[23].runs.sat.steps,null);
   assert.equal(WEEKS[23].runs.sun.steps[0].km,21.1);
 });
-test('six strides include six recoveries and finish at exactly 45 minutes',()=>{
-  const run=WEEKS[7].runs.tue;
+test('six strides include six recoveries and finish at exactly 40 minutes',()=>{
+  const run=WEEKS[6].runs.tue;
   assert.equal(run.steps.filter(s=>s.kind==='stride').length,6);
   assert.equal(run.steps.filter(s=>s.kind==='rec').length,6);
-  assert.equal(run.steps.reduce((n,s)=>n+s.sec,0),2700);
+  assert.equal(run.steps.reduce((n,s)=>n+s.sec,0),2400);
+  const tempo=WEEKS[10].runs.tue.steps.find(s=>s.kind==='work');
+  assert.equal(tempo.pace,'tempo'); assert.equal(tempo.sec,1200);
   assert.equal(DEMO.steps.reduce((n,s)=>n+s.sec,0),60);
 });
 test('service worker precache files exist; activation preserves other sites caches',async()=>{
@@ -61,7 +63,7 @@ test('service worker precache files exist; activation preserves other sites cach
   const cache={addAll:async urls=>urls.forEach(url=>assert.ok(fs.existsSync(require('node:path').join(__dirname,'..',new URL(url).pathname.replace('/Half-Couch/','')||'index.html')))),match:async()=>undefined,put:async(...args)=>puts.push(args)};
   const context={URL,Response,Promise,encodeURIComponent,
     self:{registration:{scope},location:{origin:'https://example.github.io'},clients:{claim:async()=>{}},addEventListener:(name,fn)=>handlers[name]=fn},
-    caches:{open:async()=>cache,keys:async()=>['other-app',own+'v4',own+'v7','half-coach-v4'],delete:async key=>deleted.push(key)},
+    caches:{open:async()=>cache,keys:async()=>['other-app',own+'v4',own+'v8','half-coach-v4'],delete:async key=>deleted.push(key)},
     fetch:async()=>{throw Error('offline');}};
   vm.runInNewContext(fs.readFileSync(require('node:path').join(__dirname,'../sw.js'),'utf8'),context);
   let pending; handlers.install({waitUntil:p=>pending=p}); await pending;

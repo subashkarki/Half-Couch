@@ -1,6 +1,6 @@
 // Cache ownership is limited to this repository path.
 const PREFIX = 'half-coach-' + encodeURIComponent(new URL(self.registration.scope).pathname) + '-';
-const VERSION = PREFIX + 'v7';
+const VERSION = PREFIX + 'v8';
 const FILES = ["./", "index.html", "app.js", "run-core.js", "plan.js", "manifest.webmanifest", "plan.ics",
   "fonts/BigShoulders.ttf", "fonts/Atkinson-Regular.ttf", "fonts/Atkinson-Bold.ttf",
   "icons/icon-180.png", "icons/icon-192.png", "icons/icon-512.png"];
