@@ -140,6 +140,7 @@ dialog{max-width:600px;width:calc(100% - 24px);max-height:85dvh;overflow:auto;ba
 dialog::backdrop{background:#0009}dialog ol{padding-left:24px}dialog li{margin:8px 0}dialog a{color:var(--river)}
 #run{overflow-y:auto}#run .r-body{min-height:190px}#run .r-warn{font-size:.875rem}button:disabled{opacity:.5;cursor:default}
 @media (prefers-reduced-motion:reduce){.bar i{transition:none}}
+#updateBar{position:sticky;top:0;z-index:40;display:flex;align-items:center;justify-content:space-between;gap:12px;padding:calc(env(safe-area-inset-top,0px) + 10px) 16px 10px;background:var(--ink);color:var(--card);font-weight:700}#updateBar[hidden]{display:none}#updateBar button{border:0;border-radius:999px;padding:8px 14px;background:var(--crimson);color:#fff;font:inherit;font-weight:700}
 </style>
 </head>
 <body>
