@@ -97,7 +97,7 @@
       '<button class="ghost" data-wk="1" aria-label="Next week"' + (viewWeek === 23 ? " disabled" : "") + '>\u203a</button></div></div>' +
       '<p class="muted">' + esc(w.focus) + (viewWeek === curWeek ? (before ? ". Starts " + fmtDate(START) : ". This week") : "") +
       (w.nike ? ". Nike phase: these are Nike\u2019s own sessions, so you can also run them with the matching NRC guided run." : ".") + '</p>' +
-      '<p class="muted">Runs: Tuesday, Thursday (short and easy; optional in weeks 1–10), Saturday parkrun kept easy, and the long run on Sunday. Wednesday: gentle strength. Monday and Friday: rest.</p>' + weekSessions(viewWeek);
+      '<p class="muted">Runs: Tuesday speed, Thursday easy (optional in weeks 1–4, building to 60 min), Saturday parkrun kept easy, and the long run on Sunday. Wednesday: gentle strength. Monday and Friday: rest.</p>' + weekSessions(viewWeek);
   }
 
   function renderPlan() {
@@ -470,13 +470,26 @@
   renderAll();
   function offlineMessage(text) { offlineStatus=text; var el=$('offlineStatus'); if(el) el.textContent=text; }
   if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+    var reloading=false;
+    navigator.serviceWorker.addEventListener('controllerchange',function(){ if(reloading) location.reload(); });
     navigator.serviceWorker.register('sw.js').then(function(reg) {
+      var bar=document.createElement('div'); bar.id='updateBar'; bar.hidden=true; bar.setAttribute('role','status');
+      bar.innerHTML='<span>A new version of Half Coach is ready.</span><button id="applyUpdate">Update now</button>';
+      document.body.insertBefore(bar, document.body.firstChild);
+      bar.querySelector('button').addEventListener('click',function(){
+        if(R) { alert('Finish or end your run first, then tap Update now.'); return; }
+        if(!reg.waiting) { location.reload(); return; }
+        reloading=true; reg.waiting.postMessage({type:'SKIP_WAITING'});
+        setTimeout(function(){ location.reload(); }, 3000);
+      });
       function status() {
-        if(reg.waiting) offlineMessage('Update downloaded. Finish any run, then close all app tabs and reopen to apply it.');
+        bar.hidden=!reg.waiting;
+        if(reg.waiting) offlineMessage('Update downloaded. Tap Update now at the top of the screen (not during a run).');
         else if(reg.active) offlineMessage('App files saved for offline use. Test your selected voice separately.');
       }
       status(); navigator.serviceWorker.ready.then(status);
       reg.addEventListener('updatefound',function(){ var worker=reg.installing; if(worker) worker.addEventListener('statechange',status); });
+      document.addEventListener('visibilitychange',function(){ if(document.visibilityState==='visible' && !R) reg.update().catch(function(){}); });
     }).catch(function(){ offlineMessage('Offline download failed. Reconnect and reload before going offline.'); });
   } else offlineMessage('Offline installation requires HTTPS or localhost. Upload all files to GitHub Pages first.');
   $('closeWatch').addEventListener('click',function(){ $('watchDialog').close(); });

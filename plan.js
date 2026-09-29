@@ -1,4 +1,4 @@
-/* Agreed 24-week plan, revised 28 September 2026 (long run moved to Sunday, 20 km peak). Original adaptation informed by
+/* Agreed 24-week plan, revised 28 September 2026 (long run moved to Sunday, 20 km peak, easy volume lifted towards a ~40 km peak week). Original adaptation informed by
 Nike, Hamilton and ASICS; not a reproduction of Nike's official schedule.
 Distances are real GPS goals or manually confirmed goals, never timed substitutes. */
 var PLAN_START = [2026, 8, 28];
@@ -10,7 +10,7 @@ var WEEKS = [
     "runs": {
       "mon": {
         "title": "Half-marathon plan starts — rest / gentle mobility",
-        "how": "Week 1 of 24. First run Tuesday. Race Sunday 14 March 2027. Runs: Tuesday, an optional short easy run on Thursday, Saturday parkrun (easy), and the long run on Sunday. Wednesday is strength. Monday is a recovery day. All entries are all-day placeholders; choose your own start times. Saturday parkrun remains a morning session.",
+        "how": "Week 1 of 24. First run Tuesday. Race Sunday 14 March 2027. Runs: Tuesday, a short easy run on Thursday (optional for the first 4 weeks), Saturday parkrun (easy), and the long run on Sunday. Wednesday is strength. Monday is a recovery day. All entries are all-day placeholders; choose your own start times. Saturday parkrun remains a morning session.",
         "type": "note",
         "steps": null,
         "learn": [],
@@ -44,7 +44,7 @@ var WEEKS = [
       },
       "thu": {
         "title": "25 min easy",
-        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–4 while your body adjusts: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 5 it’s a regular run.",
         "type": "easy",
         "opt": true,
         "steps": [
@@ -186,7 +186,7 @@ var WEEKS = [
       },
       "thu": {
         "title": "25 min easy",
-        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–4 while your body adjusts: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 5 it’s a regular run.",
         "type": "easy",
         "opt": true,
         "steps": [
@@ -344,17 +344,17 @@ var WEEKS = [
         "date": "2026-10-14"
       },
       "thu": {
-        "title": "25 min easy",
-        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–4 while your body adjusts: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 5 it’s a regular run.",
         "type": "easy",
         "opt": true,
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1500,
+            "sec": 1800,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -431,7 +431,7 @@ var WEEKS = [
       },
       "thu": {
         "title": "20 min easy",
-        "how": "Run 20 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "how": "Run 20 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–4 while your body adjusts: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 5 it’s a regular run.",
         "type": "easy",
         "opt": true,
         "steps": [
@@ -589,17 +589,16 @@ var WEEKS = [
         "date": "2026-10-28"
       },
       "thu": {
-        "title": "25 min easy",
-        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
-        "opt": true,
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1500,
+            "sec": 1800,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -700,17 +699,16 @@ var WEEKS = [
         "date": "2026-11-04"
       },
       "thu": {
-        "title": "25 min easy",
-        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "title": "35 min easy",
+        "how": "Run 35 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
-        "opt": true,
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1500,
+            "sec": 2100,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 35 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -871,17 +869,16 @@ var WEEKS = [
         "date": "2026-11-11"
       },
       "thu": {
-        "title": "20 min easy",
-        "how": "Run 20 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nLighter week, so this is shorter. Keep it genuinely easy.",
         "type": "easy",
-        "opt": true,
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1200,
+            "sec": 1800,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 20 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -1054,17 +1051,16 @@ var WEEKS = [
         "date": "2026-11-18"
       },
       "thu": {
-        "title": "25 min easy",
-        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "title": "35 min easy",
+        "how": "Run 35 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
-        "opt": true,
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1500,
+            "sec": 2100,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 35 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -1202,17 +1198,16 @@ var WEEKS = [
         "date": "2026-11-25"
       },
       "thu": {
-        "title": "25 min easy",
-        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "title": "40 min easy",
+        "how": "Run 40 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
-        "opt": true,
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1500,
+            "sec": 2400,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 40 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -1221,8 +1216,8 @@ var WEEKS = [
         "date": "2026-11-26"
       },
       "sat": {
-        "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.",
+        "title": "Saturday morning parkrun — 5 km easy + 2 km cool-down",
+        "how": "Run or run/walk 5 km at conversational effort, then jog 2 km easy afterwards (or to and from parkrun). The extra easy kilometres build endurance without adding another training day. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.",
         "type": "park",
         "steps": [
           {
@@ -1231,6 +1226,13 @@ var WEEKS = [
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
+          },
+          {
+            "kind": "cd",
+            "km": 2,
+            "pace": "easy",
+            "label": "2 km easy cool-down",
+            "say": "Parkrun done. Now 2 easy kilometres to cool down. Slow and relaxed."
           }
         ],
         "learn": [
@@ -1373,17 +1375,16 @@ var WEEKS = [
         "date": "2026-12-02"
       },
       "thu": {
-        "title": "20 min easy",
-        "how": "Run 20 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: do it if Tuesday felt fine and your legs are fresh, otherwise rest. From week 11 it becomes a regular part of the week.",
+        "title": "30 min easy",
+        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nLighter week, so this is shorter. Keep it genuinely easy.",
         "type": "easy",
-        "opt": true,
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1200,
+            "sec": 1800,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 20 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -1434,7 +1435,7 @@ var WEEKS = [
     "runs": {
       "mon": {
         "title": "Training review — before the 14-week build",
-        "how": "Review completed runs, calf comfort, fatigue and recovery. If weeks 1–10 felt comfortable, Thursday’s short easy run now becomes a regular part of the week (four runs: Tuesday, Thursday, Saturday parkrun, Sunday long run). If you’re not recovering well, keep Thursday optional and repeat foundation weeks before building towards the 20 km peak.",
+        "how": "Review completed runs, calf comfort, fatigue and recovery. From here Thursday’s easy run gets longer (up to 60 minutes by February) and some parkruns get an easy cool-down jog. If you’re not recovering well, keep Thursday at 40 minutes and repeat a week before building towards the 20 km peak.",
         "type": "note",
         "steps": null,
         "learn": [],
@@ -1480,16 +1481,16 @@ var WEEKS = [
         "date": "2026-12-09"
       },
       "thu": {
-        "title": "30 min easy",
-        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "40 min easy",
+        "how": "Run 40 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1800,
+            "sec": 2400,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 40 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -1498,8 +1499,8 @@ var WEEKS = [
         "date": "2026-12-10"
       },
       "sat": {
-        "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "title": "Saturday morning parkrun — 5 km easy + 2 km cool-down",
+        "how": "Run or run/walk 5 km at conversational effort, then jog 2 km easy afterwards (or to and from parkrun). The extra easy kilometres build endurance without adding another training day. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
@@ -1508,6 +1509,13 @@ var WEEKS = [
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
+          },
+          {
+            "kind": "cd",
+            "km": 2,
+            "pace": "easy",
+            "label": "2 km easy cool-down",
+            "say": "Parkrun done. Now 2 easy kilometres to cool down. Slow and relaxed."
           }
         ],
         "learn": [
@@ -1663,16 +1671,16 @@ var WEEKS = [
         "date": "2026-12-16"
       },
       "thu": {
-        "title": "30 min easy",
-        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "45 min easy",
+        "how": "Run 45 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1800,
+            "sec": 2700,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 45 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -1681,8 +1689,8 @@ var WEEKS = [
         "date": "2026-12-17"
       },
       "sat": {
-        "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "title": "Saturday morning parkrun — 5 km easy + 2 km cool-down",
+        "how": "Run or run/walk 5 km at conversational effort, then jog 2 km easy afterwards (or to and from parkrun). The extra easy kilometres build endurance without adding another training day. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
@@ -1691,6 +1699,13 @@ var WEEKS = [
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
+          },
+          {
+            "kind": "cd",
+            "km": 2,
+            "pace": "easy",
+            "label": "2 km easy cool-down",
+            "say": "Parkrun done. Now 2 easy kilometres to cool down. Slow and relaxed."
           }
         ],
         "learn": [
@@ -1846,16 +1861,16 @@ var WEEKS = [
         "date": "2026-12-23"
       },
       "thu": {
-        "title": "30 min easy",
-        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "45 min easy",
+        "how": "Run 45 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1800,
+            "sec": 2700,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 45 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -1864,8 +1879,8 @@ var WEEKS = [
         "date": "2026-12-24"
       },
       "sat": {
-        "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "title": "Saturday morning parkrun — 5 km easy + 2 km cool-down",
+        "how": "Run or run/walk 5 km at conversational effort, then jog 2 km easy afterwards (or to and from parkrun). The extra easy kilometres build endurance without adding another training day. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
@@ -1874,6 +1889,13 @@ var WEEKS = [
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
+          },
+          {
+            "kind": "cd",
+            "km": 2,
+            "pace": "easy",
+            "label": "2 km easy cool-down",
+            "say": "Parkrun done. Now 2 easy kilometres to cool down. Slow and relaxed."
           }
         ],
         "learn": [
@@ -2016,16 +2038,16 @@ var WEEKS = [
         "date": "2026-12-30"
       },
       "thu": {
-        "title": "25 min easy",
-        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "35 min easy",
+        "how": "Run 35 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nLighter week, so this is shorter. Keep it genuinely easy.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1500,
+            "sec": 2100,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 35 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -2138,16 +2160,16 @@ var WEEKS = [
         "date": "2027-01-06"
       },
       "thu": {
-        "title": "30 min easy",
-        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "50 min easy",
+        "how": "Run 50 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1800,
+            "sec": 3000,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 50 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -2156,8 +2178,8 @@ var WEEKS = [
         "date": "2027-01-07"
       },
       "sat": {
-        "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "title": "Saturday morning parkrun — 5 km easy + 3 km cool-down",
+        "how": "Run or run/walk 5 km at conversational effort, then jog 3 km easy afterwards (or to and from parkrun). The extra easy kilometres build endurance without adding another training day. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
@@ -2166,6 +2188,13 @@ var WEEKS = [
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
+          },
+          {
+            "kind": "cd",
+            "km": 3,
+            "pace": "easy",
+            "label": "3 km easy cool-down",
+            "say": "Parkrun done. Now 3 easy kilometres to cool down. Slow and relaxed."
           }
         ],
         "learn": [
@@ -2237,16 +2266,16 @@ var WEEKS = [
         "date": "2027-01-13"
       },
       "thu": {
-        "title": "30 min easy",
-        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "50 min easy",
+        "how": "Run 50 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1800,
+            "sec": 3000,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 50 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -2255,8 +2284,8 @@ var WEEKS = [
         "date": "2027-01-14"
       },
       "sat": {
-        "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "title": "Saturday morning parkrun — 5 km easy + 3 km cool-down",
+        "how": "Run or run/walk 5 km at conversational effort, then jog 3 km easy afterwards (or to and from parkrun). The extra easy kilometres build endurance without adding another training day. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
@@ -2265,6 +2294,13 @@ var WEEKS = [
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
+          },
+          {
+            "kind": "cd",
+            "km": 3,
+            "pace": "easy",
+            "label": "3 km easy cool-down",
+            "say": "Parkrun done. Now 3 easy kilometres to cool down. Slow and relaxed."
           }
         ],
         "learn": [
@@ -2415,16 +2451,16 @@ var WEEKS = [
         "date": "2027-01-20"
       },
       "thu": {
-        "title": "25 min easy",
-        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "40 min easy",
+        "how": "Run 40 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nLighter week, so this is shorter. Keep it genuinely easy.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1500,
+            "sec": 2400,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 40 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -2574,16 +2610,16 @@ var WEEKS = [
         "date": "2027-01-27"
       },
       "thu": {
-        "title": "30 min easy",
-        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "55 min easy",
+        "how": "Run 55 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1800,
+            "sec": 3300,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 55 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -2592,8 +2628,8 @@ var WEEKS = [
         "date": "2027-01-28"
       },
       "sat": {
-        "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "title": "Saturday morning parkrun — 5 km easy + 3 km cool-down",
+        "how": "Run or run/walk 5 km at conversational effort, then jog 3 km easy afterwards (or to and from parkrun). The extra easy kilometres build endurance without adding another training day. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
@@ -2602,6 +2638,13 @@ var WEEKS = [
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
+          },
+          {
+            "kind": "cd",
+            "km": 3,
+            "pace": "easy",
+            "label": "3 km easy cool-down",
+            "say": "Parkrun done. Now 3 easy kilometres to cool down. Slow and relaxed."
           }
         ],
         "learn": [
@@ -2686,16 +2729,16 @@ var WEEKS = [
         "date": "2027-02-03"
       },
       "thu": {
-        "title": "30 min easy",
-        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "60 min easy",
+        "how": "Run 60 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1800,
+            "sec": 3600,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 60 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -2704,8 +2747,8 @@ var WEEKS = [
         "date": "2027-02-04"
       },
       "sat": {
-        "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "title": "Saturday morning parkrun — 5 km easy + 3 km cool-down",
+        "how": "Run or run/walk 5 km at conversational effort, then jog 3 km easy afterwards (or to and from parkrun). The extra easy kilometres build endurance without adding another training day. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
@@ -2714,6 +2757,13 @@ var WEEKS = [
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
+          },
+          {
+            "kind": "cd",
+            "km": 3,
+            "pace": "easy",
+            "label": "3 km easy cool-down",
+            "say": "Parkrun done. Now 3 easy kilometres to cool down. Slow and relaxed."
           }
         ],
         "learn": [
@@ -2865,16 +2915,16 @@ var WEEKS = [
         "date": "2027-02-10"
       },
       "thu": {
-        "title": "25 min easy",
-        "how": "Run 25 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "45 min easy",
+        "how": "Run 45 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nLighter week, so this is shorter. Keep it genuinely easy.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1500,
+            "sec": 2700,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 25 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 45 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -2988,16 +3038,16 @@ var WEEKS = [
         "date": "2027-02-17"
       },
       "thu": {
-        "title": "30 min easy",
-        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "60 min easy",
+        "how": "Run 60 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1800,
+            "sec": 3600,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 60 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -3006,8 +3056,8 @@ var WEEKS = [
         "date": "2027-02-18"
       },
       "sat": {
-        "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "title": "Saturday morning parkrun — 5 km easy + 3 km cool-down",
+        "how": "Run or run/walk 5 km at conversational effort, then jog 3 km easy afterwards (or to and from parkrun). The extra easy kilometres build endurance without adding another training day. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
@@ -3016,6 +3066,13 @@ var WEEKS = [
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
+          },
+          {
+            "kind": "cd",
+            "km": 3,
+            "pace": "easy",
+            "label": "3 km easy cool-down",
+            "say": "Parkrun done. Now 3 easy kilometres to cool down. Slow and relaxed."
           }
         ],
         "learn": [
@@ -3132,16 +3189,16 @@ var WEEKS = [
         "date": "2027-02-24"
       },
       "thu": {
-        "title": "30 min easy",
-        "how": "Run 30 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "50 min easy",
+        "how": "Run 50 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nThis is where most of your extra weekly kilometres come from, which is one of the best ways to get faster over a half marathon. Keep it slow: if you can’t talk in full sentences, slow down. If your legs are tired, cut it short.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1800,
+            "sec": 3000,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 30 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 50 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -3150,8 +3207,8 @@ var WEEKS = [
         "date": "2027-02-25"
       },
       "sat": {
-        "title": "Saturday morning parkrun — 5 km easy",
-        "how": "Run or run/walk 5 km at conversational effort. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
+        "title": "Saturday morning parkrun — 5 km easy + 2 km cool-down",
+        "how": "Run or run/walk 5 km at conversational effort, then jog 2 km easy afterwards (or to and from parkrun). The extra easy kilometres build endurance without adding another training day. Keep it easy; this is part of the weekly plan. Your long run is tomorrow, so keep this truly easy. If your legs feel heavy, walk or skip it. Don’t race parkrun this block; if you ever do, make Tuesday easy and shorten Sunday. Check the local event start time and holiday availability.\n\nSummer preparation: choose an earlier/cooler time where practical, plan water access, and use comfortable effort rather than chasing pace in the heat. Check UV and use sun protection, including on cloudy days. Broad-spectrum water-resistant SPF30+ sunscreen, a hat and suitable clothing help; reapply as directed.",
         "type": "park",
         "steps": [
           {
@@ -3160,6 +3217,13 @@ var WEEKS = [
             "pace": "easy",
             "label": "5 km easy",
             "say": "5 kilometres at comfortable effort. Walking breaks are welcome."
+          },
+          {
+            "kind": "cd",
+            "km": 2,
+            "pace": "easy",
+            "label": "2 km easy cool-down",
+            "say": "Parkrun done. Now 2 easy kilometres to cool down. Slow and relaxed."
           }
         ],
         "learn": [
@@ -3256,16 +3320,16 @@ var WEEKS = [
         "date": "2027-03-03"
       },
       "thu": {
-        "title": "20 min easy",
-        "how": "Run 20 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nKeep this genuinely easy so Saturday parkrun and Sunday’s long run feel good. If your legs are tired, cut it to 15 minutes or rest.",
+        "title": "35 min easy — taper",
+        "how": "Run 35 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nTaper: short and relaxed. Stop there.",
         "type": "easy",
         "steps": [
           {
             "label": "Easy run",
-            "sec": 1200,
+            "sec": 2100,
             "kind": "easy",
             "pace": "easy",
-            "say": "Run easily for 20 minutes. Keep your breathing comfortable. Walking breaks are welcome."
+            "say": "Run easily for 35 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [
@@ -3371,8 +3435,8 @@ var WEEKS = [
         "date": "2027-03-09"
       },
       "thu": {
-        "title": "15–20 min easy — taper",
-        "how": "Very easy running for 15–20 minutes, then stop. No fitness testing or missed-workout catch-up.",
+        "title": "20 min easy — taper",
+        "how": "Run 20 minutes at conversational effort, about 2–4 out of 10. Walking breaks are welcome. No pace target.\nTaper: short and relaxed. Stop there.",
         "type": "easy",
         "steps": [
           {
@@ -3380,7 +3444,7 @@ var WEEKS = [
             "sec": 1200,
             "kind": "easy",
             "pace": "easy",
-            "say": "Twenty minutes very easy. This is your short taper run. Finish feeling fresh."
+            "say": "Run easily for 20 minutes. Keep your breathing comfortable. Walking breaks are welcome."
           }
         ],
         "learn": [

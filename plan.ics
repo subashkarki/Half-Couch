@@ -6,21 +6,21 @@ X-WR-CALNAME:Half marathon — 14 March 2027
 BEGIN:VEVENT
 UID:hm20270314-20260928@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:Half-marathon plan starts — rest / gentle mobility
 DESCRIPTION:Week 1 of 24. First run Tuesday. Race Sunday 14 March 2027. Run
- s: Tuesday\, an optional short easy run on Thursday\, Saturday parkrun (ea
- sy)\, and the long run on Sunday. Wednesday is strength. Monday is a recov
- ery day. All entries are all-day placeholders; choose your own start times
- . Saturday parkrun remains a morning session.
+ s: Tuesday\, a short easy run on Thursday (optional for the first 4 weeks)
+ \, Saturday parkrun (easy)\, and the long run on Sunday. Wednesday is stre
+ ngth. Monday is a recovery day. All entries are all-day placeholders; choo
+ se your own start times. Saturday parkrun remains a morning session.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20260929@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
 SUMMARY:W01: 25 min easy
@@ -33,7 +33,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20260930@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20260930
 DTEND;VALUE=DATE:20261001
 SUMMARY:W01: 20–25 minutes gentle strength
@@ -49,20 +49,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261001@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
 SUMMARY:W01: 25 min easy (optional)
 DESCRIPTION:Run 25 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: d
- o it if Tuesday felt fine and your legs are fresh\, otherwise rest. From w
- eek 11 it becomes a regular part of the week.
+ . Walking breaks are welcome. No pace target.\nOptional in weeks 1–4 whi
+ le your body adjusts: do it if Tuesday felt fine and your legs are fresh\,
+  otherwise rest. From week 5 it’s a regular run.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261003@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261003
 DTEND;VALUE=DATE:20261004
 SUMMARY:W01: Saturday morning parkrun — 5 km easy
@@ -76,7 +76,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261004@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261004
 DTEND;VALUE=DATE:20261005
 SUMMARY:W01: Long run — 6 km easy
@@ -91,7 +91,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261006@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261006
 DTEND;VALUE=DATE:20261007
 SUMMARY:W02: 30 min easy + 4 × 20 sec strides
@@ -104,7 +104,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261007@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261007
 DTEND;VALUE=DATE:20261008
 SUMMARY:W02: 20–25 minutes gentle strength
@@ -120,20 +120,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261008@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261008
 DTEND;VALUE=DATE:20261009
 SUMMARY:W02: 25 min easy (optional)
 DESCRIPTION:Run 25 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: d
- o it if Tuesday felt fine and your legs are fresh\, otherwise rest. From w
- eek 11 it becomes a regular part of the week.
+ . Walking breaks are welcome. No pace target.\nOptional in weeks 1–4 whi
+ le your body adjusts: do it if Tuesday felt fine and your legs are fresh\,
+  otherwise rest. From week 5 it’s a regular run.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261010@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261010
 DTEND;VALUE=DATE:20261011
 SUMMARY:W02: Saturday morning parkrun — 5 km easy
@@ -147,7 +147,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261011@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261011
 DTEND;VALUE=DATE:20261012
 SUMMARY:W02: Long run — 7 km easy
@@ -162,7 +162,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261013@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
 SUMMARY:W03: Fartlek: 6 × (1 min hard\, 2 min easy)
@@ -175,7 +175,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261014@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 SUMMARY:W03: 20–25 minutes gentle strength
@@ -191,20 +191,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261015@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
-SUMMARY:W03: 25 min easy (optional)
-DESCRIPTION:Run 25 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: d
- o it if Tuesday felt fine and your legs are fresh\, otherwise rest. From w
- eek 11 it becomes a regular part of the week.
+SUMMARY:W03: 30 min easy (optional)
+DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nOptional in weeks 1–4 whi
+ le your body adjusts: do it if Tuesday felt fine and your legs are fresh\,
+  otherwise rest. From week 5 it’s a regular run.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261017@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261017
 DTEND;VALUE=DATE:20261018
 SUMMARY:W03: Saturday morning parkrun — 5 km easy
@@ -218,7 +218,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261018@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261018
 DTEND;VALUE=DATE:20261019
 SUMMARY:W03: Long run — 8 km easy
@@ -233,7 +233,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261020@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261020
 DTEND;VALUE=DATE:20261021
 SUMMARY:W04: 25 min easy
@@ -246,7 +246,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261021@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261021
 DTEND;VALUE=DATE:20261022
 SUMMARY:W04: 20–25 minutes gentle strength
@@ -262,20 +262,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261022@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:W04: 20 min easy (optional)
 DESCRIPTION:Run 20 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: d
- o it if Tuesday felt fine and your legs are fresh\, otherwise rest. From w
- eek 11 it becomes a regular part of the week.
+ . Walking breaks are welcome. No pace target.\nOptional in weeks 1–4 whi
+ le your body adjusts: do it if Tuesday felt fine and your legs are fresh\,
+  otherwise rest. From week 5 it’s a regular run.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261024@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261024
 DTEND;VALUE=DATE:20261025
 SUMMARY:W04: Saturday morning parkrun — 5 km easy
@@ -289,7 +289,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261025@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261025
 DTEND;VALUE=DATE:20261026
 SUMMARY:W04: Long run — 6 km easy
@@ -304,7 +304,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261027@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261027
 DTEND;VALUE=DATE:20261028
 SUMMARY:W05: Intervals: 6 × 2 min at 5K pace
@@ -317,7 +317,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261028@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261028
 DTEND;VALUE=DATE:20261029
 SUMMARY:W05: 20–25 minutes gentle strength
@@ -333,20 +333,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261029@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261029
 DTEND;VALUE=DATE:20261030
-SUMMARY:W05: 25 min easy (optional)
-DESCRIPTION:Run 25 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: d
- o it if Tuesday felt fine and your legs are fresh\, otherwise rest. From w
- eek 11 it becomes a regular part of the week.
+SUMMARY:W05: 30 min easy
+DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261031@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261031
 DTEND;VALUE=DATE:20261101
 SUMMARY:W05: Saturday morning parkrun — 5 km easy
@@ -360,7 +361,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261101@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261101
 DTEND;VALUE=DATE:20261102
 SUMMARY:W05: Long run — 9 km easy
@@ -375,7 +376,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261103@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:W06: Tempo: 2 × 8 min
@@ -388,7 +389,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261104@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:W06: 20–25 minutes gentle strength
@@ -404,20 +405,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261105@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261105
 DTEND;VALUE=DATE:20261106
-SUMMARY:W06: 25 min easy (optional)
-DESCRIPTION:Run 25 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: d
- o it if Tuesday felt fine and your legs are fresh\, otherwise rest. From w
- eek 11 it becomes a regular part of the week.
+SUMMARY:W06: 35 min easy
+DESCRIPTION:Run 35 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261107@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:W06: Saturday morning parkrun — 5 km easy
@@ -431,7 +433,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261108@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261108
 DTEND;VALUE=DATE:20261109
 SUMMARY:W06: Long run — 10 km easy
@@ -452,7 +454,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261110@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:W07: 30 min easy + 6 × 20 sec strides
@@ -465,7 +467,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261111@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:W07: 20–25 minutes gentle strength
@@ -481,20 +483,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261112@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
-SUMMARY:W07: 20 min easy (optional)
-DESCRIPTION:Run 20 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: d
- o it if Tuesday felt fine and your legs are fresh\, otherwise rest. From w
- eek 11 it becomes a regular part of the week.
+SUMMARY:W07: 30 min easy
+DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nLighter week\, so this is s
+ horter. Keep it genuinely easy.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261114@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:W07: parkrun time trial — race it
@@ -508,7 +509,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261115@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
 SUMMARY:W07: Long run — 8 km easy
@@ -523,7 +524,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261117@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261117
 DTEND;VALUE=DATE:20261118
 SUMMARY:W08: Hills: 8 × 45 sec
@@ -537,7 +538,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261118@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:W08: 20–25 minutes gentle strength
@@ -553,20 +554,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261119@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-SUMMARY:W08: 25 min easy (optional)
-DESCRIPTION:Run 25 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: d
- o it if Tuesday felt fine and your legs are fresh\, otherwise rest. From w
- eek 11 it becomes a regular part of the week.
+SUMMARY:W08: 35 min easy
+DESCRIPTION:Run 35 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261121@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261121
 DTEND;VALUE=DATE:20261122
 SUMMARY:W08: Saturday morning parkrun — 5 km easy
@@ -580,7 +582,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261122@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261122
 DTEND;VALUE=DATE:20261123
 SUMMARY:W08: Long run — 10 km easy
@@ -601,7 +603,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261124@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:W09: Intervals: 5 × 3 min at 10K pace
@@ -613,7 +615,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261125@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261125
 DTEND;VALUE=DATE:20261126
 SUMMARY:W09: 20–25 minutes gentle strength
@@ -629,34 +631,37 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261126@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
-SUMMARY:W09: 25 min easy (optional)
-DESCRIPTION:Run 25 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: d
- o it if Tuesday felt fine and your legs are fresh\, otherwise rest. From w
- eek 11 it becomes a regular part of the week.
+SUMMARY:W09: 40 min easy
+DESCRIPTION:Run 40 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261128@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261128
 DTEND;VALUE=DATE:20261129
-SUMMARY:W09: Saturday morning parkrun — 5 km easy
-DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy; th
- is is part of the weekly plan. Your long run is tomorrow\, so keep this tr
- uly easy. If your legs feel heavy\, walk or skip it. Don’t race parkrun 
- this block; if you ever do\, make Tuesday easy and shorten Sunday. Check t
- he local event start time and holiday availability.
+SUMMARY:W09: Saturday morning parkrun — 5 km easy + 2 km cool-down
+DESCRIPTION:Run or run/walk 5 km at conversational effort\, then jog 2 km e
+ asy afterwards (or to and from parkrun). The extra easy kilometres build e
+ ndurance without adding another training day. Keep it easy; this is part o
+ f the weekly plan. Your long run is tomorrow\, so keep this truly easy. If
+  your legs feel heavy\, walk or skip it. Don’t race parkrun this block; 
+ if you ever do\, make Tuesday easy and shorten Sunday. Check the local eve
+ nt start time and holiday availability.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261129@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:W09: Long run — 11 km easy
@@ -677,7 +682,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261201@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
 SUMMARY:W10: 30 min easy + 6 × 20 sec strides
@@ -689,7 +694,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261202@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261202
 DTEND;VALUE=DATE:20261203
 SUMMARY:W10: 20–25 minutes gentle strength
@@ -705,20 +710,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261203@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261203
 DTEND;VALUE=DATE:20261204
-SUMMARY:W10: 20 min easy (optional)
-DESCRIPTION:Run 20 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nOptional in weeks 1–10: d
- o it if Tuesday felt fine and your legs are fresh\, otherwise rest. From w
- eek 11 it becomes a regular part of the week.
+SUMMARY:W10: 30 min easy
+DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nLighter week\, so this is s
+ horter. Keep it genuinely easy.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261205@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261205
 DTEND;VALUE=DATE:20261206
 SUMMARY:W10: Saturday morning parkrun — 5 km easy
@@ -737,7 +741,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261206@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261206
 DTEND;VALUE=DATE:20261207
 SUMMARY:W10: Long run — 8 km easy
@@ -756,21 +760,21 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261207@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261207
 DTEND;VALUE=DATE:20261208
 SUMMARY:Training review — before the 14-week build
-DESCRIPTION:Review completed runs\, calf comfort\, fatigue and recovery. If
-  weeks 1–10 felt comfortable\, Thursday’s short easy run now becomes a
-  regular part of the week (four runs: Tuesday\, Thursday\, Saturday parkru
- n\, Sunday long run). If you’re not recovering well\, keep Thursday opti
- onal and repeat foundation weeks before building towards the 20 km peak.
+DESCRIPTION:Review completed runs\, calf comfort\, fatigue and recovery. Fr
+ om here Thursday’s easy run gets longer (up to 60 minutes by February) a
+ nd some parkruns get an easy cool-down jog. If you’re not recovering wel
+ l\, keep Thursday at 40 minutes and repeat a week before building towards 
+ the 20 km peak.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261208@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261208
 DTEND;VALUE=DATE:20261209
 SUMMARY:W11: Tempo: 20 min continuous
@@ -782,7 +786,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261209@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261209
 DTEND;VALUE=DATE:20261210
 SUMMARY:W11: 20–25 minutes gentle strength
@@ -798,39 +802,41 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261210@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261210
 DTEND;VALUE=DATE:20261211
-SUMMARY:W11: 30 min easy
-DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W11: 40 min easy
+DESCRIPTION:Run 40 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261212@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261212
 DTEND;VALUE=DATE:20261213
-SUMMARY:W11: Saturday morning parkrun — 5 km easy
-DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy; th
- is is part of the weekly plan. Your long run is tomorrow\, so keep this tr
- uly easy. If your legs feel heavy\, walk or skip it. Don’t race parkrun 
- this block; if you ever do\, make Tuesday easy and shorten Sunday. Check t
- he local event start time and holiday availability.\n\nSummer preparation:
-  choose an earlier/cooler time where practical\, plan water access\, and u
- se comfortable effort rather than chasing pace in the heat. Check UV and u
- se sun protection\, including on cloudy days. Broad-spectrum water-resista
- nt SPF30+ sunscreen\, a hat and suitable clothing help; reapply as directe
- d.
+SUMMARY:W11: Saturday morning parkrun — 5 km easy + 2 km cool-down
+DESCRIPTION:Run or run/walk 5 km at conversational effort\, then jog 2 km e
+ asy afterwards (or to and from parkrun). The extra easy kilometres build e
+ ndurance without adding another training day. Keep it easy; this is part o
+ f the weekly plan. Your long run is tomorrow\, so keep this truly easy. If
+  your legs feel heavy\, walk or skip it. Don’t race parkrun this block; 
+ if you ever do\, make Tuesday easy and shorten Sunday. Check the local eve
+ nt start time and holiday availability.\n\nSummer preparation: choose an e
+ arlier/cooler time where practical\, plan water access\, and use comfortab
+ le effort rather than chasing pace in the heat. Check UV and use sun prote
+ ction\, including on cloudy days. Broad-spectrum water-resistant SPF30+ su
+ nscreen\, a hat and suitable clothing help; reapply as directed.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261213@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261213
 DTEND;VALUE=DATE:20261214
 SUMMARY:W11: Long run — 10 km easy
@@ -856,7 +862,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261215@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261215
 DTEND;VALUE=DATE:20261216
 SUMMARY:W12: Goal pace: 8 × 2 min at 5:41
@@ -870,7 +876,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261216@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261216
 DTEND;VALUE=DATE:20261217
 SUMMARY:W12: 20–25 minutes gentle strength
@@ -886,39 +892,41 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261217@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
-SUMMARY:W12: 30 min easy
-DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W12: 45 min easy
+DESCRIPTION:Run 45 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261219@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261219
 DTEND;VALUE=DATE:20261220
-SUMMARY:W12: Saturday morning parkrun — 5 km easy
-DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy; th
- is is part of the weekly plan. Your long run is tomorrow\, so keep this tr
- uly easy. If your legs feel heavy\, walk or skip it. Don’t race parkrun 
- this block; if you ever do\, make Tuesday easy and shorten Sunday. Check t
- he local event start time and holiday availability.\n\nSummer preparation:
-  choose an earlier/cooler time where practical\, plan water access\, and u
- se comfortable effort rather than chasing pace in the heat. Check UV and u
- se sun protection\, including on cloudy days. Broad-spectrum water-resista
- nt SPF30+ sunscreen\, a hat and suitable clothing help; reapply as directe
- d.
+SUMMARY:W12: Saturday morning parkrun — 5 km easy + 2 km cool-down
+DESCRIPTION:Run or run/walk 5 km at conversational effort\, then jog 2 km e
+ asy afterwards (or to and from parkrun). The extra easy kilometres build e
+ ndurance without adding another training day. Keep it easy; this is part o
+ f the weekly plan. Your long run is tomorrow\, so keep this truly easy. If
+  your legs feel heavy\, walk or skip it. Don’t race parkrun this block; 
+ if you ever do\, make Tuesday easy and shorten Sunday. Check the local eve
+ nt start time and holiday availability.\n\nSummer preparation: choose an e
+ arlier/cooler time where practical\, plan water access\, and use comfortab
+ le effort rather than chasing pace in the heat. Check UV and use sun prote
+ ction\, including on cloudy days. Broad-spectrum water-resistant SPF30+ su
+ nscreen\, a hat and suitable clothing help; reapply as directed.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261220@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261220
 DTEND;VALUE=DATE:20261221
 SUMMARY:W12: Long run — 11 km easy
@@ -944,7 +952,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261222@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261222
 DTEND;VALUE=DATE:20261223
 SUMMARY:W13: Fartlek: 8 × (2 min at 10K pace\, 1 min easy)
@@ -957,7 +965,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261223@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261223
 DTEND;VALUE=DATE:20261224
 SUMMARY:W13: 20–25 minutes gentle strength
@@ -973,39 +981,41 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261224@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20261225
-SUMMARY:W13: 30 min easy
-DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W13: 45 min easy
+DESCRIPTION:Run 45 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261226@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261226
 DTEND;VALUE=DATE:20261227
-SUMMARY:W13: Saturday morning parkrun — 5 km easy
-DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy; th
- is is part of the weekly plan. Your long run is tomorrow\, so keep this tr
- uly easy. If your legs feel heavy\, walk or skip it. Don’t race parkrun 
- this block; if you ever do\, make Tuesday easy and shorten Sunday. Check t
- he local event start time and holiday availability.\n\nSummer preparation:
-  choose an earlier/cooler time where practical\, plan water access\, and u
- se comfortable effort rather than chasing pace in the heat. Check UV and u
- se sun protection\, including on cloudy days. Broad-spectrum water-resista
- nt SPF30+ sunscreen\, a hat and suitable clothing help; reapply as directe
- d.
+SUMMARY:W13: Saturday morning parkrun — 5 km easy + 2 km cool-down
+DESCRIPTION:Run or run/walk 5 km at conversational effort\, then jog 2 km e
+ asy afterwards (or to and from parkrun). The extra easy kilometres build e
+ ndurance without adding another training day. Keep it easy; this is part o
+ f the weekly plan. Your long run is tomorrow\, so keep this truly easy. If
+  your legs feel heavy\, walk or skip it. Don’t race parkrun this block; 
+ if you ever do\, make Tuesday easy and shorten Sunday. Check the local eve
+ nt start time and holiday availability.\n\nSummer preparation: choose an e
+ arlier/cooler time where practical\, plan water access\, and use comfortab
+ le effort rather than chasing pace in the heat. Check UV and use sun prote
+ ction\, including on cloudy days. Broad-spectrum water-resistant SPF30+ su
+ nscreen\, a hat and suitable clothing help; reapply as directed.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261227@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261227
 DTEND;VALUE=DATE:20261228
 SUMMARY:W13: Long run — 12 km easy
@@ -1031,7 +1041,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261229@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261229
 DTEND;VALUE=DATE:20261230
 SUMMARY:W14: 30 min easy + 6 × 20 sec strides
@@ -1043,7 +1053,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261230@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261230
 DTEND;VALUE=DATE:20261231
 SUMMARY:W14: 20–25 minutes gentle strength
@@ -1059,20 +1069,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20261231@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20261231
 DTEND;VALUE=DATE:20270101
-SUMMARY:W14: 25 min easy
-DESCRIPTION:Run 25 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W14: 35 min easy
+DESCRIPTION:Run 35 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nLighter week\, so this is s
+ horter. Keep it genuinely easy.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270102@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
 SUMMARY:W14: parkrun time trial — race it
@@ -1086,7 +1095,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270103@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270103
 DTEND;VALUE=DATE:20270104
 SUMMARY:W14: Long run — 9 km easy
@@ -1105,7 +1114,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270105@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270105
 DTEND;VALUE=DATE:20270106
 SUMMARY:W15: Goal pace: 3 × 8 min at 5:41
@@ -1117,7 +1126,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270106@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
 SUMMARY:W15: 20–25 minutes gentle strength
@@ -1133,39 +1142,41 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270107@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270107
 DTEND;VALUE=DATE:20270108
-SUMMARY:W15: 30 min easy
-DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W15: 50 min easy
+DESCRIPTION:Run 50 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270109@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
-SUMMARY:W15: Saturday morning parkrun — 5 km easy
-DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy; th
- is is part of the weekly plan. Your long run is tomorrow\, so keep this tr
- uly easy. If your legs feel heavy\, walk or skip it. Don’t race parkrun 
- this block; if you ever do\, make Tuesday easy and shorten Sunday. Check t
- he local event start time and holiday availability.\n\nSummer preparation:
-  choose an earlier/cooler time where practical\, plan water access\, and u
- se comfortable effort rather than chasing pace in the heat. Check UV and u
- se sun protection\, including on cloudy days. Broad-spectrum water-resista
- nt SPF30+ sunscreen\, a hat and suitable clothing help; reapply as directe
- d.
+SUMMARY:W15: Saturday morning parkrun — 5 km easy + 3 km cool-down
+DESCRIPTION:Run or run/walk 5 km at conversational effort\, then jog 3 km e
+ asy afterwards (or to and from parkrun). The extra easy kilometres build e
+ ndurance without adding another training day. Keep it easy; this is part o
+ f the weekly plan. Your long run is tomorrow\, so keep this truly easy. If
+  your legs feel heavy\, walk or skip it. Don’t race parkrun this block; 
+ if you ever do\, make Tuesday easy and shorten Sunday. Check the local eve
+ nt start time and holiday availability.\n\nSummer preparation: choose an e
+ arlier/cooler time where practical\, plan water access\, and use comfortab
+ le effort rather than chasing pace in the heat. Check UV and use sun prote
+ ction\, including on cloudy days. Broad-spectrum water-resistant SPF30+ su
+ nscreen\, a hat and suitable clothing help; reapply as directed.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270110@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270110
 DTEND;VALUE=DATE:20270111
 SUMMARY:W15: Long run — 13 km easy
@@ -1191,7 +1202,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270112@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270112
 DTEND;VALUE=DATE:20270113
 SUMMARY:W16: Tempo: 25 min continuous
@@ -1203,7 +1214,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270113@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270113
 DTEND;VALUE=DATE:20270114
 SUMMARY:W16: 20–25 minutes gentle strength
@@ -1219,39 +1230,41 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270114@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270114
 DTEND;VALUE=DATE:20270115
-SUMMARY:W16: 30 min easy
-DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W16: 50 min easy
+DESCRIPTION:Run 50 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270116@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270116
 DTEND;VALUE=DATE:20270117
-SUMMARY:W16: Saturday morning parkrun — 5 km easy
-DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy; th
- is is part of the weekly plan. Your long run is tomorrow\, so keep this tr
- uly easy. If your legs feel heavy\, walk or skip it. Don’t race parkrun 
- this block; if you ever do\, make Tuesday easy and shorten Sunday. Check t
- he local event start time and holiday availability.\n\nSummer preparation:
-  choose an earlier/cooler time where practical\, plan water access\, and u
- se comfortable effort rather than chasing pace in the heat. Check UV and u
- se sun protection\, including on cloudy days. Broad-spectrum water-resista
- nt SPF30+ sunscreen\, a hat and suitable clothing help; reapply as directe
- d.
+SUMMARY:W16: Saturday morning parkrun — 5 km easy + 3 km cool-down
+DESCRIPTION:Run or run/walk 5 km at conversational effort\, then jog 3 km e
+ asy afterwards (or to and from parkrun). The extra easy kilometres build e
+ ndurance without adding another training day. Keep it easy; this is part o
+ f the weekly plan. Your long run is tomorrow\, so keep this truly easy. If
+  your legs feel heavy\, walk or skip it. Don’t race parkrun this block; 
+ if you ever do\, make Tuesday easy and shorten Sunday. Check the local eve
+ nt start time and holiday availability.\n\nSummer preparation: choose an e
+ arlier/cooler time where practical\, plan water access\, and use comfortab
+ le effort rather than chasing pace in the heat. Check UV and use sun prote
+ ction\, including on cloudy days. Broad-spectrum water-resistant SPF30+ su
+ nscreen\, a hat and suitable clothing help; reapply as directed.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270117@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270117
 DTEND;VALUE=DATE:20270118
 SUMMARY:W16: Long run — 14 km\, last 2 at race pace
@@ -1278,7 +1291,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270119@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270119
 DTEND;VALUE=DATE:20270120
 SUMMARY:W17: 30 min easy + 6 × 20 sec strides
@@ -1290,7 +1303,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270120@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
 SUMMARY:W17: 20–25 minutes gentle strength
@@ -1306,20 +1319,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270121@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270121
 DTEND;VALUE=DATE:20270122
-SUMMARY:W17: 25 min easy
-DESCRIPTION:Run 25 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W17: 40 min easy
+DESCRIPTION:Run 40 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nLighter week\, so this is s
+ horter. Keep it genuinely easy.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270123@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270123
 DTEND;VALUE=DATE:20270124
 SUMMARY:W17: Saturday morning parkrun — 5 km easy
@@ -1338,7 +1350,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270124@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270124
 DTEND;VALUE=DATE:20270125
 SUMMARY:W17: Long run — 10 km easy
@@ -1364,7 +1376,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270126@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270126
 DTEND;VALUE=DATE:20270127
 SUMMARY:W18: Intervals: 6 × 3 min at 5K pace
@@ -1376,7 +1388,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270127@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270127
 DTEND;VALUE=DATE:20270128
 SUMMARY:W18: 20–25 minutes gentle strength
@@ -1392,39 +1404,41 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270128@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270128
 DTEND;VALUE=DATE:20270129
-SUMMARY:W18: 30 min easy
-DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W18: 55 min easy
+DESCRIPTION:Run 55 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270130@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270130
 DTEND;VALUE=DATE:20270131
-SUMMARY:W18: Saturday morning parkrun — 5 km easy
-DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy; th
- is is part of the weekly plan. Your long run is tomorrow\, so keep this tr
- uly easy. If your legs feel heavy\, walk or skip it. Don’t race parkrun 
- this block; if you ever do\, make Tuesday easy and shorten Sunday. Check t
- he local event start time and holiday availability.\n\nSummer preparation:
-  choose an earlier/cooler time where practical\, plan water access\, and u
- se comfortable effort rather than chasing pace in the heat. Check UV and u
- se sun protection\, including on cloudy days. Broad-spectrum water-resista
- nt SPF30+ sunscreen\, a hat and suitable clothing help; reapply as directe
- d.
+SUMMARY:W18: Saturday morning parkrun — 5 km easy + 3 km cool-down
+DESCRIPTION:Run or run/walk 5 km at conversational effort\, then jog 3 km e
+ asy afterwards (or to and from parkrun). The extra easy kilometres build e
+ ndurance without adding another training day. Keep it easy; this is part o
+ f the weekly plan. Your long run is tomorrow\, so keep this truly easy. If
+  your legs feel heavy\, walk or skip it. Don’t race parkrun this block; 
+ if you ever do\, make Tuesday easy and shorten Sunday. Check the local eve
+ nt start time and holiday availability.\n\nSummer preparation: choose an e
+ arlier/cooler time where practical\, plan water access\, and use comfortab
+ le effort rather than chasing pace in the heat. Check UV and use sun prote
+ ction\, including on cloudy days. Broad-spectrum water-resistant SPF30+ su
+ nscreen\, a hat and suitable clothing help; reapply as directed.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270131@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270131
 DTEND;VALUE=DATE:20270201
 SUMMARY:W18: Long run — 15 km easy
@@ -1451,7 +1465,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270202@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270202
 DTEND;VALUE=DATE:20270203
 SUMMARY:W19: Goal pace: 2 × 15 min at 5:41
@@ -1464,7 +1478,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270203@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270203
 DTEND;VALUE=DATE:20270204
 SUMMARY:W19: 20–25 minutes gentle strength
@@ -1480,39 +1494,41 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270204@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270204
 DTEND;VALUE=DATE:20270205
-SUMMARY:W19: 30 min easy
-DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W19: 60 min easy
+DESCRIPTION:Run 60 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270206@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270206
 DTEND;VALUE=DATE:20270207
-SUMMARY:W19: Saturday morning parkrun — 5 km easy
-DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy; th
- is is part of the weekly plan. Your long run is tomorrow\, so keep this tr
- uly easy. If your legs feel heavy\, walk or skip it. Don’t race parkrun 
- this block; if you ever do\, make Tuesday easy and shorten Sunday. Check t
- he local event start time and holiday availability.\n\nSummer preparation:
-  choose an earlier/cooler time where practical\, plan water access\, and u
- se comfortable effort rather than chasing pace in the heat. Check UV and u
- se sun protection\, including on cloudy days. Broad-spectrum water-resista
- nt SPF30+ sunscreen\, a hat and suitable clothing help; reapply as directe
- d.
+SUMMARY:W19: Saturday morning parkrun — 5 km easy + 3 km cool-down
+DESCRIPTION:Run or run/walk 5 km at conversational effort\, then jog 3 km e
+ asy afterwards (or to and from parkrun). The extra easy kilometres build e
+ ndurance without adding another training day. Keep it easy; this is part o
+ f the weekly plan. Your long run is tomorrow\, so keep this truly easy. If
+  your legs feel heavy\, walk or skip it. Don’t race parkrun this block; 
+ if you ever do\, make Tuesday easy and shorten Sunday. Check the local eve
+ nt start time and holiday availability.\n\nSummer preparation: choose an e
+ arlier/cooler time where practical\, plan water access\, and use comfortab
+ le effort rather than chasing pace in the heat. Check UV and use sun prote
+ ction\, including on cloudy days. Broad-spectrum water-resistant SPF30+ su
+ nscreen\, a hat and suitable clothing help; reapply as directed.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270207@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270207
 DTEND;VALUE=DATE:20270208
 SUMMARY:W19: Long run — 16 km\, last 3 at race pace
@@ -1540,7 +1556,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270209@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270209
 DTEND;VALUE=DATE:20270210
 SUMMARY:W20: 30 min easy + 6 × 20 sec strides
@@ -1552,7 +1568,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270210@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270210
 DTEND;VALUE=DATE:20270211
 SUMMARY:W20: 20–25 minutes gentle strength
@@ -1568,20 +1584,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270211@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270211
 DTEND;VALUE=DATE:20270212
-SUMMARY:W20: 25 min easy
-DESCRIPTION:Run 25 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W20: 45 min easy
+DESCRIPTION:Run 45 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nLighter week\, so this is s
+ horter. Keep it genuinely easy.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270213@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270213
 DTEND;VALUE=DATE:20270214
 SUMMARY:W20: parkrun time trial — race it
@@ -1595,7 +1610,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270214@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270214
 DTEND;VALUE=DATE:20270215
 SUMMARY:W20: Long run — 12 km easy
@@ -1621,7 +1636,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270216@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270216
 DTEND;VALUE=DATE:20270217
 SUMMARY:W21: Tempo: 3 × 10 min
@@ -1633,7 +1648,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270217@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270217
 DTEND;VALUE=DATE:20270218
 SUMMARY:W21: 20–25 minutes gentle strength
@@ -1649,39 +1664,41 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270218@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270218
 DTEND;VALUE=DATE:20270219
-SUMMARY:W21: 30 min easy
-DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W21: 60 min easy
+DESCRIPTION:Run 60 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270220@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270220
 DTEND;VALUE=DATE:20270221
-SUMMARY:W21: Saturday morning parkrun — 5 km easy
-DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy; th
- is is part of the weekly plan. Your long run is tomorrow\, so keep this tr
- uly easy. If your legs feel heavy\, walk or skip it. Don’t race parkrun 
- this block; if you ever do\, make Tuesday easy and shorten Sunday. Check t
- he local event start time and holiday availability.\n\nSummer preparation:
-  choose an earlier/cooler time where practical\, plan water access\, and u
- se comfortable effort rather than chasing pace in the heat. Check UV and u
- se sun protection\, including on cloudy days. Broad-spectrum water-resista
- nt SPF30+ sunscreen\, a hat and suitable clothing help; reapply as directe
- d.
+SUMMARY:W21: Saturday morning parkrun — 5 km easy + 3 km cool-down
+DESCRIPTION:Run or run/walk 5 km at conversational effort\, then jog 3 km e
+ asy afterwards (or to and from parkrun). The extra easy kilometres build e
+ ndurance without adding another training day. Keep it easy; this is part o
+ f the weekly plan. Your long run is tomorrow\, so keep this truly easy. If
+  your legs feel heavy\, walk or skip it. Don’t race parkrun this block; 
+ if you ever do\, make Tuesday easy and shorten Sunday. Check the local eve
+ nt start time and holiday availability.\n\nSummer preparation: choose an e
+ arlier/cooler time where practical\, plan water access\, and use comfortab
+ le effort rather than chasing pace in the heat. Check UV and use sun prote
+ ction\, including on cloudy days. Broad-spectrum water-resistant SPF30+ su
+ nscreen\, a hat and suitable clothing help; reapply as directed.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270221@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270221
 DTEND;VALUE=DATE:20270222
 SUMMARY:W21: Long run — 18 km\, last 3 at race pace
@@ -1709,7 +1726,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270223@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270223
 DTEND;VALUE=DATE:20270224
 SUMMARY:W22: Goal pace: 4 × 6 min at 5:41
@@ -1722,7 +1739,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270224@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270224
 DTEND;VALUE=DATE:20270225
 SUMMARY:W22: 20–25 minutes gentle strength
@@ -1738,39 +1755,41 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270225@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270225
 DTEND;VALUE=DATE:20270226
-SUMMARY:W22: 30 min easy
-DESCRIPTION:Run 30 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W22: 50 min easy
+DESCRIPTION:Run 50 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nThis is where most of your 
+ extra weekly kilometres come from\, which is one of the best ways to get f
+ aster over a half marathon. Keep it slow: if you can’t talk in full sent
+ ences\, slow down. If your legs are tired\, cut it short.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270227@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270227
 DTEND;VALUE=DATE:20270228
-SUMMARY:W22: Saturday morning parkrun — 5 km easy
-DESCRIPTION:Run or run/walk 5 km at conversational effort. Keep it easy; th
- is is part of the weekly plan. Your long run is tomorrow\, so keep this tr
- uly easy. If your legs feel heavy\, walk or skip it. Don’t race parkrun 
- this block; if you ever do\, make Tuesday easy and shorten Sunday. Check t
- he local event start time and holiday availability.\n\nSummer preparation:
-  choose an earlier/cooler time where practical\, plan water access\, and u
- se comfortable effort rather than chasing pace in the heat. Check UV and u
- se sun protection\, including on cloudy days. Broad-spectrum water-resista
- nt SPF30+ sunscreen\, a hat and suitable clothing help; reapply as directe
- d.
+SUMMARY:W22: Saturday morning parkrun — 5 km easy + 2 km cool-down
+DESCRIPTION:Run or run/walk 5 km at conversational effort\, then jog 2 km e
+ asy afterwards (or to and from parkrun). The extra easy kilometres build e
+ ndurance without adding another training day. Keep it easy; this is part o
+ f the weekly plan. Your long run is tomorrow\, so keep this truly easy. If
+  your legs feel heavy\, walk or skip it. Don’t race parkrun this block; 
+ if you ever do\, make Tuesday easy and shorten Sunday. Check the local eve
+ nt start time and holiday availability.\n\nSummer preparation: choose an e
+ arlier/cooler time where practical\, plan water access\, and use comfortab
+ le effort rather than chasing pace in the heat. Check UV and use sun prote
+ ction\, including on cloudy days. Broad-spectrum water-resistant SPF30+ su
+ nscreen\, a hat and suitable clothing help; reapply as directed.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270228@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270228
 DTEND;VALUE=DATE:20270301
 SUMMARY:W22: Peak long run — 20 km easy
@@ -1800,7 +1819,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270302@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270302
 DTEND;VALUE=DATE:20270303
 SUMMARY:W23: Taper: 3 × 5 min at 5:41
@@ -1813,7 +1832,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270303@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270303
 DTEND;VALUE=DATE:20270304
 SUMMARY:W23: 10 minutes gentle mobility — taper
@@ -1824,20 +1843,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270304@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270304
 DTEND;VALUE=DATE:20270305
-SUMMARY:W23: 20 min easy
-DESCRIPTION:Run 20 minutes at conversational effort\, about 2–4 out of 10
- . Walking breaks are welcome. No pace target.\nKeep this genuinely easy so
-  Saturday parkrun and Sunday’s long run feel good. If your legs are tire
- d\, cut it to 15 minutes or rest.
+SUMMARY:W23: 35 min easy — taper
+DESCRIPTION:Run 35 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nTaper: short and relaxed. S
+ top there.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270306@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270306
 DTEND;VALUE=DATE:20270307
 SUMMARY:W23: Saturday morning parkrun — 5 km easy
@@ -1856,7 +1874,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270307@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270307
 DTEND;VALUE=DATE:20270308
 SUMMARY:W23: Long run — 12 km easy
@@ -1882,7 +1900,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270309@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270309
 DTEND;VALUE=DATE:20270310
 SUMMARY:W24: Race sharpener: 3 × 3 min at 5:41
@@ -1895,18 +1913,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270311@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270311
 DTEND;VALUE=DATE:20270312
-SUMMARY:W24: 15–20 min easy — taper
-DESCRIPTION:Very easy running for 15–20 minutes\, then stop. No fitness t
- esting or missed-workout catch-up.
+SUMMARY:W24: 20 min easy — taper
+DESCRIPTION:Run 20 minutes at conversational effort\, about 2–4 out of 10
+ . Walking breaks are welcome. No pace target.\nTaper: short and relaxed. S
+ top there.
 TRANSP:TRANSPARENT
 END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270313@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270313
 DTEND;VALUE=DATE:20270314
 SUMMARY:W24: Parkrun morning — volunteer or rest
@@ -1918,7 +1937,7 @@ END:VEVENT
 BEGIN:VEVENT
 UID:hm20270314-20270314@personal-plan.local
 DTSTAMP:20260928T000000Z
-SEQUENCE:3
+SEQUENCE:4
 DTSTART;VALUE=DATE:20270314
 DTEND;VALUE=DATE:20270315
 SUMMARY:RACE DAY — Hamilton Half Marathon\, 8:00am
